@@ -1,0 +1,6 @@
+{
+  "headlight_ambient": [0.42, 0.42, 0.42],
+  "headlight_diffuse": [0.65, 0.65, 0.65],
+  "headlight_specular": [0.12, 0.12, 0.12],
+  "note": "Soft neutral viewing fill for the default classic renderer, tuned against the user's real robot photo. Provides an approximation of missing room bounce illumination; not calibrated scene photometry. Arm base color remains unchanged."
+}

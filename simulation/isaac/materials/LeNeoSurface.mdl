@@ -1,0 +1,41 @@
+mdl 1.7;
+import ::math::*;
+import ::state::*;
+import ::OmniSurface::OmniSurfaceBase::*;
+
+// Values are translated from the packaged Blender Principled materials.
+// Printed layers and rubber grain are procedural in object space, in metres.
+export material LeNeoSurface(
+    color base_color = color(0.82,0.835,0.81),
+    float roughness = 0.52,
+    float metallic = 0.0,
+    uniform float ior = 1.49,
+    uniform float transmission = 0.0,
+    uniform float subsurface = 0.0,
+    uniform int texture_kind = 0
+) = let {
+    float3 p = state::transform_point(state::coordinate_internal, state::coordinate_object, state::position());
+    float3 n = state::normal();
+    float layers = math::sin(p.z * 31415.9265); // 0.2 mm printed layers
+    float grain = math::sin(p.x*31415.9)*math::sin(p.y*27543.1)*math::sin(p.z*25132.7);
+    float3 local_gradient = texture_kind == 1 ? float3(0.0,0.0,layers*0.025) :
+        texture_kind == 2 ? float3(grain*0.035,grain*0.025,grain*0.03) : float3(0.0);
+    float3 gradient = state::transform_vector(state::coordinate_object,state::coordinate_internal,local_gradient);
+    float3 bump_normal = math::normalize(n + gradient - n*math::dot(n,gradient));
+} in ::OmniSurface::OmniSurfaceBase::OmniSurfaceBase(
+    diffuse_reflection_weight:1.0,
+    diffuse_reflection_color:base_color,
+    metalness:metallic,
+    specular_reflection_roughness:roughness,
+    specular_reflection_ior:ior,
+    enable_specular_transmission:transmission>0.0,
+    specular_transmission_weight:transmission,
+    specular_transmission_color:base_color,
+    enable_diffuse_transmission:subsurface>0.0,
+    subsurface_weight:subsurface,
+    subsurface_transmission_color:base_color,
+    subsurface_scattering_color:color(0.9,0.95,1.0),
+    subsurface_scale:0.002,
+    thin_walled:false,
+    geometry_normal:bump_normal
+);

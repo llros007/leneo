@@ -1,0 +1,8 @@
+mujoco==3.17.0
+numpy>=2.0,<3
+trimesh>=4.5,<6
+Pillow>=11
+usd-core>=26.5
+scipy>=1.13
+fast-simplification>=0.1.9
+glfw>=2.7

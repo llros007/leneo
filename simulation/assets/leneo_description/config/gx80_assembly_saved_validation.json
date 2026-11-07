@@ -1,0 +1,12 @@
+{
+  "ok": true,
+  "saved_cover_height_mm": 800,
+  "top_internal_motor_clearance_mm": 17,
+  "saved_step_single_solid_valid": true,
+  "cover_deep_bop_clean": true,
+  "controller_restored_from_disk": true,
+  "controller_50mm_motion_all_parts": true,
+  "fixed_guide_stays_fixed": true,
+  "assembly_mirror_identical": true,
+  "source_inherited_bop_warnings_recorded": true
+}

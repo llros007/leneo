@@ -1,0 +1,17 @@
+{
+  "ok": true,
+  "cad_sha256": "58ecbd4d7069f83fea5923076064c1eb60f06a09c241c9c48201e236283c0556",
+  "adapter_objects_absent": true,
+  "source_arm_shape_unchanged": true,
+  "both_arms_translated_world_mm": [
+    0,
+    -15,
+    -8
+  ],
+  "four_rear_holes_aligned_to_rear_top_groove": true,
+  "bolt_entry_diameter_mm": 4.9,
+  "bolt_entry_depth_mm": 4,
+  "saved_controller_lift_50mm_all_upper_parts": true,
+  "mirror_identical": true,
+  "scope": "Geometric mounting and lift linkage only; no hardware load test or full arm joint collision sweep."
+}

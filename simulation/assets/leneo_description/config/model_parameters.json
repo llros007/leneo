@@ -1,0 +1,38 @@
+{
+  "status": "Engineering starting model; dynamics and limits require physical calibration.",
+  "coordinate_system": "meters, radians, kg; X forward toward drive wheels, Y left, Z up; base origin at chassis XY center and drive-wheel ground plane",
+  "cad_file": "C:\\learn\\ai\\robot\\LeNeo\\hardware\\all.FCStd",
+  "cad_sha256": "a3243776972866902666ff50adb684a5c5f3d1629c95fceeb1b06d312a2ee11a",
+  "wheel_radius_m": 0.0425,
+  "wheel_width_m": 0.0334,
+  "wheel_track_m": 0.4414,
+  "wheel_effort_Nm": 1.5,
+  "wheel_velocity_rad_s": 6.0,
+  "caster_radius_m": 0.025,
+  "caster_trail_m": 0.008,
+  "lift_lower_m": -0.23595126947209008,
+  "lift_upper_m": 0.3640487305279099,
+  "lift_effort_N": 80,
+  "lift_velocity_m_s": 0.05,
+  "arm_effort_Nm": 1.5,
+  "arm_velocity_rad_s": 2.0,
+  "mass_estimates_kg": {
+    "base_link": 2.25,
+    "tower_link": 3.5,
+    "deck_link": 0.5184,
+    "lift_carriage_link": 0.4,
+    "shoulder_beam_link": 0.65,
+    "camera_mount_link": 0.23,
+    "drive_wheel": 0.21,
+    "caster_swivel": 0.07,
+    "caster_wheel": 0.05
+  },
+  "uncertainties": {
+    "drive": "STS3215 torque/speed depend on actual voltage and gear ratio; provisional conservative effort/speed.",
+    "lift": "GX80 rated600mm total stroke; software range -235.951269472/+364.048730528mm relative to current CAD home. Current folded-pose translation geometry scanned at10mm; physical hardware endstops and full articulated arm workspace are not calibrated. Ideal prismatic joint, fixed800mm3mmPP cover with two10mm bottom-open slots.",
+    "casters": "CAD reference uses two 50 mm casters with 8 mm trail; actual caster model unconfirmed.",
+    "inertia": "SO101 inertials retained from matching upstream model; new links use box/cylinder estimates and nominal masses. Battery, wiring and payload omitted.",
+    "camera": "Optical pose measured from CAD lens cylinder; intrinsics/resolution/FOV not supplied. No simulated sensor instantiated by URDF alone.",
+    "pp": "URDF RGBA alpha approximates appearance only; not physical subsurface scattering."
+  }
+}

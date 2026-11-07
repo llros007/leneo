@@ -1,0 +1,18 @@
+{
+  "ok": true,
+  "cad_file": "C:\\learn\\ai\\robot\\LeNeo\\hardware\\all.FCStd",
+  "cad_sha256": "8dff65538347c36de5f587293889a51112f47aee4accdaeaa5b30c6da9a63601",
+  "urdf_sha256": "c5258226f5357d7626ac69a04356a5e6390c6ba6785add5dc84594d1cc832e93",
+  "assembly_copy_matches": true,
+  "onepiece_tower_in_correct_rigid_link": true,
+  "old_segmented_covers_absent": true,
+  "actual_tread_and_rims_exported": true,
+  "black_camera_housing": true,
+  "mujoco_builds_match_latest_urdf": true,
+  "blender_source_projects": [
+    "C:\\learn\\ai\\robot\\LeNeo\\hardware\\Render_Blender\\LeNeo_Studio.blend",
+    "C:\\learn\\ai\\robot\\LeNeo\\hardware\\Render_Blender\\Berlin_Living_Room\\LeNeo_Berlin_PP_BlackCamera.blend"
+  ],
+  "blender_note": "Current Studio and PP_BlackCamera source scenes updated. Earlier stage PNGs are historical; new current MuJoCo image is docs/berlin_driving_preview.png.",
+  "source_geometry_modified_by_simulation": false
+}

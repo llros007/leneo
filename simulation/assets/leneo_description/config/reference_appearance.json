@@ -1,0 +1,6 @@
+{
+  "pp_rgba": [0.92, 0.945, 0.965, 0.94],
+  "arm_rgba": [0.57, 0.76, 0.87, 1.0],
+  "reference": "User physical robot photograph, 2026-11-05. Corrected PP preference: cool milky white with subtle translucency, no warm yellow tint. Arm prints pale blue with less cyan.",
+  "note": "Visual approximation from an uncalibrated photograph; alpha is a renderer opacity approximation, not a measured PP light transmission value. H still provides an inspection-only transparency override."
+}

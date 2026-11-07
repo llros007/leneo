@@ -1,0 +1,10 @@
+{
+  "ok": true,
+  "backup": "C:\\learn\\ai\\robot\\LeNeo\\simulation\\before_full600_limits_20261105_151735",
+  "cad_sha256": "a3243776972866902666ff50adb684a5c5f3d1629c95fceeb1b06d312a2ee11a",
+  "lower_m": -0.23595126947209008,
+  "upper_m": 0.3640487305279099,
+  "stroke_mm": 600,
+  "zero_pose_stroke_position_mm": 235.95126947209008,
+  "physical_endstops_calibrated": false
+}

@@ -1,0 +1,21 @@
+{
+  "lift_joint": 0,
+  "left_wheel_joint": 0,
+  "left_caster_swivel_joint": 0,
+  "left_caster_wheel_joint": 0,
+  "right_wheel_joint": 0,
+  "right_caster_swivel_joint": 0,
+  "right_caster_wheel_joint": 0,
+  "left_gripper": 1.570796274366496,
+  "left_wrist_roll": 0.048675824707132644,
+  "left_wrist_flex": -6.877395790134681e-05,
+  "left_elbow_flex": 1.5707926535897927,
+  "left_shoulder_lift": -1.5707926856454855,
+  "left_shoulder_pan": -9.964480349977564e-07,
+  "right_gripper": 1.570796274366496,
+  "right_wrist_roll": 0.048675824707132644,
+  "right_wrist_flex": -6.877395790134681e-05,
+  "right_elbow_flex": 1.5707926535897927,
+  "right_shoulder_lift": -1.5707926856454855,
+  "right_shoulder_pan": -9.964480349977564e-07
+}

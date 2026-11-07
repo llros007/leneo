@@ -1,0 +1,11 @@
+{
+  "ok": true,
+  "saved_cad_limits_mm": [
+    -235.95126947209008,
+    364.0487305279099
+  ],
+  "range_mm": 600,
+  "cad_and_config_limits_match": true,
+  "mirror_identical": true,
+  "cad_sha256": "a3243776972866902666ff50adb684a5c5f3d1629c95fceeb1b06d312a2ee11a"
+}

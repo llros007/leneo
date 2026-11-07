@@ -1,0 +1,28 @@
+{
+  "cover_height_mm": 800,
+  "old_height_mm": 711.3,
+  "height_increase_mm": 88.7,
+  "top_z_mm": 826.5,
+  "wall_mm": 3,
+  "slot_width_mm": 10,
+  "slot_top_z_mm": 806.5,
+  "top_bridge_mm": 20,
+  "motor_top_z_mm": 806.5,
+  "motor_top_clearance_mm": 17,
+  "checks": [],
+  "valid": true,
+  "solids": 1,
+  "max_bracket_overlap_mm3": 0,
+  "minimum_bracket_clearance_mm": 4.44999999999996,
+  "checked_ranges_mm": [
+    [
+      -180,
+      250
+    ],
+    [
+      -235.951269472,
+      364.048730528
+    ]
+  ],
+  "nominal_full_stroke_is_not_hardware_calibration": true
+}

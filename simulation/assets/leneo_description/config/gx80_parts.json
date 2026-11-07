@@ -1,0 +1,334 @@
+{
+  "stroke_mm": 600,
+  "cover_height_mm": 800,
+  "parts": [
+    {
+      "name": "GX80_Part__Feature",
+      "moving": false
+    },
+    {
+      "name": "GX80_Part__Feature001",
+      "moving": false
+    },
+    {
+      "name": "GX80_Part__Feature002",
+      "moving": false
+    },
+    {
+      "name": "GX80_Part__Feature003",
+      "moving": false
+    },
+    {
+      "name": "GX80_Part__Feature004",
+      "moving": false
+    },
+    {
+      "name": "GX80_Part__Feature005",
+      "moving": false
+    },
+    {
+      "name": "GX80_Part__Feature006",
+      "moving": false
+    },
+    {
+      "name": "GX80_Part__Feature007",
+      "moving": false
+    },
+    {
+      "name": "GX80_Part__Feature008",
+      "moving": false
+    },
+    {
+      "name": "GX80_Part__Feature009",
+      "moving": false
+    },
+    {
+      "name": "GX80_Part__Feature010",
+      "moving": false
+    },
+    {
+      "name": "GX80_Part__Feature011",
+      "moving": false
+    },
+    {
+      "name": "GX80_Part__Feature012",
+      "moving": false
+    },
+    {
+      "name": "GX80_Part__Feature013",
+      "moving": false
+    },
+    {
+      "name": "GX80_Part__Feature014",
+      "moving": false
+    },
+    {
+      "name": "GX80_Part__Feature015",
+      "moving": false
+    },
+    {
+      "name": "GX80_Part__Feature016",
+      "moving": false
+    },
+    {
+      "name": "GX80_Part__Feature017",
+      "moving": false
+    },
+    {
+      "name": "GX80_Part__Feature018",
+      "moving": false
+    },
+    {
+      "name": "GX80_RailScrew_18_1",
+      "moving": false
+    },
+    {
+      "name": "GX80_RailScrew_18_2",
+      "moving": false
+    },
+    {
+      "name": "GX80_RailScrew_18_3",
+      "moving": false
+    },
+    {
+      "name": "GX80_RailScrew_18_4",
+      "moving": false
+    },
+    {
+      "name": "GX80_RailScrew_18_5",
+      "moving": false
+    },
+    {
+      "name": "GX80_RailScrew_18_6",
+      "moving": false
+    },
+    {
+      "name": "GX80_RailScrew_18_7",
+      "moving": false
+    },
+    {
+      "name": "GX80_RailScrew_18_8",
+      "moving": false
+    },
+    {
+      "name": "GX80_RailScrew_18_9",
+      "moving": false
+    },
+    {
+      "name": "GX80_RailScrew_18_10",
+      "moving": false
+    },
+    {
+      "name": "GX80_RailScrew_18_11",
+      "moving": false
+    },
+    {
+      "name": "GX80_RailScrew_18_12",
+      "moving": false
+    },
+    {
+      "name": "GX80_RailScrew_18_13",
+      "moving": false
+    },
+    {
+      "name": "GX80_RailScrew_18_14",
+      "moving": false
+    },
+    {
+      "name": "GX80_RailScrew_18_15",
+      "moving": false
+    },
+    {
+      "name": "GX80_RailScrew_18_16",
+      "moving": false
+    },
+    {
+      "name": "GX80_RailScrew_18_17",
+      "moving": false
+    },
+    {
+      "name": "GX80_RailScrew_18_18",
+      "moving": false
+    },
+    {
+      "name": "GX80_RailScrew_18_19",
+      "moving": false
+    },
+    {
+      "name": "GX80_RailScrew_18_20",
+      "moving": false
+    },
+    {
+      "name": "GX80_Part__Feature019",
+      "moving": false
+    },
+    {
+      "name": "GX80_Part__Feature020",
+      "moving": false
+    },
+    {
+      "name": "GX80_Part__Feature021",
+      "moving": false
+    },
+    {
+      "name": "GX80_Part__Feature022",
+      "moving": false
+    },
+    {
+      "name": "GX80_Part__Feature023",
+      "moving": false
+    },
+    {
+      "name": "GX80_Part__Feature024",
+      "moving": false
+    },
+    {
+      "name": "GX80_RailScrew_24_1",
+      "moving": false
+    },
+    {
+      "name": "GX80_RailScrew_24_2",
+      "moving": false
+    },
+    {
+      "name": "GX80_RailScrew_24_3",
+      "moving": false
+    },
+    {
+      "name": "GX80_RailScrew_24_4",
+      "moving": false
+    },
+    {
+      "name": "GX80_RailScrew_24_5",
+      "moving": false
+    },
+    {
+      "name": "GX80_RailScrew_24_6",
+      "moving": false
+    },
+    {
+      "name": "GX80_RailScrew_24_7",
+      "moving": false
+    },
+    {
+      "name": "GX80_RailScrew_24_8",
+      "moving": false
+    },
+    {
+      "name": "GX80_RailScrew_24_9",
+      "moving": false
+    },
+    {
+      "name": "GX80_RailScrew_24_10",
+      "moving": false
+    },
+    {
+      "name": "GX80_RailScrew_24_11",
+      "moving": false
+    },
+    {
+      "name": "GX80_RailScrew_24_12",
+      "moving": false
+    },
+    {
+      "name": "GX80_RailScrew_24_13",
+      "moving": false
+    },
+    {
+      "name": "GX80_RailScrew_24_14",
+      "moving": false
+    },
+    {
+      "name": "GX80_RailScrew_24_15",
+      "moving": false
+    },
+    {
+      "name": "GX80_RailScrew_24_16",
+      "moving": false
+    },
+    {
+      "name": "GX80_RailScrew_24_17",
+      "moving": false
+    },
+    {
+      "name": "GX80_RailScrew_24_18",
+      "moving": false
+    },
+    {
+      "name": "GX80_RailScrew_24_19",
+      "moving": false
+    },
+    {
+      "name": "GX80_RailScrew_24_20",
+      "moving": false
+    },
+    {
+      "name": "GX80_Part__Feature025",
+      "moving": false
+    },
+    {
+      "name": "GX80_Part__Feature026",
+      "moving": false
+    },
+    {
+      "name": "GX80_Part__Feature027",
+      "moving": false
+    },
+    {
+      "name": "GX80_Part__Feature028",
+      "moving": true
+    },
+    {
+      "name": "GX80_Part__Feature029",
+      "moving": true
+    },
+    {
+      "name": "GX80_Part__Feature030",
+      "moving": true
+    },
+    {
+      "name": "GX80_Part__Feature031",
+      "moving": true
+    },
+    {
+      "name": "GX80_Part__Feature032",
+      "moving": true
+    },
+    {
+      "name": "GX80_Part__Feature033",
+      "moving": true
+    },
+    {
+      "name": "GX80_Part__Feature034",
+      "moving": false
+    },
+    {
+      "name": "GX80_Part__Feature035",
+      "moving": false
+    },
+    {
+      "name": "GX80_Part__Feature036",
+      "moving": false
+    },
+    {
+      "name": "GX80_Part__Feature037",
+      "moving": false
+    },
+    {
+      "name": "GX80_Part__Feature038",
+      "moving": false
+    },
+    {
+      "name": "GX80_Part__Feature039",
+      "moving": false
+    },
+    {
+      "name": "GX80_Part__Feature040",
+      "moving": false
+    },
+    {
+      "name": "GX80_Part__Feature041",
+      "moving": false
+    }
+  ]
+}

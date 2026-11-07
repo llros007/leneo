@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+.venv/
+.env
+simulation/outputs/*
+!simulation/outputs/.gitkeep
+simulation/mujoco/scene.xml
+simulation/mujoco/scene_full.xml
+simulation/isaac/scene.usda
+simulation/assets/runtime_robot/
+simulation/assets/isaac_robot/
+simulation/assets/isaac_robot_fast/
+simulation/assets/robot_materials/
+*.log

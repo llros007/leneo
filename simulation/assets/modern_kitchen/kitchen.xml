@@ -1,0 +1,1107 @@
+<mujoco>
+  <asset>
+    <mesh name="kitchen_000" file="kitchen_000.obj" maxhullvert="32" />
+    <texture name="kitchen_000_tex" type="2d" file="texture_000.png" />
+    <material name="kitchen_000_mat" rgba="1.0 1.0 1.0 1.0" shininess="0.2" texture="kitchen_000_tex" />
+    <mesh name="kitchen_001" file="kitchen_001.obj" maxhullvert="32" />
+    <material name="kitchen_001_mat" rgba="0.7803921568627451 0.7803921568627451 0.7803921568627451 1.0" shininess="0.2" />
+    <mesh name="kitchen_002" file="kitchen_002.obj" maxhullvert="32" />
+    <material name="kitchen_002_mat" rgba="0.0196078431372549 0.0196078431372549 0.027450980392156862 1.0" shininess="0.2" />
+    <mesh name="kitchen_003" file="kitchen_003.obj" maxhullvert="32" />
+    <material name="kitchen_003_mat" rgba="0.0 0.0 0.0 1.0" shininess="0.2" />
+    <mesh name="kitchen_004" file="kitchen_004.obj" maxhullvert="32" />
+    <material name="kitchen_004_mat" rgba="0.0 0.0 0.0 1.0" shininess="0.2" />
+    <mesh name="kitchen_005" file="kitchen_005.obj" maxhullvert="32" />
+    <material name="kitchen_005_mat" rgba="0.27058823529411763 0.27450980392156865 0.23137254901960785 1.0" shininess="0.2" />
+    <mesh name="kitchen_006" file="kitchen_006.obj" maxhullvert="32" />
+    <material name="kitchen_006_mat" rgba="0.32941176470588235 0.32941176470588235 0.34901960784313724 1.0" shininess="0.2" />
+    <mesh name="kitchen_007" file="kitchen_007.obj" maxhullvert="32" />
+    <material name="kitchen_007_mat" rgba="0.5215686274509804 0.33725490196078434 0.1568627450980392 1.0" shininess="0.2" />
+    <mesh name="kitchen_008" file="kitchen_008.obj" maxhullvert="32" />
+    <material name="kitchen_008_mat" rgba="0.8117647058823529 0.8117647058823529 0.8117647058823529 1.0" shininess="0.2" />
+    <mesh name="kitchen_009" file="kitchen_009.obj" maxhullvert="32" />
+    <material name="kitchen_009_mat" rgba="0.8117647058823529 0.8117647058823529 0.8117647058823529 1.0" shininess="0.2" />
+    <mesh name="kitchen_010" file="kitchen_010.obj" maxhullvert="32" />
+    <texture name="kitchen_010_tex" type="2d" file="texture_001.png" />
+    <material name="kitchen_010_mat" rgba="1.0 1.0 1.0 1.0" shininess="0.2" texture="kitchen_010_tex" />
+    <mesh name="kitchen_011" file="kitchen_011.obj" maxhullvert="32" />
+    <material name="kitchen_011_mat" rgba="0.21176470588235294 0.21176470588235294 0.21176470588235294 1.0" shininess="0.2" />
+    <mesh name="kitchen_012" file="kitchen_012.obj" maxhullvert="32" />
+    <material name="kitchen_012_mat" rgba="0.10980392156862745 0.10980392156862745 0.10980392156862745 1.0" shininess="0.2" />
+    <mesh name="kitchen_013" file="kitchen_013.obj" maxhullvert="32" />
+    <texture name="kitchen_013_tex" type="2d" file="texture_002.png" />
+    <material name="kitchen_013_mat" rgba="1.0 1.0 1.0 1.0" shininess="0.2" texture="kitchen_013_tex" />
+    <mesh name="kitchen_014" file="kitchen_014.obj" maxhullvert="32" />
+    <texture name="kitchen_014_tex" type="2d" file="texture_003.png" />
+    <material name="kitchen_014_mat" rgba="1.0 1.0 1.0 1.0" shininess="0.2" texture="kitchen_014_tex" />
+    <mesh name="kitchen_015" file="kitchen_015.obj" maxhullvert="32" />
+    <texture name="kitchen_015_tex" type="2d" file="texture_004.png" />
+    <material name="kitchen_015_mat" rgba="1.0 1.0 1.0 1.0" shininess="0.2" texture="kitchen_015_tex" />
+    <mesh name="kitchen_016" file="kitchen_016.obj" maxhullvert="32" />
+    <texture name="kitchen_016_tex" type="2d" file="texture_005.png" />
+    <material name="kitchen_016_mat" rgba="1.0 1.0 1.0 1.0" shininess="0.2" texture="kitchen_016_tex" />
+    <mesh name="kitchen_017" file="kitchen_017.obj" maxhullvert="32" />
+    <texture name="kitchen_017_tex" type="2d" file="texture_006.png" />
+    <material name="kitchen_017_mat" rgba="1.0 1.0 1.0 1.0" shininess="0.2" texture="kitchen_017_tex" />
+    <mesh name="kitchen_018" file="kitchen_018.obj" maxhullvert="32" />
+    <texture name="kitchen_018_tex" type="2d" file="texture_007.png" />
+    <material name="kitchen_018_mat" rgba="1.0 1.0 1.0 1.0" shininess="0.2" texture="kitchen_018_tex" />
+    <mesh name="kitchen_019" file="kitchen_019.obj" maxhullvert="32" />
+    <texture name="kitchen_019_tex" type="2d" file="texture_008.png" />
+    <material name="kitchen_019_mat" rgba="1.0 1.0 1.0 1.0" shininess="0.2" texture="kitchen_019_tex" />
+    <mesh name="kitchen_020" file="kitchen_020.obj" maxhullvert="32" />
+    <texture name="kitchen_020_tex" type="2d" file="texture_009.png" />
+    <material name="kitchen_020_mat" rgba="1.0 1.0 1.0 1.0" shininess="0.2" texture="kitchen_020_tex" />
+    <mesh name="kitchen_021" file="kitchen_021.obj" maxhullvert="32" />
+    <material name="kitchen_021_mat" rgba="0.7372549019607844 0.7372549019607844 0.7372549019607844 0.25" shininess="0.2" />
+    <mesh name="kitchen_022" file="kitchen_022.obj" maxhullvert="32" />
+    <material name="kitchen_022_mat" rgba="0.7372549019607844 0.7372549019607844 0.7372549019607844 0.25" shininess="0.2" />
+    <mesh name="kitchen_023" file="kitchen_023.obj" maxhullvert="32" />
+    <material name="kitchen_023_mat" rgba="0.4 0.3137254901960784 0.23921568627450981 1.0" shininess="0.2" />
+    <mesh name="kitchen_024" file="kitchen_024.obj" maxhullvert="32" />
+    <texture name="kitchen_024_tex" type="2d" file="texture_010.png" />
+    <material name="kitchen_024_mat" rgba="1.0 1.0 1.0 1.0" shininess="0.2" texture="kitchen_024_tex" />
+    <mesh name="kitchen_025" file="kitchen_025.obj" maxhullvert="32" />
+    <texture name="kitchen_025_tex" type="2d" file="texture_011.png" />
+    <material name="kitchen_025_mat" rgba="1.0 1.0 1.0 1.0" shininess="0.2" texture="kitchen_025_tex" />
+    <mesh name="kitchen_026" file="kitchen_026.obj" maxhullvert="32" />
+    <material name="kitchen_026_mat" rgba="0.2 0.13725490196078433 0.11372549019607843 1.0" shininess="0.2" />
+    <mesh name="kitchen_027" file="kitchen_027.obj" maxhullvert="32" />
+    <material name="kitchen_027_mat" rgba="0.13725490196078433 0.13725490196078433 0.13725490196078433 1.0" shininess="0.2" />
+    <mesh name="kitchen_028" file="kitchen_028.obj" maxhullvert="32" />
+    <material name="kitchen_028_mat" rgba="0.9215686274509803 0.9215686274509803 0.9098039215686274 1.0" shininess="0.2" />
+    <mesh name="kitchen_029" file="kitchen_029.obj" maxhullvert="32" />
+    <material name="kitchen_029_mat" rgba="0.7372549019607844 0.7372549019607844 0.7372549019607844 0.25" shininess="0.2" />
+    <mesh name="kitchen_030" file="kitchen_030.obj" maxhullvert="32" />
+    <material name="kitchen_030_mat" rgba="0.3764705882352941 0.3764705882352941 0.3764705882352941 1.0" shininess="0.2" />
+    <mesh name="kitchen_031" file="kitchen_031.obj" maxhullvert="32" />
+    <texture name="kitchen_031_tex" type="2d" file="texture_012.png" />
+    <material name="kitchen_031_mat" rgba="1.0 1.0 1.0 1.0" shininess="0.2" texture="kitchen_031_tex" />
+    <mesh name="kitchen_032" file="kitchen_032.obj" maxhullvert="32" />
+    <texture name="kitchen_032_tex" type="2d" file="texture_013.png" />
+    <material name="kitchen_032_mat" rgba="1.0 1.0 1.0 1.0" shininess="0.2" texture="kitchen_032_tex" />
+    <mesh name="kitchen_033" file="kitchen_033.obj" maxhullvert="32" />
+    <texture name="kitchen_033_tex" type="2d" file="texture_014.png" />
+    <material name="kitchen_033_mat" rgba="1.0 1.0 1.0 1.0" shininess="0.2" texture="kitchen_033_tex" />
+    <mesh name="kitchen_034" file="kitchen_034.obj" maxhullvert="32" />
+    <texture name="kitchen_034_tex" type="2d" file="texture_015.png" />
+    <material name="kitchen_034_mat" rgba="1.0 1.0 1.0 1.0" shininess="0.2" texture="kitchen_034_tex" />
+    <mesh name="kitchen_035" file="kitchen_035.obj" maxhullvert="32" />
+    <material name="kitchen_035_mat" rgba="0.2 0.16862745098039217 0.1568627450980392 1.0" shininess="0.2" />
+    <mesh name="kitchen_036" file="kitchen_036.obj" maxhullvert="32" />
+    <texture name="kitchen_036_tex" type="2d" file="texture_016.png" />
+    <material name="kitchen_036_mat" rgba="1.0 1.0 1.0 1.0" shininess="0.2" texture="kitchen_036_tex" />
+    <mesh name="kitchen_037" file="kitchen_037.obj" maxhullvert="32" />
+    <material name="kitchen_037_mat" rgba="0.3568627450980392 0.34901960784313724 0.33725490196078434 1.0" shininess="0.2" />
+    <mesh name="kitchen_038" file="kitchen_038.obj" maxhullvert="32" />
+    <material name="kitchen_038_mat" rgba="0.18823529411764706 0.17647058823529413 0.1607843137254902 1.0" shininess="0.2" />
+    <mesh name="kitchen_039" file="kitchen_039.obj" maxhullvert="32" />
+    <texture name="kitchen_039_tex" type="2d" file="texture_017.png" />
+    <material name="kitchen_039_mat" rgba="1.0 1.0 1.0 1.0" shininess="0.2" texture="kitchen_039_tex" />
+    <mesh name="kitchen_040" file="kitchen_040.obj" maxhullvert="32" />
+    <material name="kitchen_040_mat" rgba="0.9019607843137255 0.7254901960784313 0.3764705882352941 1.0" shininess="0.2" />
+    <mesh name="kitchen_041" file="kitchen_041.obj" maxhullvert="32" />
+    <material name="kitchen_041_mat" rgba="0.39215686274509803 0.5843137254901961 0.9294117647058824 1.0" shininess="0.2" />
+    <mesh name="kitchen_042" file="kitchen_042.obj" maxhullvert="32" />
+    <material name="kitchen_042_mat" rgba="0.16862745098039217 0.12156862745098039 0.08627450980392157 1.0" shininess="0.2" />
+    <mesh name="kitchen_043" file="kitchen_043.obj" maxhullvert="32" />
+    <material name="kitchen_043_mat" rgba="0.16862745098039217 0.12156862745098039 0.08627450980392157 1.0" shininess="0.2" />
+    <mesh name="kitchen_044" file="kitchen_044.obj" maxhullvert="32" />
+    <material name="kitchen_044_mat" rgba="0.7372549019607844 0.7372549019607844 0.7372549019607844 0.25" shininess="0.2" />
+    <mesh name="kitchen_045" file="kitchen_045.obj" maxhullvert="32" />
+    <material name="kitchen_045_mat" rgba="0.011764705882352941 0.011764705882352941 0.011764705882352941 1.0" shininess="0.2" />
+    <mesh name="kitchen_046" file="kitchen_046.obj" maxhullvert="32" />
+    <texture name="kitchen_046_tex" type="2d" file="texture_018.png" />
+    <material name="kitchen_046_mat" rgba="1.0 1.0 1.0 1.0" shininess="0.2" texture="kitchen_046_tex" />
+    <mesh name="kitchen_047" file="kitchen_047.obj" maxhullvert="32" />
+    <texture name="kitchen_047_tex" type="2d" file="texture_019.png" />
+    <material name="kitchen_047_mat" rgba="1.0 1.0 1.0 1.0" shininess="0.2" texture="kitchen_047_tex" />
+    <mesh name="kitchen_048" file="kitchen_048.obj" maxhullvert="32" />
+    <texture name="kitchen_048_tex" type="2d" file="texture_020.png" />
+    <material name="kitchen_048_mat" rgba="1.0 1.0 1.0 1.0" shininess="0.2" texture="kitchen_048_tex" />
+    <mesh name="kitchen_049" file="kitchen_049.obj" maxhullvert="32" />
+    <texture name="kitchen_049_tex" type="2d" file="texture_021.png" />
+    <material name="kitchen_049_mat" rgba="1.0 1.0 1.0 1.0" shininess="0.2" texture="kitchen_049_tex" />
+    <mesh name="kitchen_050" file="kitchen_050.obj" maxhullvert="32" />
+    <texture name="kitchen_050_tex" type="2d" file="texture_022.png" />
+    <material name="kitchen_050_mat" rgba="1.0 1.0 1.0 1.0" shininess="0.2" texture="kitchen_050_tex" />
+    <mesh name="kitchen_051" file="kitchen_051.obj" maxhullvert="32" />
+    <texture name="kitchen_051_tex" type="2d" file="texture_023.png" />
+    <material name="kitchen_051_mat" rgba="1.0 1.0 1.0 1.0" shininess="0.2" texture="kitchen_051_tex" />
+    <mesh name="kitchen_052" file="kitchen_052.obj" maxhullvert="32" />
+    <texture name="kitchen_052_tex" type="2d" file="texture_024.png" />
+    <material name="kitchen_052_mat" rgba="1.0 1.0 1.0 1.0" shininess="0.2" texture="kitchen_052_tex" />
+    <mesh name="kitchen_053" file="kitchen_053.obj" maxhullvert="32" />
+    <material name="kitchen_053_mat" rgba="0.011764705882352941 0.011764705882352941 0.011764705882352941 1.0" shininess="0.2" />
+    <mesh name="kitchen_054" file="kitchen_054.obj" maxhullvert="32" />
+    <material name="kitchen_054_mat" rgba="0.06274509803921569 0.07450980392156863 0.10196078431372549 1.0" shininess="0.2" />
+    <mesh name="kitchen_055" file="kitchen_055.obj" maxhullvert="32" />
+    <material name="kitchen_055_mat" rgba="0.011764705882352941 0.011764705882352941 0.011764705882352941 1.0" shininess="0.2" />
+    <mesh name="kitchen_056" file="kitchen_056.obj" maxhullvert="32" />
+    <texture name="kitchen_056_tex" type="2d" file="texture_025.png" />
+    <material name="kitchen_056_mat" rgba="1.0 1.0 1.0 1.0" shininess="0.2" texture="kitchen_056_tex" />
+    <mesh name="kitchen_057" file="kitchen_057.obj" maxhullvert="32" />
+    <texture name="kitchen_057_tex" type="2d" file="texture_026.png" />
+    <material name="kitchen_057_mat" rgba="1.0 1.0 1.0 1.0" shininess="0.2" texture="kitchen_057_tex" />
+    <mesh name="kitchen_058" file="kitchen_058.obj" maxhullvert="32" />
+    <texture name="kitchen_058_tex" type="2d" file="texture_027.png" />
+    <material name="kitchen_058_mat" rgba="1.0 1.0 1.0 1.0" shininess="0.2" texture="kitchen_058_tex" />
+    <mesh name="kitchen_059" file="kitchen_059.obj" maxhullvert="32" />
+    <material name="kitchen_059_mat" rgba="0.047058823529411764 0.047058823529411764 0.047058823529411764 1.0" shininess="0.2" />
+    <mesh name="kitchen_060" file="kitchen_060.obj" maxhullvert="32" />
+    <texture name="kitchen_060_tex" type="2d" file="texture_028.png" />
+    <material name="kitchen_060_mat" rgba="1.0 1.0 1.0 1.0" shininess="0.2" texture="kitchen_060_tex" />
+    <mesh name="kitchen_061" file="kitchen_061.obj" maxhullvert="32" />
+    <texture name="kitchen_061_tex" type="2d" file="texture_029.png" />
+    <material name="kitchen_061_mat" rgba="1.0 1.0 1.0 1.0" shininess="0.2" texture="kitchen_061_tex" />
+    <mesh name="kitchen_062" file="kitchen_062.obj" maxhullvert="32" />
+    <material name="kitchen_062_mat" rgba="1.0 0.9803921568627451 0.9803921568627451 1.0" shininess="0.2" />
+    <mesh name="kitchen_063" file="kitchen_063.obj" maxhullvert="32" />
+    <material name="kitchen_063_mat" rgba="0.7372549019607844 0.7372549019607844 0.7372549019607844 0.25" shininess="0.2" />
+    <mesh name="kitchen_064" file="kitchen_064.obj" maxhullvert="32" />
+    <texture name="kitchen_064_tex" type="2d" file="texture_030.png" />
+    <material name="kitchen_064_mat" rgba="1.0 1.0 1.0 1.0" shininess="0.2" texture="kitchen_064_tex" />
+    <mesh name="kitchen_065" file="kitchen_065.obj" maxhullvert="32" />
+    <material name="kitchen_065_mat" rgba="1.0 1.0 1.0 1.0" shininess="0.2" />
+    <mesh name="kitchen_066" file="kitchen_066.obj" maxhullvert="32" />
+    <material name="kitchen_066_mat" rgba="1.0 1.0 1.0 1.0" shininess="0.2" />
+    <mesh name="kitchen_067" file="kitchen_067.obj" maxhullvert="32" />
+    <material name="kitchen_067_mat" rgba="1.0 1.0 1.0 1.0" shininess="0.2" />
+    <mesh name="kitchen_068" file="kitchen_068.obj" maxhullvert="32" />
+    <texture name="kitchen_068_tex" type="2d" file="texture_031.png" />
+    <material name="kitchen_068_mat" rgba="1.0 1.0 1.0 1.0" shininess="0.2" texture="kitchen_068_tex" />
+    <mesh name="kitchen_069" file="kitchen_069.obj" maxhullvert="32" />
+    <texture name="kitchen_069_tex" type="2d" file="texture_032.png" />
+    <material name="kitchen_069_mat" rgba="1.0 1.0 1.0 1.0" shininess="0.2" texture="kitchen_069_tex" />
+    <mesh name="kitchen_070" file="kitchen_070.obj" maxhullvert="32" />
+    <material name="kitchen_070_mat" rgba="0.011764705882352941 0.011764705882352941 0.011764705882352941 1.0" shininess="0.2" />
+    <mesh name="kitchen_071" file="kitchen_071.obj" maxhullvert="32" />
+    <material name="kitchen_071_mat" rgba="0.011764705882352941 0.011764705882352941 0.011764705882352941 1.0" shininess="0.2" />
+    <mesh name="kitchen_072" file="kitchen_072.obj" maxhullvert="32" />
+    <texture name="kitchen_072_tex" type="2d" file="texture_033.png" />
+    <material name="kitchen_072_mat" rgba="1.0 1.0 1.0 1.0" shininess="0.2" texture="kitchen_072_tex" />
+    <mesh name="kitchen_073" file="kitchen_073.obj" maxhullvert="32" />
+    <texture name="kitchen_073_tex" type="2d" file="texture_034.png" />
+    <material name="kitchen_073_mat" rgba="1.0 1.0 1.0 1.0" shininess="0.2" texture="kitchen_073_tex" />
+    <mesh name="kitchen_074" file="kitchen_074.obj" maxhullvert="32" />
+    <material name="kitchen_074_mat" rgba="0.011764705882352941 0.011764705882352941 0.011764705882352941 1.0" shininess="0.2" />
+    <mesh name="kitchen_075" file="kitchen_075.obj" maxhullvert="32" />
+    <texture name="kitchen_075_tex" type="2d" file="texture_035.png" />
+    <material name="kitchen_075_mat" rgba="1.0 1.0 1.0 1.0" shininess="0.2" texture="kitchen_075_tex" />
+    <mesh name="kitchen_076" file="kitchen_076.obj" maxhullvert="32" />
+    <material name="kitchen_076_mat" rgba="0.0 0.0 0.0 1.0" shininess="0.2" />
+    <mesh name="kitchen_077" file="kitchen_077.obj" maxhullvert="32" />
+    <texture name="kitchen_077_tex" type="2d" file="texture_036.png" />
+    <material name="kitchen_077_mat" rgba="1.0 1.0 1.0 1.0" shininess="0.2" texture="kitchen_077_tex" />
+    <mesh name="kitchen_078" file="kitchen_078.obj" maxhullvert="32" />
+    <material name="kitchen_078_mat" rgba="0.2980392156862745 0.2980392156862745 0.2980392156862745 1.0" shininess="0.2" />
+    <mesh name="kitchen_079" file="kitchen_079.obj" maxhullvert="32" />
+    <texture name="kitchen_079_tex" type="2d" file="texture_037.png" />
+    <material name="kitchen_079_mat" rgba="1.0 1.0 1.0 1.0" shininess="0.2" texture="kitchen_079_tex" />
+    <mesh name="kitchen_080" file="kitchen_080.obj" maxhullvert="32" />
+    <material name="kitchen_080_mat" rgba="0.9411764705882353 0.9411764705882353 0.9411764705882353 1.0" shininess="0.2" />
+    <mesh name="kitchen_081" file="kitchen_081.obj" maxhullvert="32" />
+    <material name="kitchen_081_mat" rgba="0.01568627450980392 0.01568627450980392 0.01568627450980392 1.0" shininess="0.2" />
+    <mesh name="kitchen_082" file="kitchen_082.obj" maxhullvert="32" />
+    <material name="kitchen_082_mat" rgba="0.5490196078431373 0.5333333333333333 0.5058823529411764 1.0" shininess="0.2" />
+    <mesh name="kitchen_083" file="kitchen_083.obj" maxhullvert="32" />
+    <material name="kitchen_083_mat" rgba="0.1411764705882353 0.13725490196078433 0.1568627450980392 1.0" shininess="0.2" />
+    <mesh name="kitchen_084" file="kitchen_084.obj" maxhullvert="32" />
+    <material name="kitchen_084_mat" rgba="0.7098039215686275 0.5803921568627451 0.41568627450980394 1.0" shininess="0.2" />
+    <mesh name="kitchen_085" file="kitchen_085.obj" maxhullvert="32" />
+    <texture name="kitchen_085_tex" type="2d" file="texture_038.png" />
+    <material name="kitchen_085_mat" rgba="1.0 1.0 1.0 1.0" shininess="0.2" texture="kitchen_085_tex" />
+    <mesh name="kitchen_086" file="kitchen_086.obj" maxhullvert="32" />
+    <material name="kitchen_086_mat" rgba="0.047058823529411764 0.047058823529411764 0.047058823529411764 1.0" shininess="0.2" />
+    <mesh name="kitchen_087" file="kitchen_087.obj" maxhullvert="32" />
+    <material name="kitchen_087_mat" rgba="0.7372549019607844 0.7372549019607844 0.7372549019607844 0.25" shininess="0.2" />
+    <mesh name="kitchen_088" file="kitchen_088.obj" maxhullvert="32" />
+    <material name="kitchen_088_mat" rgba="0.0 0.0 0.0 1.0" shininess="0.2" />
+    <mesh name="kitchen_089" file="kitchen_089.obj" maxhullvert="32" />
+    <material name="kitchen_089_mat" rgba="0.596078431372549 0.6784313725490196 0.32941176470588235 1.0" shininess="0.2" />
+    <mesh name="kitchen_090" file="kitchen_090.obj" maxhullvert="32" />
+    <material name="kitchen_090_mat" rgba="0.596078431372549 0.6784313725490196 0.32941176470588235 1.0" shininess="0.2" />
+    <mesh name="kitchen_091" file="kitchen_091.obj" maxhullvert="32" />
+    <material name="kitchen_091_mat" rgba="0.4980392156862745 0.4980392156862745 0.4980392156862745 1.0" shininess="0.2" />
+    <mesh name="kitchen_092" file="kitchen_092.obj" maxhullvert="32" />
+    <material name="kitchen_092_mat" rgba="0.4980392156862745 0.4980392156862745 0.4980392156862745 1.0" shininess="0.2" />
+    <mesh name="kitchen_093" file="kitchen_093.obj" maxhullvert="32" />
+    <material name="kitchen_093_mat" rgba="0.5568627450980392 0.5568627450980392 0.5568627450980392 1.0" shininess="0.2" />
+    <mesh name="kitchen_094" file="kitchen_094.obj" maxhullvert="32" />
+    <texture name="kitchen_094_tex" type="2d" file="texture_039.png" />
+    <material name="kitchen_094_mat" rgba="1.0 1.0 1.0 1.0" shininess="0.2" texture="kitchen_094_tex" />
+    <mesh name="kitchen_095" file="kitchen_095.obj" maxhullvert="32" />
+    <texture name="kitchen_095_tex" type="2d" file="texture_040.png" />
+    <material name="kitchen_095_mat" rgba="1.0 1.0 1.0 1.0" shininess="0.2" texture="kitchen_095_tex" />
+    <mesh name="kitchen_096" file="kitchen_096.obj" maxhullvert="32" />
+    <material name="kitchen_096_mat" rgba="0.011764705882352941 0.011764705882352941 0.011764705882352941 1.0" shininess="0.2" />
+    <mesh name="kitchen_097" file="kitchen_097.obj" maxhullvert="32" />
+    <texture name="kitchen_097_tex" type="2d" file="texture_041.png" />
+    <material name="kitchen_097_mat" rgba="1.0 1.0 1.0 1.0" shininess="0.2" texture="kitchen_097_tex" />
+    <mesh name="kitchen_098" file="kitchen_098.obj" maxhullvert="32" />
+    <texture name="kitchen_098_tex" type="2d" file="texture_042.png" />
+    <material name="kitchen_098_mat" rgba="1.0 1.0 1.0 1.0" shininess="0.2" texture="kitchen_098_tex" />
+    <mesh name="kitchen_099" file="kitchen_099.obj" maxhullvert="32" />
+    <material name="kitchen_099_mat" rgba="0.08235294117647059 0.09803921568627451 0.12549019607843137 1.0" shininess="0.2" />
+    <mesh name="kitchen_100" file="kitchen_100.obj" maxhullvert="32" />
+    <material name="kitchen_100_mat" rgba="0.0 0.0 0.0 1.0" shininess="0.2" />
+    <mesh name="kitchen_101" file="kitchen_101.obj" maxhullvert="32" />
+    <texture name="kitchen_101_tex" type="2d" file="texture_043.png" />
+    <material name="kitchen_101_mat" rgba="1.0 1.0 1.0 1.0" shininess="0.2" texture="kitchen_101_tex" />
+    <mesh name="kitchen_102" file="kitchen_102.obj" maxhullvert="32" />
+    <texture name="kitchen_102_tex" type="2d" file="texture_044.png" />
+    <material name="kitchen_102_mat" rgba="1.0 1.0 1.0 1.0" shininess="0.2" texture="kitchen_102_tex" />
+    <mesh name="kitchen_103" file="kitchen_103.obj" maxhullvert="32" />
+    <texture name="kitchen_103_tex" type="2d" file="texture_045.png" />
+    <material name="kitchen_103_mat" rgba="1.0 1.0 1.0 1.0" shininess="0.2" texture="kitchen_103_tex" />
+    <mesh name="kitchen_104" file="kitchen_104.obj" maxhullvert="32" />
+    <material name="kitchen_104_mat" rgba="0.5686274509803921 0.5686274509803921 0.5686274509803921 1.0" shininess="0.2" />
+    <mesh name="kitchen_105" file="kitchen_105.obj" maxhullvert="32" />
+    <material name="kitchen_105_mat" rgba="0.7372549019607844 0.7372549019607844 0.7372549019607844 0.25" shininess="0.2" />
+    <mesh name="kitchen_106" file="kitchen_106.obj" maxhullvert="32" />
+    <material name="kitchen_106_mat" rgba="0.011764705882352941 0.011764705882352941 0.011764705882352941 1.0" shininess="0.2" />
+    <mesh name="kitchen_107" file="kitchen_107.obj" maxhullvert="32" />
+    <material name="kitchen_107_mat" rgba="1.0 1.0 1.0 1.0" shininess="0.2" />
+    <mesh name="kitchen_108" file="kitchen_108.obj" maxhullvert="32" />
+    <texture name="kitchen_108_tex" type="2d" file="texture_046.png" />
+    <material name="kitchen_108_mat" rgba="1.0 1.0 1.0 1.0" shininess="0.2" texture="kitchen_108_tex" />
+    <mesh name="kitchen_109" file="kitchen_109.obj" maxhullvert="32" />
+    <texture name="kitchen_109_tex" type="2d" file="texture_047.png" />
+    <material name="kitchen_109_mat" rgba="1.0 1.0 1.0 1.0" shininess="0.2" texture="kitchen_109_tex" />
+    <mesh name="kitchen_110" file="kitchen_110.obj" maxhullvert="32" />
+    <material name="kitchen_110_mat" rgba="0.11764705882352941 0.11764705882352941 0.11764705882352941 1.0" shininess="0.2" />
+    <mesh name="kitchen_111" file="kitchen_111.obj" maxhullvert="32" />
+    <texture name="kitchen_111_tex" type="2d" file="texture_048.png" />
+    <material name="kitchen_111_mat" rgba="1.0 1.0 1.0 1.0" shininess="0.2" texture="kitchen_111_tex" />
+    <mesh name="kitchen_112" file="kitchen_112.obj" maxhullvert="32" />
+    <texture name="kitchen_112_tex" type="2d" file="texture_049.png" />
+    <material name="kitchen_112_mat" rgba="1.0 1.0 1.0 1.0" shininess="0.2" texture="kitchen_112_tex" />
+    <mesh name="kitchen_113" file="kitchen_113.obj" maxhullvert="32" />
+    <material name="kitchen_113_mat" rgba="0.07450980392156863 0.08627450980392157 0.09803921568627451 1.0" shininess="0.2" />
+    <mesh name="kitchen_114" file="kitchen_114.obj" maxhullvert="32" />
+    <material name="kitchen_114_mat" rgba="0.011764705882352941 0.011764705882352941 0.011764705882352941 1.0" shininess="0.2" />
+    <mesh name="kitchen_115" file="kitchen_115.obj" maxhullvert="32" />
+    <texture name="kitchen_115_tex" type="2d" file="texture_050.png" />
+    <material name="kitchen_115_mat" rgba="1.0 1.0 1.0 1.0" shininess="0.2" texture="kitchen_115_tex" />
+    <mesh name="kitchen_116" file="kitchen_116.obj" maxhullvert="32" />
+    <material name="kitchen_116_mat" rgba="0.7372549019607844 0.7372549019607844 0.7372549019607844 0.25" shininess="0.2" />
+    <mesh name="kitchen_117" file="kitchen_117.obj" maxhullvert="32" />
+    <texture name="kitchen_117_tex" type="2d" file="texture_051.png" />
+    <material name="kitchen_117_mat" rgba="1.0 1.0 1.0 1.0" shininess="0.2" texture="kitchen_117_tex" />
+    <mesh name="kitchen_118" file="kitchen_118.obj" maxhullvert="32" />
+    <material name="kitchen_118_mat" rgba="0.6509803921568628 0.5529411764705883 0.4 1.0" shininess="0.2" />
+    <mesh name="kitchen_119" file="kitchen_119.obj" maxhullvert="32" />
+    <material name="kitchen_119_mat" rgba="0.7372549019607844 0.7372549019607844 0.7372549019607844 0.25" shininess="0.2" />
+    <mesh name="kitchen_120" file="kitchen_120.obj" maxhullvert="32" />
+    <material name="kitchen_120_mat" rgba="0.1843137254901961 0.1843137254901961 0.1843137254901961 1.0" shininess="0.2" />
+    <mesh name="kitchen_121" file="kitchen_121.obj" maxhullvert="32" />
+    <texture name="kitchen_121_tex" type="2d" file="texture_052.png" />
+    <material name="kitchen_121_mat" rgba="1.0 1.0 1.0 1.0" shininess="0.2" texture="kitchen_121_tex" />
+    <mesh name="kitchen_122" file="kitchen_122.obj" maxhullvert="32" />
+    <material name="kitchen_122_mat" rgba="0.7372549019607844 0.7372549019607844 0.7372549019607844 0.25" shininess="0.2" />
+    <mesh name="kitchen_123" file="kitchen_123.obj" maxhullvert="32" />
+    <material name="kitchen_123_mat" rgba="0.7372549019607844 0.7372549019607844 0.7372549019607844 0.25" shininess="0.2" />
+    <mesh name="kitchen_124" file="kitchen_124.obj" maxhullvert="32" />
+    <material name="kitchen_124_mat" rgba="0.7372549019607844 0.7372549019607844 0.7372549019607844 0.25" shininess="0.2" />
+    <mesh name="kitchen_125" file="kitchen_125.obj" maxhullvert="32" />
+    <texture name="kitchen_125_tex" type="2d" file="texture_053.png" />
+    <material name="kitchen_125_mat" rgba="1.0 1.0 1.0 1.0" shininess="0.2" texture="kitchen_125_tex" />
+    <mesh name="kitchen_126" file="kitchen_126.obj" maxhullvert="32" />
+    <texture name="kitchen_126_tex" type="2d" file="texture_054.png" />
+    <material name="kitchen_126_mat" rgba="1.0 1.0 1.0 1.0" shininess="0.2" texture="kitchen_126_tex" />
+    <mesh name="kitchen_127" file="kitchen_127.obj" maxhullvert="32" />
+    <texture name="kitchen_127_tex" type="2d" file="texture_055.png" />
+    <material name="kitchen_127_mat" rgba="1.0 1.0 1.0 1.0" shininess="0.2" texture="kitchen_127_tex" />
+    <mesh name="kitchen_128" file="kitchen_128.obj" maxhullvert="32" />
+    <texture name="kitchen_128_tex" type="2d" file="texture_056.png" />
+    <material name="kitchen_128_mat" rgba="1.0 1.0 1.0 1.0" shininess="0.2" texture="kitchen_128_tex" />
+    <mesh name="kitchen_129" file="kitchen_129.obj" maxhullvert="32" />
+    <texture name="kitchen_129_tex" type="2d" file="texture_057.png" />
+    <material name="kitchen_129_mat" rgba="1.0 1.0 1.0 1.0" shininess="0.2" texture="kitchen_129_tex" />
+    <mesh name="kitchen_130" file="kitchen_130.obj" maxhullvert="32" />
+    <texture name="kitchen_130_tex" type="2d" file="texture_058.png" />
+    <material name="kitchen_130_mat" rgba="1.0 1.0 1.0 1.0" shininess="0.2" texture="kitchen_130_tex" />
+    <mesh name="kitchen_131" file="kitchen_131.obj" maxhullvert="32" />
+    <texture name="kitchen_131_tex" type="2d" file="texture_059.png" />
+    <material name="kitchen_131_mat" rgba="1.0 1.0 1.0 1.0" shininess="0.2" texture="kitchen_131_tex" />
+    <mesh name="kitchen_132" file="kitchen_132.obj" maxhullvert="32" />
+    <material name="kitchen_132_mat" rgba="0.4196078431372549 0.27058823529411763 0.2627450980392157 1.0" shininess="0.2" />
+    <mesh name="kitchen_133" file="kitchen_133.obj" maxhullvert="32" />
+    <texture name="kitchen_133_tex" type="2d" file="texture_060.png" />
+    <material name="kitchen_133_mat" rgba="1.0 1.0 1.0 1.0" shininess="0.2" texture="kitchen_133_tex" />
+    <mesh name="kitchen_134" file="kitchen_134.obj" maxhullvert="32" />
+    <texture name="kitchen_134_tex" type="2d" file="texture_061.png" />
+    <material name="kitchen_134_mat" rgba="1.0 1.0 1.0 1.0" shininess="0.2" texture="kitchen_134_tex" />
+    <mesh name="kitchen_135" file="kitchen_135.obj" maxhullvert="32" />
+    <material name="kitchen_135_mat" rgba="0.7372549019607844 0.7137254901960784 0.6549019607843137 1.0" shininess="0.2" />
+    <mesh name="kitchen_136" file="kitchen_136.obj" maxhullvert="32" />
+    <texture name="kitchen_136_tex" type="2d" file="texture_062.png" />
+    <material name="kitchen_136_mat" rgba="1.0 1.0 1.0 1.0" shininess="0.2" texture="kitchen_136_tex" />
+    <mesh name="kitchen_137" file="kitchen_137.obj" maxhullvert="32" />
+    <texture name="kitchen_137_tex" type="2d" file="texture_063.png" />
+    <material name="kitchen_137_mat" rgba="1.0 1.0 1.0 1.0" shininess="0.2" texture="kitchen_137_tex" />
+    <mesh name="kitchen_138" file="kitchen_138.obj" maxhullvert="32" />
+    <material name="kitchen_138_mat" rgba="0.7686274509803922 0.7450980392156863 0.7294117647058823 1.0" shininess="0.2" />
+    <mesh name="kitchen_139" file="kitchen_139.obj" maxhullvert="32" />
+    <material name="kitchen_139_mat" rgba="0.7568627450980392 0.7568627450980392 0.7568627450980392 1.0" shininess="0.2" />
+    <mesh name="kitchen_140" file="kitchen_140.obj" maxhullvert="32" />
+    <material name="kitchen_140_mat" rgba="0.7372549019607844 0.7372549019607844 0.7372549019607844 0.25" shininess="0.2" />
+    <mesh name="kitchen_141" file="kitchen_141.obj" maxhullvert="32" />
+    <texture name="kitchen_141_tex" type="2d" file="texture_064.png" />
+    <material name="kitchen_141_mat" rgba="1.0 1.0 1.0 1.0" shininess="0.2" texture="kitchen_141_tex" />
+    <mesh name="kitchen_142" file="kitchen_142.obj" maxhullvert="32" />
+    <texture name="kitchen_142_tex" type="2d" file="texture_065.png" />
+    <material name="kitchen_142_mat" rgba="1.0 1.0 1.0 1.0" shininess="0.2" texture="kitchen_142_tex" />
+    <mesh name="kitchen_143" file="kitchen_143.obj" maxhullvert="32" />
+    <texture name="kitchen_143_tex" type="2d" file="texture_066.png" />
+    <material name="kitchen_143_mat" rgba="1.0 1.0 1.0 1.0" shininess="0.2" texture="kitchen_143_tex" />
+    <mesh name="kitchen_144" file="kitchen_144.obj" maxhullvert="32" />
+    <material name="kitchen_144_mat" rgba="0.7568627450980392 0.7568627450980392 0.7568627450980392 1.0" shininess="0.2" />
+    <mesh name="kitchen_145" file="kitchen_145.obj" maxhullvert="32" />
+    <texture name="kitchen_145_tex" type="2d" file="texture_067.png" />
+    <material name="kitchen_145_mat" rgba="1.0 1.0 1.0 1.0" shininess="0.2" texture="kitchen_145_tex" />
+    <mesh name="kitchen_146" file="kitchen_146.obj" maxhullvert="32" />
+    <texture name="kitchen_146_tex" type="2d" file="texture_068.png" />
+    <material name="kitchen_146_mat" rgba="1.0 1.0 1.0 1.0" shininess="0.2" texture="kitchen_146_tex" />
+    <mesh name="kitchen_147" file="kitchen_147.obj" maxhullvert="32" />
+    <texture name="kitchen_147_tex" type="2d" file="texture_069.png" />
+    <material name="kitchen_147_mat" rgba="1.0 1.0 1.0 1.0" shininess="0.2" texture="kitchen_147_tex" />
+    <mesh name="kitchen_148" file="kitchen_148.obj" maxhullvert="32" />
+    <texture name="kitchen_148_tex" type="2d" file="texture_070.png" />
+    <material name="kitchen_148_mat" rgba="1.0 1.0 1.0 1.0" shininess="0.2" texture="kitchen_148_tex" />
+    <mesh name="kitchen_149" file="kitchen_149.obj" maxhullvert="32" />
+    <material name="kitchen_149_mat" rgba="0.08235294117647059 0.09803921568627451 0.12549019607843137 1.0" shininess="0.2" />
+    <mesh name="kitchen_150" file="kitchen_150.obj" maxhullvert="32" />
+    <material name="kitchen_150_mat" rgba="0.23921568627450981 0.23921568627450981 0.23921568627450981 1.0" shininess="0.2" />
+    <mesh name="kitchen_151" file="kitchen_151.obj" maxhullvert="32" />
+    <texture name="kitchen_151_tex" type="2d" file="texture_071.png" />
+    <material name="kitchen_151_mat" rgba="1.0 1.0 1.0 1.0" shininess="0.2" texture="kitchen_151_tex" />
+    <mesh name="kitchen_152" file="kitchen_152.obj" maxhullvert="32" />
+    <material name="kitchen_152_mat" rgba="0.047058823529411764 0.047058823529411764 0.047058823529411764 1.0" shininess="0.2" />
+    <mesh name="kitchen_153" file="kitchen_153.obj" maxhullvert="32" />
+    <material name="kitchen_153_mat" rgba="0.6078431372549019 0.6078431372549019 0.6078431372549019 1.0" shininess="0.2" />
+    <mesh name="kitchen_154" file="kitchen_154.obj" maxhullvert="32" />
+    <material name="kitchen_154_mat" rgba="0.011764705882352941 0.011764705882352941 0.011764705882352941 1.0" shininess="0.2" />
+  </asset>
+  <worldbody>
+    <geom name="kitchen_000" type="mesh" mesh="kitchen_000" material="kitchen_000_mat" contype="0" conaffinity="0" group="1" />
+    <geom name="kitchen_001" type="mesh" mesh="kitchen_001" material="kitchen_001_mat" contype="0" conaffinity="0" group="1" />
+    <geom name="kitchen_002" type="mesh" mesh="kitchen_002" material="kitchen_002_mat" contype="0" conaffinity="0" group="1" />
+    <geom name="kitchen_003" type="mesh" mesh="kitchen_003" material="kitchen_003_mat" contype="0" conaffinity="0" group="1" />
+    <geom name="kitchen_004" type="mesh" mesh="kitchen_004" material="kitchen_004_mat" contype="0" conaffinity="0" group="1" />
+    <geom name="kitchen_005" type="mesh" mesh="kitchen_005" material="kitchen_005_mat" contype="0" conaffinity="0" group="1" />
+    <geom name="kitchen_006" type="mesh" mesh="kitchen_006" material="kitchen_006_mat" contype="0" conaffinity="0" group="1" />
+    <geom name="kitchen_007" type="mesh" mesh="kitchen_007" material="kitchen_007_mat" contype="0" conaffinity="0" group="1" />
+    <geom name="kitchen_008" type="mesh" mesh="kitchen_008" material="kitchen_008_mat" contype="0" conaffinity="0" group="1" />
+    <geom name="kitchen_009" type="mesh" mesh="kitchen_009" material="kitchen_009_mat" contype="0" conaffinity="0" group="1" />
+    <geom name="kitchen_010" type="mesh" mesh="kitchen_010" material="kitchen_010_mat" contype="0" conaffinity="0" group="1" />
+    <geom name="kitchen_011" type="mesh" mesh="kitchen_011" material="kitchen_011_mat" contype="0" conaffinity="0" group="1" />
+    <geom name="kitchen_012" type="mesh" mesh="kitchen_012" material="kitchen_012_mat" contype="0" conaffinity="0" group="1" />
+    <geom name="kitchen_013" type="mesh" mesh="kitchen_013" material="kitchen_013_mat" contype="0" conaffinity="0" group="1" />
+    <geom name="kitchen_014" type="mesh" mesh="kitchen_014" material="kitchen_014_mat" contype="0" conaffinity="0" group="1" />
+    <geom name="kitchen_015" type="mesh" mesh="kitchen_015" material="kitchen_015_mat" contype="0" conaffinity="0" group="1" />
+    <geom name="kitchen_016" type="mesh" mesh="kitchen_016" material="kitchen_016_mat" contype="0" conaffinity="0" group="1" />
+    <geom name="kitchen_017" type="mesh" mesh="kitchen_017" material="kitchen_017_mat" contype="0" conaffinity="0" group="1" />
+    <geom name="kitchen_018" type="mesh" mesh="kitchen_018" material="kitchen_018_mat" contype="0" conaffinity="0" group="1" />
+    <geom name="kitchen_019" type="mesh" mesh="kitchen_019" material="kitchen_019_mat" contype="0" conaffinity="0" group="1" />
+    <geom name="kitchen_020" type="mesh" mesh="kitchen_020" material="kitchen_020_mat" contype="0" conaffinity="0" group="1" />
+    <geom name="kitchen_021" type="mesh" mesh="kitchen_021" material="kitchen_021_mat" contype="0" conaffinity="0" group="1" />
+    <geom name="kitchen_022" type="mesh" mesh="kitchen_022" material="kitchen_022_mat" contype="0" conaffinity="0" group="1" />
+    <geom name="kitchen_023" type="mesh" mesh="kitchen_023" material="kitchen_023_mat" contype="0" conaffinity="0" group="1" />
+    <geom name="kitchen_024" type="mesh" mesh="kitchen_024" material="kitchen_024_mat" contype="0" conaffinity="0" group="1" />
+    <geom name="kitchen_025" type="mesh" mesh="kitchen_025" material="kitchen_025_mat" contype="0" conaffinity="0" group="1" />
+    <geom name="kitchen_026" type="mesh" mesh="kitchen_026" material="kitchen_026_mat" contype="0" conaffinity="0" group="1" />
+    <geom name="kitchen_027" type="mesh" mesh="kitchen_027" material="kitchen_027_mat" contype="0" conaffinity="0" group="1" />
+    <geom name="kitchen_028" type="mesh" mesh="kitchen_028" material="kitchen_028_mat" contype="0" conaffinity="0" group="1" />
+    <geom name="kitchen_029" type="mesh" mesh="kitchen_029" material="kitchen_029_mat" contype="0" conaffinity="0" group="1" />
+    <geom name="kitchen_030" type="mesh" mesh="kitchen_030" material="kitchen_030_mat" contype="0" conaffinity="0" group="1" />
+    <geom name="kitchen_031" type="mesh" mesh="kitchen_031" material="kitchen_031_mat" contype="0" conaffinity="0" group="1" />
+    <geom name="kitchen_032" type="mesh" mesh="kitchen_032" material="kitchen_032_mat" contype="0" conaffinity="0" group="1" />
+    <geom name="kitchen_033" type="mesh" mesh="kitchen_033" material="kitchen_033_mat" contype="0" conaffinity="0" group="1" />
+    <geom name="kitchen_034" type="mesh" mesh="kitchen_034" material="kitchen_034_mat" contype="0" conaffinity="0" group="1" />
+    <geom name="kitchen_035" type="mesh" mesh="kitchen_035" material="kitchen_035_mat" contype="0" conaffinity="0" group="1" />
+    <geom name="kitchen_036" type="mesh" mesh="kitchen_036" material="kitchen_036_mat" contype="0" conaffinity="0" group="1" />
+    <geom name="kitchen_037" type="mesh" mesh="kitchen_037" material="kitchen_037_mat" contype="0" conaffinity="0" group="1" />
+    <geom name="kitchen_038" type="mesh" mesh="kitchen_038" material="kitchen_038_mat" contype="0" conaffinity="0" group="1" />
+    <geom name="kitchen_039" type="mesh" mesh="kitchen_039" material="kitchen_039_mat" contype="0" conaffinity="0" group="1" />
+    <geom name="kitchen_040" type="mesh" mesh="kitchen_040" material="kitchen_040_mat" contype="0" conaffinity="0" group="1" />
+    <geom name="kitchen_041" type="mesh" mesh="kitchen_041" material="kitchen_041_mat" contype="0" conaffinity="0" group="1" />
+    <geom name="kitchen_042" type="mesh" mesh="kitchen_042" material="kitchen_042_mat" contype="0" conaffinity="0" group="1" />
+    <geom name="kitchen_043" type="mesh" mesh="kitchen_043" material="kitchen_043_mat" contype="0" conaffinity="0" group="1" />
+    <geom name="kitchen_044" type="mesh" mesh="kitchen_044" material="kitchen_044_mat" contype="0" conaffinity="0" group="1" />
+    <geom name="kitchen_045" type="mesh" mesh="kitchen_045" material="kitchen_045_mat" contype="0" conaffinity="0" group="1" />
+    <geom name="kitchen_046" type="mesh" mesh="kitchen_046" material="kitchen_046_mat" contype="0" conaffinity="0" group="1" />
+    <geom name="kitchen_047" type="mesh" mesh="kitchen_047" material="kitchen_047_mat" contype="0" conaffinity="0" group="1" />
+    <geom name="kitchen_048" type="mesh" mesh="kitchen_048" material="kitchen_048_mat" contype="0" conaffinity="0" group="1" />
+    <geom name="kitchen_049" type="mesh" mesh="kitchen_049" material="kitchen_049_mat" contype="0" conaffinity="0" group="1" />
+    <geom name="kitchen_050" type="mesh" mesh="kitchen_050" material="kitchen_050_mat" contype="0" conaffinity="0" group="1" />
+    <geom name="kitchen_051" type="mesh" mesh="kitchen_051" material="kitchen_051_mat" contype="0" conaffinity="0" group="1" />
+    <geom name="kitchen_052" type="mesh" mesh="kitchen_052" material="kitchen_052_mat" contype="0" conaffinity="0" group="1" />
+    <geom name="kitchen_053" type="mesh" mesh="kitchen_053" material="kitchen_053_mat" contype="0" conaffinity="0" group="1" />
+    <geom name="kitchen_054" type="mesh" mesh="kitchen_054" material="kitchen_054_mat" contype="0" conaffinity="0" group="1" />
+    <geom name="kitchen_055" type="mesh" mesh="kitchen_055" material="kitchen_055_mat" contype="0" conaffinity="0" group="1" />
+    <geom name="kitchen_056" type="mesh" mesh="kitchen_056" material="kitchen_056_mat" contype="0" conaffinity="0" group="1" />
+    <geom name="kitchen_057" type="mesh" mesh="kitchen_057" material="kitchen_057_mat" contype="0" conaffinity="0" group="1" />
+    <geom name="kitchen_058" type="mesh" mesh="kitchen_058" material="kitchen_058_mat" contype="0" conaffinity="0" group="1" />
+    <geom name="kitchen_059" type="mesh" mesh="kitchen_059" material="kitchen_059_mat" contype="0" conaffinity="0" group="1" />
+    <geom name="kitchen_060" type="mesh" mesh="kitchen_060" material="kitchen_060_mat" contype="0" conaffinity="0" group="1" />
+    <geom name="kitchen_061" type="mesh" mesh="kitchen_061" material="kitchen_061_mat" contype="0" conaffinity="0" group="1" />
+    <geom name="kitchen_062" type="mesh" mesh="kitchen_062" material="kitchen_062_mat" contype="0" conaffinity="0" group="1" />
+    <geom name="kitchen_063" type="mesh" mesh="kitchen_063" material="kitchen_063_mat" contype="0" conaffinity="0" group="1" />
+    <geom name="kitchen_064" type="mesh" mesh="kitchen_064" material="kitchen_064_mat" contype="0" conaffinity="0" group="1" />
+    <geom name="kitchen_065" type="mesh" mesh="kitchen_065" material="kitchen_065_mat" contype="0" conaffinity="0" group="1" />
+    <geom name="kitchen_066" type="mesh" mesh="kitchen_066" material="kitchen_066_mat" contype="0" conaffinity="0" group="1" />
+    <geom name="kitchen_067" type="mesh" mesh="kitchen_067" material="kitchen_067_mat" contype="0" conaffinity="0" group="1" />
+    <geom name="kitchen_068" type="mesh" mesh="kitchen_068" material="kitchen_068_mat" contype="0" conaffinity="0" group="1" />
+    <geom name="kitchen_069" type="mesh" mesh="kitchen_069" material="kitchen_069_mat" contype="0" conaffinity="0" group="1" />
+    <geom name="kitchen_070" type="mesh" mesh="kitchen_070" material="kitchen_070_mat" contype="0" conaffinity="0" group="1" />
+    <geom name="kitchen_071" type="mesh" mesh="kitchen_071" material="kitchen_071_mat" contype="0" conaffinity="0" group="1" />
+    <geom name="kitchen_072" type="mesh" mesh="kitchen_072" material="kitchen_072_mat" contype="0" conaffinity="0" group="1" />
+    <geom name="kitchen_073" type="mesh" mesh="kitchen_073" material="kitchen_073_mat" contype="0" conaffinity="0" group="1" />
+    <geom name="kitchen_074" type="mesh" mesh="kitchen_074" material="kitchen_074_mat" contype="0" conaffinity="0" group="1" />
+    <geom name="kitchen_075" type="mesh" mesh="kitchen_075" material="kitchen_075_mat" contype="0" conaffinity="0" group="1" />
+    <geom name="kitchen_076" type="mesh" mesh="kitchen_076" material="kitchen_076_mat" contype="0" conaffinity="0" group="1" />
+    <geom name="kitchen_077" type="mesh" mesh="kitchen_077" material="kitchen_077_mat" contype="0" conaffinity="0" group="1" />
+    <geom name="kitchen_078" type="mesh" mesh="kitchen_078" material="kitchen_078_mat" contype="0" conaffinity="0" group="1" />
+    <geom name="kitchen_079" type="mesh" mesh="kitchen_079" material="kitchen_079_mat" contype="0" conaffinity="0" group="1" />
+    <geom name="kitchen_080" type="mesh" mesh="kitchen_080" material="kitchen_080_mat" contype="0" conaffinity="0" group="1" />
+    <geom name="kitchen_081" type="mesh" mesh="kitchen_081" material="kitchen_081_mat" contype="0" conaffinity="0" group="1" />
+    <geom name="kitchen_082" type="mesh" mesh="kitchen_082" material="kitchen_082_mat" contype="0" conaffinity="0" group="1" />
+    <geom name="kitchen_083" type="mesh" mesh="kitchen_083" material="kitchen_083_mat" contype="0" conaffinity="0" group="1" />
+    <geom name="kitchen_084" type="mesh" mesh="kitchen_084" material="kitchen_084_mat" contype="0" conaffinity="0" group="1" />
+    <geom name="kitchen_085" type="mesh" mesh="kitchen_085" material="kitchen_085_mat" contype="0" conaffinity="0" group="1" />
+    <geom name="kitchen_086" type="mesh" mesh="kitchen_086" material="kitchen_086_mat" contype="0" conaffinity="0" group="1" />
+    <geom name="kitchen_087" type="mesh" mesh="kitchen_087" material="kitchen_087_mat" contype="0" conaffinity="0" group="1" />
+    <geom name="kitchen_088" type="mesh" mesh="kitchen_088" material="kitchen_088_mat" contype="0" conaffinity="0" group="1" />
+    <geom name="kitchen_089" type="mesh" mesh="kitchen_089" material="kitchen_089_mat" contype="0" conaffinity="0" group="1" />
+    <geom name="kitchen_090" type="mesh" mesh="kitchen_090" material="kitchen_090_mat" contype="0" conaffinity="0" group="1" />
+    <geom name="kitchen_091" type="mesh" mesh="kitchen_091" material="kitchen_091_mat" contype="0" conaffinity="0" group="1" />
+    <geom name="kitchen_092" type="mesh" mesh="kitchen_092" material="kitchen_092_mat" contype="0" conaffinity="0" group="1" />
+    <geom name="kitchen_093" type="mesh" mesh="kitchen_093" material="kitchen_093_mat" contype="0" conaffinity="0" group="1" />
+    <geom name="kitchen_094" type="mesh" mesh="kitchen_094" material="kitchen_094_mat" contype="0" conaffinity="0" group="1" />
+    <geom name="kitchen_095" type="mesh" mesh="kitchen_095" material="kitchen_095_mat" contype="0" conaffinity="0" group="1" />
+    <geom name="kitchen_096" type="mesh" mesh="kitchen_096" material="kitchen_096_mat" contype="0" conaffinity="0" group="1" />
+    <geom name="kitchen_097" type="mesh" mesh="kitchen_097" material="kitchen_097_mat" contype="0" conaffinity="0" group="1" />
+    <geom name="kitchen_098" type="mesh" mesh="kitchen_098" material="kitchen_098_mat" contype="0" conaffinity="0" group="1" />
+    <geom name="kitchen_099" type="mesh" mesh="kitchen_099" material="kitchen_099_mat" contype="0" conaffinity="0" group="1" />
+    <geom name="kitchen_100" type="mesh" mesh="kitchen_100" material="kitchen_100_mat" contype="0" conaffinity="0" group="1" />
+    <geom name="kitchen_101" type="mesh" mesh="kitchen_101" material="kitchen_101_mat" contype="0" conaffinity="0" group="1" />
+    <geom name="kitchen_102" type="mesh" mesh="kitchen_102" material="kitchen_102_mat" contype="0" conaffinity="0" group="1" />
+    <geom name="kitchen_103" type="mesh" mesh="kitchen_103" material="kitchen_103_mat" contype="0" conaffinity="0" group="1" />
+    <geom name="kitchen_104" type="mesh" mesh="kitchen_104" material="kitchen_104_mat" contype="0" conaffinity="0" group="1" />
+    <geom name="kitchen_105" type="mesh" mesh="kitchen_105" material="kitchen_105_mat" contype="0" conaffinity="0" group="1" />
+    <geom name="kitchen_106" type="mesh" mesh="kitchen_106" material="kitchen_106_mat" contype="0" conaffinity="0" group="1" />
+    <geom name="kitchen_107" type="mesh" mesh="kitchen_107" material="kitchen_107_mat" contype="0" conaffinity="0" group="1" />
+    <geom name="kitchen_108" type="mesh" mesh="kitchen_108" material="kitchen_108_mat" contype="0" conaffinity="0" group="1" />
+    <geom name="kitchen_109" type="mesh" mesh="kitchen_109" material="kitchen_109_mat" contype="0" conaffinity="0" group="1" />
+    <geom name="kitchen_110" type="mesh" mesh="kitchen_110" material="kitchen_110_mat" contype="0" conaffinity="0" group="1" />
+    <geom name="kitchen_111" type="mesh" mesh="kitchen_111" material="kitchen_111_mat" contype="0" conaffinity="0" group="1" />
+    <geom name="kitchen_112" type="mesh" mesh="kitchen_112" material="kitchen_112_mat" contype="0" conaffinity="0" group="1" />
+    <geom name="kitchen_113" type="mesh" mesh="kitchen_113" material="kitchen_113_mat" contype="0" conaffinity="0" group="1" />
+    <geom name="kitchen_114" type="mesh" mesh="kitchen_114" material="kitchen_114_mat" contype="0" conaffinity="0" group="1" />
+    <geom name="kitchen_115" type="mesh" mesh="kitchen_115" material="kitchen_115_mat" contype="0" conaffinity="0" group="1" />
+    <geom name="kitchen_116" type="mesh" mesh="kitchen_116" material="kitchen_116_mat" contype="0" conaffinity="0" group="1" />
+    <geom name="kitchen_117" type="mesh" mesh="kitchen_117" material="kitchen_117_mat" contype="0" conaffinity="0" group="1" />
+    <geom name="kitchen_118" type="mesh" mesh="kitchen_118" material="kitchen_118_mat" contype="0" conaffinity="0" group="1" />
+    <geom name="kitchen_119" type="mesh" mesh="kitchen_119" material="kitchen_119_mat" contype="0" conaffinity="0" group="1" />
+    <geom name="kitchen_120" type="mesh" mesh="kitchen_120" material="kitchen_120_mat" contype="0" conaffinity="0" group="1" />
+    <geom name="kitchen_121" type="mesh" mesh="kitchen_121" material="kitchen_121_mat" contype="0" conaffinity="0" group="1" />
+    <geom name="kitchen_122" type="mesh" mesh="kitchen_122" material="kitchen_122_mat" contype="0" conaffinity="0" group="1" />
+    <geom name="kitchen_123" type="mesh" mesh="kitchen_123" material="kitchen_123_mat" contype="0" conaffinity="0" group="1" />
+    <geom name="kitchen_124" type="mesh" mesh="kitchen_124" material="kitchen_124_mat" contype="0" conaffinity="0" group="1" />
+    <geom name="kitchen_125" type="mesh" mesh="kitchen_125" material="kitchen_125_mat" contype="0" conaffinity="0" group="1" />
+    <geom name="kitchen_126" type="mesh" mesh="kitchen_126" material="kitchen_126_mat" contype="0" conaffinity="0" group="1" />
+    <geom name="kitchen_127" type="mesh" mesh="kitchen_127" material="kitchen_127_mat" contype="0" conaffinity="0" group="1" />
+    <geom name="kitchen_128" type="mesh" mesh="kitchen_128" material="kitchen_128_mat" contype="0" conaffinity="0" group="1" />
+    <geom name="kitchen_129" type="mesh" mesh="kitchen_129" material="kitchen_129_mat" contype="0" conaffinity="0" group="1" />
+    <geom name="kitchen_130" type="mesh" mesh="kitchen_130" material="kitchen_130_mat" contype="0" conaffinity="0" group="1" />
+    <geom name="kitchen_131" type="mesh" mesh="kitchen_131" material="kitchen_131_mat" contype="0" conaffinity="0" group="1" />
+    <geom name="kitchen_132" type="mesh" mesh="kitchen_132" material="kitchen_132_mat" contype="0" conaffinity="0" group="1" />
+    <geom name="kitchen_133" type="mesh" mesh="kitchen_133" material="kitchen_133_mat" contype="0" conaffinity="0" group="1" />
+    <geom name="kitchen_134" type="mesh" mesh="kitchen_134" material="kitchen_134_mat" contype="0" conaffinity="0" group="1" />
+    <geom name="kitchen_135" type="mesh" mesh="kitchen_135" material="kitchen_135_mat" contype="0" conaffinity="0" group="1" />
+    <geom name="kitchen_136" type="mesh" mesh="kitchen_136" material="kitchen_136_mat" contype="0" conaffinity="0" group="1" />
+    <geom name="kitchen_137" type="mesh" mesh="kitchen_137" material="kitchen_137_mat" contype="0" conaffinity="0" group="1" />
+    <geom name="kitchen_138" type="mesh" mesh="kitchen_138" material="kitchen_138_mat" contype="0" conaffinity="0" group="1" />
+    <geom name="kitchen_139" type="mesh" mesh="kitchen_139" material="kitchen_139_mat" contype="0" conaffinity="0" group="1" />
+    <geom name="kitchen_140" type="mesh" mesh="kitchen_140" material="kitchen_140_mat" contype="0" conaffinity="0" group="1" />
+    <geom name="kitchen_141" type="mesh" mesh="kitchen_141" material="kitchen_141_mat" contype="0" conaffinity="0" group="1" />
+    <geom name="kitchen_142" type="mesh" mesh="kitchen_142" material="kitchen_142_mat" contype="0" conaffinity="0" group="1" />
+    <geom name="kitchen_143" type="mesh" mesh="kitchen_143" material="kitchen_143_mat" contype="0" conaffinity="0" group="1" />
+    <geom name="kitchen_144" type="mesh" mesh="kitchen_144" material="kitchen_144_mat" contype="0" conaffinity="0" group="1" />
+    <geom name="kitchen_145" type="mesh" mesh="kitchen_145" material="kitchen_145_mat" contype="0" conaffinity="0" group="1" />
+    <geom name="kitchen_146" type="mesh" mesh="kitchen_146" material="kitchen_146_mat" contype="0" conaffinity="0" group="1" />
+    <geom name="kitchen_147" type="mesh" mesh="kitchen_147" material="kitchen_147_mat" contype="0" conaffinity="0" group="1" />
+    <geom name="kitchen_148" type="mesh" mesh="kitchen_148" material="kitchen_148_mat" contype="0" conaffinity="0" group="1" />
+    <geom name="kitchen_149" type="mesh" mesh="kitchen_149" material="kitchen_149_mat" contype="0" conaffinity="0" group="1" />
+    <geom name="kitchen_150" type="mesh" mesh="kitchen_150" material="kitchen_150_mat" contype="0" conaffinity="0" group="1" />
+    <geom name="kitchen_151" type="mesh" mesh="kitchen_151" material="kitchen_151_mat" contype="0" conaffinity="0" group="1" />
+    <geom name="kitchen_152" type="mesh" mesh="kitchen_152" material="kitchen_152_mat" contype="0" conaffinity="0" group="1" />
+    <geom name="kitchen_153" type="mesh" mesh="kitchen_153" material="kitchen_153_mat" contype="0" conaffinity="0" group="1" />
+    <geom name="kitchen_154" type="mesh" mesh="kitchen_154" material="kitchen_154_mat" contype="0" conaffinity="0" group="1" />
+    <geom name="kitchen_collision_0" type="box" pos="-3.36 -2.08 0.08" size="0.2 0.04 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_1" type="box" pos="-3.4 -2.08 1.6400000000000001" size="0.16 0.04 1.52" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_2" type="box" pos="-3.52 1.04 1.6" size="0.04 3.08 1.56" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_3" type="box" pos="-3.36 1.04 3.12" size="0.12 3.08 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_4" type="box" pos="-0.2 4.08 1.56" size="3.2800000000000002 0.04 1.52" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_5" type="box" pos="-3.24 -1.24 0.08" size="0.08 0.8 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_6" type="box" pos="-3.2800000000000002 0.28 1.6" size="0.04 2.32 1.48" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_7" type="box" pos="-3.2800000000000002 1.08 0.08" size="0.04 1.52 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_8" type="box" pos="-3.2800000000000002 3.7600000000000002 2.12" size="0.04 0.04 0.96" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_9" type="box" pos="-2.8000000000000003 -0.56 1.76" size="0.44 0.12 0.68" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_10" type="box" pos="-2.8000000000000003 -0.64 2.8000000000000003" size="0.44 0.04 0.36" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_11" type="box" pos="-2.7600000000000002 -0.52 0.6" size="0.48 0.08 0.48" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_12" type="box" pos="-2.7600000000000002 1.76 3.12" size="0.48 2.36 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_13" type="box" pos="-2.7600000000000002 0.16 2.36" size="0.48 0.6 0.08" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_14" type="box" pos="-2.7600000000000002 0.68 1.16" size="0.48 0.08 1.12" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_15" type="box" pos="-2.7600000000000002 1.16 0.72" size="0.48 0.4 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_16" type="box" pos="-2.7600000000000002 1.68 1.2" size="0.48 0.92 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_17" type="box" pos="-2.7600000000000002 1.16 1.84" size="0.48 0.4 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_18" type="box" pos="-2.7600000000000002 1.16 2.4" size="0.48 0.4 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_19" type="box" pos="-2.7600000000000002 1.52 0.36" size="0.48 0.04 0.32" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_20" type="box" pos="-2.7600000000000002 1.52 0.96" size="0.48 0.04 0.2" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_21" type="box" pos="-2.7600000000000002 1.52 1.52" size="0.48 0.04 0.28" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_22" type="box" pos="-2.7600000000000002 1.52 2.12" size="0.48 0.04 0.24" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_23" type="box" pos="-2.8000000000000003 2.52 0.6" size="0.44 0.08 0.56" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_24" type="box" pos="-2.48 2.56 2.16" size="0.76 0.04 0.92" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_25" type="box" pos="-3.2 3.7600000000000002 2.16" size="0.04 0.04 0.92" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_26" type="box" pos="-2.72 -0.52 0.08" size="0.44 0.08 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_27" type="box" pos="-3.12 1.12 1.52" size="0.04 0.36 0.28" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_28" type="box" pos="-3.08 2.0 0.16" size="0.08 0.44 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_29" type="box" pos="-3.12 2.0 0.68" size="0.04 0.44 0.48" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_30" type="box" pos="-3.12 3.7600000000000002 2.2" size="0.04 0.04 0.88" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_31" type="box" pos="-3.04 2.0 0.08" size="0.04 0.44 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_32" type="box" pos="-3.04 3.7600000000000002 2.24" size="0.04 0.04 0.84" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_33" type="box" pos="-2.96 3.7600000000000002 2.32" size="0.04 0.04 0.76" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_34" type="box" pos="-2.64 2.0 1.36" size="0.28 0.36 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_35" type="box" pos="-2.64 1.68 1.6400000000000001" size="0.28 0.04 0.24" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_36" type="box" pos="-2.88 2.04 1.6400000000000001" size="0.04 0.32 0.24" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_37" type="box" pos="-2.88 3.7600000000000002 2.36" size="0.04 0.04 0.72" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_38" type="box" pos="-2.6 2.04 1.84" size="0.24 0.32 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_39" type="box" pos="-2.6 2.32 1.6" size="0.24 0.04 0.2" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_40" type="box" pos="-2.8000000000000003 3.7600000000000002 2.4" size="0.04 0.04 0.68" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_41" type="box" pos="-2.52 1.12 0.8" size="0.24 0.36 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_42" type="box" pos="-2.72 1.12 1.0" size="0.04 0.36 0.16" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_43" type="box" pos="-2.72 3.7600000000000002 2.44" size="0.04 0.04 0.64" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_44" type="box" pos="-2.64 3.7600000000000002 2.48" size="0.04 0.04 0.6" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_45" type="box" pos="-2.56 3.7600000000000002 2.52" size="0.04 0.04 0.56" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_46" type="box" pos="-2.44 2.0 0.16" size="0.08 0.44 0.12" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_47" type="box" pos="-2.44 2.0 1.48" size="0.08 0.28 0.08" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_48" type="box" pos="-2.44 1.76 1.6400000000000001" size="0.08 0.04 0.08" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_49" type="box" pos="-2.48 2.04 1.6400000000000001" size="0.04 0.24 0.08" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_50" type="box" pos="-2.48 3.7600000000000002 2.6" size="0.04 0.04 0.48" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_51" type="box" pos="-2.36 0.96 2.7600000000000002" size="0.08 1.56 0.32" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_52" type="box" pos="-2.36 0.08 0.56" size="0.08 0.52 0.52" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_53" type="box" pos="-2.36 -0.4 1.68" size="0.08 0.04 0.6" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_54" type="box" pos="-2.4 0.12 1.68" size="0.04 0.48 0.6" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_55" type="box" pos="-2.36 1.12 0.36" size="0.08 0.36 0.32" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_56" type="box" pos="-2.36 1.12 1.0" size="0.08 0.36 0.16" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_57" type="box" pos="-2.36 1.12 1.32" size="0.08 0.36 0.08" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_58" type="box" pos="-2.36 0.84 1.6" size="0.08 0.08 0.2" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_59" type="box" pos="-2.36 1.12 2.12" size="0.08 0.36 0.24" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_60" type="box" pos="-2.36 1.2 1.72" size="0.08 0.28 0.08" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_61" type="box" pos="-2.36 1.4000000000000001 1.52" size="0.08 0.08 0.12" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_62" type="box" pos="-2.36 2.0 0.72" size="0.08 0.44 0.44" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_63" type="box" pos="-2.4 2.04 1.28" size="0.04 0.48 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_64" type="box" pos="-2.4 1.6 1.8800000000000001" size="0.04 0.04 0.56" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_65" type="box" pos="-2.4 2.08 2.16" size="0.04 0.44 0.28" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_66" type="box" pos="-2.4 2.0 1.76" size="0.04 0.28 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_67" type="box" pos="-2.4 2.04 1.68" size="0.04 0.24 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_68" type="box" pos="-2.4 2.04 1.6" size="0.04 0.08 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_69" type="box" pos="-2.4 2.24 1.6" size="0.04 0.04 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_70" type="box" pos="-2.4 2.44 1.6" size="0.04 0.08 0.28" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_71" type="box" pos="-2.4 3.7600000000000002 2.64" size="0.04 0.04 0.44" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_72" type="box" pos="-2.32 -0.52 1.76" size="0.04 0.08 0.68" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_73" type="box" pos="-2.32 0.12 1.8" size="0.04 0.48 0.48" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_74" type="box" pos="-2.32 0.2 1.2" size="0.04 0.4 0.12" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_75" type="box" pos="-2.32 1.12 1.52" size="0.04 0.2 0.12" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_76" type="box" pos="-2.32 2.08 0.24" size="0.04 0.52 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_77" type="box" pos="-2.32 2.04 2.2" size="0.04 0.48 0.24" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_78" type="box" pos="-2.32 1.92 1.8" size="0.04 0.04 0.08" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_79" type="box" pos="-2.32 2.12 1.8" size="0.04 0.08 0.08" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_80" type="box" pos="-2.32 2.16 1.6400000000000001" size="0.04 0.04 0.08" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_81" type="box" pos="-2.32 2.52 0.72" size="0.04 0.08 0.44" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_82" type="box" pos="-2.0 2.56 0.12" size="0.36 0.04 0.08" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_83" type="box" pos="-2.32 3.7600000000000002 2.68" size="0.04 0.04 0.4" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_84" type="box" pos="-2.24 0.0 1.2" size="0.04 0.12 0.68" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_85" type="box" pos="-2.0 2.56 0.72" size="0.28 0.04 0.52" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_86" type="box" pos="-2.0 3.3200000000000003 3.12" size="0.28 0.8 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_87" type="box" pos="-2.24 3.7600000000000002 2.72" size="0.04 0.04 0.36" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_88" type="box" pos="-2.16 3.7600000000000002 2.8000000000000003" size="0.04 0.04 0.28" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_89" type="box" pos="-2.08 3.7600000000000002 2.84" size="0.04 0.04 0.24" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_90" type="box" pos="-2.0 3.7600000000000002 2.88" size="0.04 0.04 0.2" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_91" type="box" pos="-1.92 3.7600000000000002 2.92" size="0.04 0.04 0.16" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_92" type="box" pos="-1.84 3.7600000000000002 3.0" size="0.04 0.04 0.08" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_93" type="box" pos="-1.72 2.72 0.12" size="0.08 0.12 0.08" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_94" type="box" pos="-1.72 2.64 1.6400000000000001" size="0.08 0.04 1.44" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_95" type="box" pos="0.52 3.7600000000000002 3.04" size="2.32 0.04 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_96" type="box" pos="-1.68 3.36 3.12" size="0.04 0.76 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_97" type="box" pos="0.12 2.7600000000000002 0.6" size="1.84 0.08 0.4" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_98" type="box" pos="-1.68 3.24 2.0" size="0.04 0.56 1.0" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_99" type="box" pos="0.12 2.72 3.04" size="1.84 0.04 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_100" type="box" pos="-1.68 3.24 3.04" size="0.04 0.48 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_101" type="box" pos="-1.68 3.3200000000000003 0.52" size="0.04 0.48 0.48" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_102" type="box" pos="0.16 2.7600000000000002 0.12" size="1.8 0.08 0.08" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_103" type="box" pos="0.32 2.92 2.4" size="1.96 0.24 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_104" type="box" pos="0.16 2.72 2.72" size="1.8 0.04 0.28" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_105" type="box" pos="0.72 3.4 3.12" size="2.36 0.72 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_106" type="box" pos="0.6 2.88 0.96" size="2.24 0.04 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_107" type="box" pos="-1.48 3.36 0.96" size="0.16 0.44 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_108" type="box" pos="0.6 3.44 1.6" size="2.24 0.36 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_109" type="box" pos="-0.08 3.12 1.68" size="1.56 0.04 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_110" type="box" pos="-1.44 3.2800000000000002 1.8800000000000001" size="0.2 0.2 0.08" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_111" type="box" pos="-1.4000000000000001 3.2800000000000002 2.12" size="0.24 0.2 0.08" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_112" type="box" pos="-0.96 3.3200000000000003 1.72" size="0.68 0.16 0.08" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_113" type="box" pos="-0.96 3.24 2.0" size="0.68 0.08 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_114" type="box" pos="-1.4000000000000001 3.2800000000000002 2.24" size="0.24 0.12 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_115" type="box" pos="-0.96 3.3200000000000003 2.4" size="0.68 0.16 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_116" type="box" pos="-1.4000000000000001 3.2800000000000002 2.32" size="0.24 0.04 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_117" type="box" pos="-1.56 3.36 2.0" size="0.08 0.04 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_118" type="box" pos="-1.48 3.64 1.68" size="0.16 0.16 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_119" type="box" pos="-1.48 3.64 1.8800000000000001" size="0.16 0.16 0.08" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_120" type="box" pos="-1.48 3.64 2.12" size="0.16 0.16 0.08" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_121" type="box" pos="-1.48 3.64 2.4" size="0.16 0.16 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_122" type="box" pos="0.6 3.7600000000000002 0.48" size="2.24 0.04 0.44" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_123" type="box" pos="0.6 3.7600000000000002 1.28" size="2.24 0.04 0.28" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_124" type="box" pos="0.6 3.7600000000000002 1.76" size="2.24 0.04 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_125" type="box" pos="0.6 3.7600000000000002 2.0" size="2.24 0.04 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_126" type="box" pos="0.6 3.7600000000000002 2.2800000000000002" size="2.24 0.04 0.08" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_127" type="box" pos="0.6 3.7600000000000002 2.72" size="2.24 0.04 0.28" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_128" type="box" pos="-1.36 3.2 2.32" size="0.2 0.04 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_129" type="box" pos="-1.36 3.36 2.32" size="0.2 0.04 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_130" type="box" pos="-0.72 3.2 0.64" size="0.68 0.36 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_131" type="box" pos="-0.72 2.88 0.8" size="0.68 0.04 0.12" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_132" type="box" pos="-1.36 3.24 0.8" size="0.04 0.32 0.12" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_133" type="box" pos="-0.04 3.04 1.96" size="1.36 0.04 0.4" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_134" type="box" pos="0.04 3.12 1.76" size="1.44 0.04 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_135" type="box" pos="0.44 3.12 2.0" size="1.84 0.04 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_136" type="box" pos="-1.28 3.12 2.24" size="0.12 0.04 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_137" type="box" pos="-1.32 3.12 2.32" size="0.08 0.04 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_138" type="box" pos="-0.84 3.4 2.0" size="0.56 0.08 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_139" type="box" pos="-0.84 3.44 2.2800000000000002" size="0.56 0.04 0.08" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_140" type="box" pos="-1.36 3.6 1.76" size="0.04 0.12 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_141" type="box" pos="-1.36 3.6 2.0" size="0.04 0.12 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_142" type="box" pos="-1.36 3.6 2.2800000000000002" size="0.04 0.12 0.08" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_143" type="box" pos="-0.68 3.52 0.84" size="0.64 0.04 0.16" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_144" type="box" pos="0.76 3.68 0.96" size="2.08 0.12 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_145" type="box" pos="0.76 3.7600000000000002 1.68" size="2.08 0.04 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_146" type="box" pos="0.76 3.7600000000000002 1.8800000000000001" size="2.08 0.04 0.08" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_147" type="box" pos="0.76 3.7600000000000002 2.12" size="2.08 0.04 0.08" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_148" type="box" pos="0.76 3.7600000000000002 2.4" size="2.08 0.04 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_149" type="box" pos="-1.12 3.2 0.88" size="0.12 0.28 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_150" type="box" pos="-0.76 3.44 1.8800000000000001" size="0.48 0.04 0.08" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_151" type="box" pos="-0.72 3.2 2.08" size="0.44 0.04 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_152" type="box" pos="-1.04 3.3200000000000003 2.16" size="0.12 0.16 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_153" type="box" pos="-1.04 3.36 2.08" size="0.12 0.12 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_154" type="box" pos="-1.04 3.3200000000000003 2.24" size="0.12 0.08 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_155" type="box" pos="-0.16 1.28 0.88" size="0.92 0.52 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_156" type="box" pos="-0.12 0.88 0.44" size="0.88 0.04 0.4" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_157" type="box" pos="-0.96 1.32 0.44" size="0.04 0.4 0.4" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_158" type="box" pos="-0.08 1.68 0.44" size="0.84 0.04 0.4" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_159" type="box" pos="-0.84 3.12 1.8800000000000001" size="0.08 0.04 0.08" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_160" type="box" pos="-0.84 3.12 2.2" size="0.08 0.04 0.16" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_161" type="box" pos="-0.6 3.4 2.08" size="0.32 0.08 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_162" type="box" pos="-0.6 3.44 2.16" size="0.32 0.04 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_163" type="box" pos="-0.68 3.2800000000000002 1.8800000000000001" size="0.16 0.12 0.08" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_164" type="box" pos="-0.68 3.2800000000000002 2.24" size="0.16 0.12 0.12" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_165" type="box" pos="-0.72 3.3200000000000003 0.56" size="0.12 0.08 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_166" type="box" pos="-0.68 3.2800000000000002 2.08" size="0.16 0.04 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_167" type="box" pos="-0.8 3.56 1.04" size="0.04 0.08 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_168" type="box" pos="-0.72 3.6 1.12" size="0.12 0.04 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_169" type="box" pos="-0.76 3.68 1.12" size="0.08 0.04 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_170" type="box" pos="-0.64 3.12 2.2" size="0.12 0.04 0.08" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_171" type="box" pos="-0.68 3.2 0.56" size="0.08 0.04 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_172" type="box" pos="-0.68 3.2800000000000002 1.16" size="0.08 0.04 0.08" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_173" type="box" pos="-0.72 3.44 1.28" size="0.04 0.2 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_174" type="box" pos="-0.72 3.3200000000000003 1.44" size="0.04 0.08 0.12" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_175" type="box" pos="-0.72 3.36 1.16" size="0.04 0.04 0.08" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_176" type="box" pos="-0.72 3.56 1.2" size="0.04 0.16 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_177" type="box" pos="-0.72 3.52 1.52" size="0.04 0.12 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_178" type="box" pos="-0.68 3.6 0.88" size="0.08 0.04 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_179" type="box" pos="-0.68 3.6 1.04" size="0.08 0.04 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_180" type="box" pos="-0.72 3.6 1.4000000000000001" size="0.04 0.04 0.08" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_181" type="box" pos="-0.72 3.68 0.88" size="0.04 0.04 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_182" type="box" pos="-0.72 3.68 1.04" size="0.04 0.04 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_183" type="box" pos="-0.64 3.6 1.2" size="0.04 0.04 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_184" type="box" pos="-0.56 3.44 0.96" size="0.04 0.04 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_185" type="box" pos="0.48 3.12 1.8800000000000001" size="0.84 0.04 0.08" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_186" type="box" pos="0.56 3.12 2.08" size="0.92 0.04 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_187" type="box" pos="0.48 3.12 2.24" size="0.84 0.04 0.12" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_188" type="box" pos="-0.32 3.2800000000000002 1.8800000000000001" size="0.04 0.12 0.08" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_189" type="box" pos="-0.32 3.2800000000000002 2.24" size="0.04 0.12 0.12" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_190" type="box" pos="-0.32 3.2800000000000002 2.08" size="0.04 0.04 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_191" type="box" pos="-0.08 3.2 0.84" size="0.04 0.28 0.16" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_192" type="box" pos="0.24 3.64 1.36" size="0.36 0.08 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_193" type="box" pos="1.4000000000000001 3.24 0.96" size="1.44 0.32 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_194" type="box" pos="0.28 3.64 1.28" size="0.32 0.08 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_195" type="box" pos="0.2 3.64 1.44" size="0.24 0.08 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_196" type="box" pos="0.4 3.68 1.52" size="0.44 0.04 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_197" type="box" pos="0.32 1.32 0.96" size="0.28 0.08 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_198" type="box" pos="0.16 1.32 1.08" size="0.12 0.08 0.08" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_199" type="box" pos="0.12 1.36 1.2" size="0.08 0.04 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_200" type="box" pos="0.24 3.6 1.52" size="0.2 0.04 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_201" type="box" pos="0.16 1.28 1.24" size="0.04 0.04 0.08" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_202" type="box" pos="0.16 1.36 1.28" size="0.04 0.04 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_203" type="box" pos="0.32 1.44 0.96" size="0.2 0.04 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_204" type="box" pos="0.24 1.44 1.08" size="0.12 0.04 0.08" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_205" type="box" pos="0.4 1.16 0.96" size="0.2 0.08 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_206" type="box" pos="0.28 1.48 1.24" size="0.08 0.08 0.08" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_207" type="box" pos="0.28 1.52 1.04" size="0.08 0.04 0.12" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_208" type="box" pos="0.4 3.6 1.08" size="0.12 0.12 0.08" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_209" type="box" pos="0.4 3.6 1.2" size="0.12 0.04 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_210" type="box" pos="0.36 3.68 1.2" size="0.08 0.04 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_211" type="box" pos="0.44 -1.6 0.2" size="0.08 0.04 0.16" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_212" type="box" pos="0.4 3.52 1.24" size="0.04 0.04 0.08" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_213" type="box" pos="0.48 -1.56 0.4" size="0.04 0.08 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_214" type="box" pos="0.72 -1.6 0.92" size="0.28 0.04 0.08" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_215" type="box" pos="0.48 -1.52 0.28" size="0.04 0.04 0.08" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_216" type="box" pos="0.48 -1.52 0.72" size="0.04 0.04 0.28" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_217" type="box" pos="0.48 -1.44 0.76" size="0.04 0.04 0.24" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_218" type="box" pos="0.72 -1.32 0.8" size="0.28 0.08 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_219" type="box" pos="0.52 -1.2 0.32" size="0.08 0.04 0.28" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_220" type="box" pos="0.64 -1.2 0.8" size="0.2 0.04 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_221" type="box" pos="0.52 3.68 1.44" size="0.08 0.04 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_222" type="box" pos="0.76 -1.6 0.32" size="0.24 0.04 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_223" type="box" pos="0.72 -1.52 0.8" size="0.2 0.12 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_224" type="box" pos="0.64 -1.52 0.32" size="0.12 0.04 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_225" type="box" pos="0.76 -1.52 0.72" size="0.24 0.04 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_226" type="box" pos="0.56 -1.52 0.88" size="0.04 0.04 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_227" type="box" pos="0.6 -1.36 0.72" size="0.08 0.12 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_228" type="box" pos="0.56 -1.28 0.48" size="0.04 0.04 0.2" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_229" type="box" pos="0.56 -1.2 0.68" size="0.04 0.04 0.08" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_230" type="box" pos="0.72 3.68 1.16" size="0.2 0.04 0.08" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_231" type="box" pos="0.76 -1.68 0.96" size="0.16 0.04 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_232" type="box" pos="0.76 -1.2 0.32" size="0.16 0.04 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_233" type="box" pos="0.72 -1.36 0.32" size="0.04 0.12 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_234" type="box" pos="0.8 -1.36 0.72" size="0.12 0.04 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_235" type="box" pos="0.72 1.28 0.44" size="0.04 0.36 0.4" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_236" type="box" pos="0.76 3.68 1.36" size="0.08 0.04 0.12" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_237" type="box" pos="0.8 -1.44 0.72" size="0.04 0.04 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_238" type="box" pos="0.88 -1.28 0.32" size="0.12 0.04 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_239" type="box" pos="0.92 -1.68 0.2" size="0.08 0.04 0.16" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_240" type="box" pos="0.92 -1.6 0.2" size="0.08 0.04 0.08" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_241" type="box" pos="0.92 -1.6 0.52" size="0.08 0.04 0.16" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_242" type="box" pos="0.92 -1.52 0.56" size="0.08 0.04 0.12" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_243" type="box" pos="0.92 -1.52 0.92" size="0.08 0.04 0.08" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_244" type="box" pos="0.92 -1.28 0.16" size="0.08 0.04 0.12" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_245" type="box" pos="0.92 -1.28 0.56" size="0.08 0.04 0.2" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_246" type="box" pos="0.96 -1.6 0.72" size="0.04 0.04 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_247" type="box" pos="0.96 -1.48 0.8" size="0.04 0.08 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_248" type="box" pos="0.96 -1.44 0.88" size="0.04 0.04 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_249" type="box" pos="0.96 -1.2 0.12" size="0.04 0.04 0.08" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_250" type="box" pos="1.12 3.68 1.2" size="0.2 0.04 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_251" type="box" pos="1.04 3.68 1.28" size="0.12 0.04 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_252" type="box" pos="0.96 3.68 1.44" size="0.04 0.04 0.12" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_253" type="box" pos="1.2 3.68 1.52" size="0.2 0.04 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_254" type="box" pos="1.2 3.68 1.4000000000000001" size="0.12 0.04 0.08" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_255" type="box" pos="1.24 3.64 1.12" size="0.08 0.08 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_256" type="box" pos="1.32 -1.36 0.08" size="0.08 0.04 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_257" type="box" pos="1.44 3.44 1.72" size="0.2 0.28 0.08" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_258" type="box" pos="1.28 3.44 2.12" size="0.04 0.28 0.32" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_259" type="box" pos="1.52 3.68 1.28" size="0.28 0.04 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_260" type="box" pos="1.6 -1.44 0.8" size="0.28 0.12 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_261" type="box" pos="1.36 -1.44 0.4" size="0.04 0.04 0.36" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_262" type="box" pos="1.36 -1.36 0.44" size="0.04 0.04 0.32" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_263" type="box" pos="1.48 3.44 2.04" size="0.16 0.28 0.08" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_264" type="box" pos="1.48 3.44 2.4" size="0.16 0.28 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_265" type="box" pos="1.48 3.48 1.84" size="0.16 0.24 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_266" type="box" pos="1.4000000000000001 3.48 2.2" size="0.08 0.24 0.08" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_267" type="box" pos="1.48 3.44 2.32" size="0.16 0.04 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_268" type="box" pos="1.4000000000000001 3.6 2.32" size="0.08 0.12 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_269" type="box" pos="1.56 3.6 1.32" size="0.24 0.04 0.08" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_270" type="box" pos="1.36 3.68 1.44" size="0.04 0.04 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_271" type="box" pos="1.48 3.68 1.92" size="0.16 0.04 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_272" type="box" pos="1.48 -1.68 0.44" size="0.08 0.04 0.24" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_273" type="box" pos="1.44 -1.6400000000000001 0.84" size="0.04 0.08 0.16" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_274" type="box" pos="1.44 -1.6 0.6" size="0.04 0.04 0.08" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_275" type="box" pos="1.68 -1.44 0.72" size="0.28 0.04 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_276" type="box" pos="1.52 -1.32 0.32" size="0.12 0.08 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_277" type="box" pos="1.6 -1.28 0.8" size="0.2 0.04 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_278" type="box" pos="1.44 3.04 2.0" size="0.04 0.04 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_279" type="box" pos="1.52 3.2 1.84" size="0.12 0.04 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_280" type="box" pos="1.52 3.2 2.24" size="0.12 0.04 0.12" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_281" type="box" pos="1.52 3.3200000000000003 2.32" size="0.12 0.08 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_282" type="box" pos="1.48 3.6 1.2" size="0.08 0.12 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_283" type="box" pos="1.6 3.52 1.28" size="0.2 0.04 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_284" type="box" pos="1.48 3.52 1.36" size="0.08 0.04 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_285" type="box" pos="1.6 3.64 1.12" size="0.2 0.08 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_286" type="box" pos="1.6 3.68 1.36" size="0.2 0.04 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_287" type="box" pos="1.52 -1.76 0.24" size="0.04 0.04 0.2" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_288" type="box" pos="1.56 -1.72 0.96" size="0.08 0.08 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_289" type="box" pos="1.52 -1.68 0.16" size="0.04 0.04 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_290" type="box" pos="1.56 -1.6400000000000001 0.8" size="0.08 0.08 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_291" type="box" pos="1.6 -1.68 0.88" size="0.12 0.04 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_292" type="box" pos="1.56 -1.56 0.72" size="0.08 0.08 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_293" type="box" pos="1.6 -1.36 0.72" size="0.12 0.04 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_294" type="box" pos="1.56 3.52 2.2" size="0.08 0.2 0.08" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_295" type="box" pos="1.56 3.68 2.32" size="0.08 0.04 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_296" type="box" pos="1.6400000000000001 -1.56 0.32" size="0.08 0.16 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_297" type="box" pos="1.72 -1.6 0.88" size="0.16 0.04 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_298" type="box" pos="1.6400000000000001 -1.2 0.32" size="0.08 0.04 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_299" type="box" pos="1.68 -1.2 0.8" size="0.12 0.04 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_300" type="box" pos="2.2 3.04 1.6" size="0.64 0.04 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_301" type="box" pos="1.92 3.08 1.8" size="0.36 0.08 0.16" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_302" type="box" pos="1.92 3.04 2.16" size="0.36 0.04 0.2" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_303" type="box" pos="1.92 3.12 2.2" size="0.36 0.04 0.16" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_304" type="box" pos="1.6 3.4 1.92" size="0.04 0.24 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_305" type="box" pos="1.6 3.2800000000000002 2.2" size="0.04 0.04 0.08" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_306" type="box" pos="1.6 3.56 2.32" size="0.04 0.08 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_307" type="box" pos="1.68 3.64 1.2" size="0.12 0.08 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_308" type="box" pos="1.72 -1.6400000000000001 0.96" size="0.08 0.08 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_309" type="box" pos="1.72 -1.6 0.8" size="0.08 0.04 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_310" type="box" pos="1.72 -1.52 0.72" size="0.08 0.04 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_311" type="box" pos="1.68 -1.24 0.68" size="0.04 0.08 0.08" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_312" type="box" pos="1.68 -1.16 0.08" size="0.04 0.08 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_313" type="box" pos="1.68 -1.2 0.2" size="0.04 0.04 0.08" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_314" type="box" pos="1.68 -1.2 0.48" size="0.04 0.04 0.12" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_315" type="box" pos="1.68 3.52 1.2" size="0.04 0.04 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_316" type="box" pos="1.72 3.52 1.36" size="0.08 0.04 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_317" type="box" pos="1.8 -1.56 0.32" size="0.08 0.08 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_318" type="box" pos="1.84 -1.52 0.88" size="0.12 0.04 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_319" type="box" pos="1.84 -1.48 0.96" size="0.04 0.16 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_320" type="box" pos="1.8800000000000001 -1.44 0.48" size="0.08 0.04 0.2" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_321" type="box" pos="1.8800000000000001 -1.44 0.88" size="0.08 0.04 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_322" type="box" pos="1.84 -1.36 0.68" size="0.04 0.04 0.08" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_323" type="box" pos="1.84 -1.36 0.88" size="0.04 0.04 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_324" type="box" pos="2.32 -0.32 0.96" size="0.52 0.44 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_325" type="box" pos="1.8800000000000001 -0.32 1.72" size="0.08 0.44 0.72" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_326" type="box" pos="1.84 3.68 1.48" size="0.04 0.04 0.08" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_327" type="box" pos="1.92 -1.56 0.08" size="0.04 0.08 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_328" type="box" pos="1.92 -1.52 0.32" size="0.04 0.04 0.2" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_329" type="box" pos="1.92 -1.48 0.96" size="0.04 0.08 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_330" type="box" pos="1.92 -1.44 0.24" size="0.04 0.04 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_331" type="box" pos="2.36 -0.92 0.08" size="0.48 0.08 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_332" type="box" pos="2.36 -0.96 0.56" size="0.48 0.04 0.44" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_333" type="box" pos="2.36 0.88 0.88" size="0.48 1.8 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_334" type="box" pos="2.36 -0.84 1.68" size="0.48 0.08 0.76" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_335" type="box" pos="2.36 -0.8 2.8000000000000003" size="0.48 0.04 0.36" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_336" type="box" pos="1.92 0.96 2.8000000000000003" size="0.04 1.72 0.36" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_337" type="box" pos="1.92 1.32 0.44" size="0.04 1.36 0.4" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_338" type="box" pos="2.36 1.4000000000000001 0.96" size="0.48 1.28 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_339" type="box" pos="2.36 1.28 2.4" size="0.48 1.16 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_340" type="box" pos="2.08 2.56 2.4" size="0.2 0.12 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_341" type="box" pos="2.36 3.2800000000000002 0.88" size="0.48 0.44 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_342" type="box" pos="2.4 -0.56 1.2" size="0.44 0.2 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_343" type="box" pos="2.4 -0.72 1.4000000000000001" size="0.44 0.04 0.16" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_344" type="box" pos="2.08 -0.64 1.6" size="0.12 0.12 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_345" type="box" pos="2.4 -0.56 1.76" size="0.44 0.2 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_346" type="box" pos="2.4 -0.56 2.0" size="0.44 0.2 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_347" type="box" pos="2.4 -0.56 2.2" size="0.44 0.2 0.08" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_348" type="box" pos="2.4 -0.56 2.4" size="0.44 0.2 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_349" type="box" pos="2.52 0.96 3.12" size="0.56 1.72 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_350" type="box" pos="2.12 -0.6 1.4000000000000001" size="0.16 0.08 0.16" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_351" type="box" pos="2.08 -0.64 1.68" size="0.12 0.04 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_352" type="box" pos="2.0 -0.56 1.68" size="0.04 0.04 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_353" type="box" pos="2.4 -0.4 1.08" size="0.44 0.04 0.08" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_354" type="box" pos="2.4 -0.4 1.48" size="0.44 0.04 0.24" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_355" type="box" pos="2.4 -0.4 1.8800000000000001" size="0.44 0.04 0.08" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_356" type="box" pos="2.4 -0.4 2.08" size="0.44 0.04 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_357" type="box" pos="2.4 -0.4 2.32" size="0.44 0.04 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_358" type="box" pos="2.4 0.08 2.04" size="0.44 0.04 1.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_359" type="box" pos="2.4 2.7600000000000002 0.92" size="0.44 0.08 0.08" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_360" type="box" pos="2.08 -0.6 1.08" size="0.04 0.16 0.08" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_361" type="box" pos="2.2 -0.72 2.08" size="0.16 0.04 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_362" type="box" pos="2.2 -0.56 2.08" size="0.16 0.04 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_363" type="box" pos="2.36 -0.72 1.92" size="0.24 0.04 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_364" type="box" pos="2.32 -0.6 1.84" size="0.2 0.08 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_365" type="box" pos="2.2 -0.56 1.92" size="0.08 0.12 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_366" type="box" pos="2.48 0.44 1.6" size="0.36 0.32 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_367" type="box" pos="2.48 0.16 2.0" size="0.36 0.04 0.36" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_368" type="box" pos="2.48 0.72 2.0" size="0.36 0.04 0.36" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_369" type="box" pos="2.2 1.32 2.24" size="0.08 0.56 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_370" type="box" pos="2.48 2.4 1.6" size="0.36 0.6 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_371" type="box" pos="2.48 1.84 1.92" size="0.36 0.04 0.28" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_372" type="box" pos="2.48 1.84 2.32" size="0.36 0.04 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_373" type="box" pos="2.48 2.4 2.0" size="0.36 0.04 0.36" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_374" type="box" pos="2.2 2.72 2.0" size="0.08 0.28 0.36" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_375" type="box" pos="2.24 -0.6 1.08" size="0.04 0.16 0.08" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_376" type="box" pos="2.36 -0.72 1.84" size="0.16 0.04 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_377" type="box" pos="2.52 -0.6 1.6" size="0.32 0.08 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_378" type="box" pos="2.36 -0.48 1.84" size="0.16 0.04 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_379" type="box" pos="2.52 0.24 1.84" size="0.32 0.04 0.2" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_380" type="box" pos="2.24 0.44 2.2" size="0.04 0.24 0.16" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_381" type="box" pos="2.32 0.32 1.68" size="0.12 0.04 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_382" type="box" pos="2.2800000000000002 0.44 1.8800000000000001" size="0.08 0.16 0.16" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_383" type="box" pos="2.2800000000000002 0.48 1.68" size="0.08 0.12 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_384" type="box" pos="2.24 0.64 1.84" size="0.04 0.04 0.2" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_385" type="box" pos="2.2800000000000002 1.28 2.0" size="0.08 0.52 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_386" type="box" pos="2.24 1.28 2.12" size="0.04 0.52 0.08" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_387" type="box" pos="2.52 2.0 1.68" size="0.32 0.12 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_388" type="box" pos="2.24 2.12 2.04" size="0.04 0.24 0.32" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_389" type="box" pos="2.24 2.24 1.68" size="0.04 0.12 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_390" type="box" pos="2.2800000000000002 3.36 1.48" size="0.08 0.04 0.08" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_391" type="box" pos="2.44 3.52 1.36" size="0.24 0.04 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_392" type="box" pos="2.56 -0.72 1.6" size="0.28 0.04 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_393" type="box" pos="2.32 -0.6 1.68" size="0.04 0.08 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_394" type="box" pos="2.56 -0.56 1.4000000000000001" size="0.28 0.04 0.16" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_395" type="box" pos="2.44 -0.48 1.92" size="0.16 0.04 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_396" type="box" pos="2.56 0.24 2.16" size="0.28 0.04 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_397" type="box" pos="2.44 0.4 2.08" size="0.16 0.12 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_398" type="box" pos="2.36 0.32 2.16" size="0.08 0.04 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_399" type="box" pos="2.32 0.48 2.16" size="0.04 0.12 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_400" type="box" pos="2.56 0.64 2.0" size="0.28 0.04 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_401" type="box" pos="2.36 1.28 1.76" size="0.08 0.52 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_402" type="box" pos="2.32 1.28 1.8800000000000001" size="0.04 0.52 0.08" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_403" type="box" pos="2.56 0.96 2.12" size="0.28 0.04 0.08" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_404" type="box" pos="2.32 1.32 2.12" size="0.04 0.32 0.08" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_405" type="box" pos="2.56 1.84 2.24" size="0.28 0.04 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_406" type="box" pos="2.56 2.12 2.0" size="0.28 0.24 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_407" type="box" pos="2.56 2.04 1.76" size="0.28 0.08 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_408" type="box" pos="2.56 2.24 1.72" size="0.28 0.04 0.08" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_409" type="box" pos="2.36 2.2800000000000002 1.84" size="0.08 0.08 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_410" type="box" pos="2.36 2.24 1.92" size="0.08 0.04 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_411" type="box" pos="2.36 2.32 1.72" size="0.08 0.04 0.08" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_412" type="box" pos="2.48 3.2800000000000002 1.36" size="0.2 0.04 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_413" type="box" pos="2.48 3.44 1.12" size="0.2 0.12 0.12" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_414" type="box" pos="2.48 3.36 1.28" size="0.2 0.04 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_415" type="box" pos="2.36 3.4 1.36" size="0.08 0.08 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_416" type="box" pos="2.4 3.52 1.28" size="0.12 0.12 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_417" type="box" pos="2.32 3.56 1.44" size="0.04 0.08 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_418" type="box" pos="2.44 3.6 1.12" size="0.16 0.04 0.12" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_419" type="box" pos="2.48 3.6 1.36" size="0.2 0.04 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_420" type="box" pos="2.4 -0.6 1.08" size="0.04 0.16 0.08" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_421" type="box" pos="2.4 -0.64 1.4000000000000001" size="0.04 0.04 0.16" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_422" type="box" pos="2.48 0.24 2.08" size="0.12 0.04 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_423" type="box" pos="2.4 0.32 1.92" size="0.04 0.04 0.12" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_424" type="box" pos="2.6 0.48 1.96" size="0.24 0.12 0.08" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_425" type="box" pos="2.4 0.56 2.16" size="0.04 0.12 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_426" type="box" pos="2.6 0.56 1.68" size="0.24 0.04 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_427" type="box" pos="2.4 0.6 1.8" size="0.04 0.08 0.08" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_428" type="box" pos="2.48 0.56 2.08" size="0.12 0.04 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_429" type="box" pos="2.48 0.64 1.68" size="0.12 0.04 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_430" type="box" pos="2.48 0.64 1.92" size="0.12 0.04 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_431" type="box" pos="2.44 1.28 1.6400000000000001" size="0.08 0.52 0.08" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_432" type="box" pos="2.6 0.96 1.92" size="0.24 0.04 0.12" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_433" type="box" pos="2.4 1.32 1.8800000000000001" size="0.04 0.32 0.08" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_434" type="box" pos="2.6 1.32 2.16" size="0.24 0.32 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_435" type="box" pos="2.6 1.6 2.04" size="0.24 0.04 0.08" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_436" type="box" pos="2.6 1.92 1.76" size="0.24 0.04 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_437" type="box" pos="2.48 1.92 1.84" size="0.12 0.04 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_438" type="box" pos="2.48 1.92 2.2" size="0.12 0.04 0.16" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_439" type="box" pos="2.44 2.04 1.84" size="0.08 0.08 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_440" type="box" pos="2.4 2.08 2.2" size="0.04 0.12 0.16" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_441" type="box" pos="2.6 2.16 1.72" size="0.24 0.04 0.08" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_442" type="box" pos="2.6 2.2800000000000002 2.24" size="0.24 0.08 0.12" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_443" type="box" pos="2.4 2.32 1.92" size="0.04 0.04 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_444" type="box" pos="2.48 2.32 2.08" size="0.12 0.04 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_445" type="box" pos="2.48 3.2800000000000002 1.16" size="0.12 0.04 0.16" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_446" type="box" pos="2.52 3.2800000000000002 1.44" size="0.16 0.04 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_447" type="box" pos="2.52 3.6 1.44" size="0.16 0.04 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_448" type="box" pos="2.48 3.68 1.44" size="0.12 0.04 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_449" type="box" pos="2.44 3.68 1.52" size="0.08 0.04 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_450" type="box" pos="2.64 -0.72 2.08" size="0.2 0.04 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_451" type="box" pos="2.48 -0.64 1.68" size="0.04 0.04 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_452" type="box" pos="2.52 -0.6 1.92" size="0.08 0.08 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_453" type="box" pos="2.64 -0.56 2.08" size="0.2 0.04 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_454" type="box" pos="2.56 0.24 1.04" size="0.12 0.12 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_455" type="box" pos="2.56 0.2 1.12" size="0.12 0.08 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_456" type="box" pos="2.64 0.32 1.96" size="0.2 0.04 0.08" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_457" type="box" pos="2.64 0.56 2.16" size="0.2 0.04 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_458" type="box" pos="2.52 0.64 1.8" size="0.08 0.04 0.08" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_459" type="box" pos="2.52 0.64 2.16" size="0.08 0.04 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_460" type="box" pos="2.64 0.96 1.76" size="0.2 0.04 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_461" type="box" pos="2.48 1.32 1.76" size="0.04 0.32 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_462" type="box" pos="2.64 1.12 2.2800000000000002" size="0.2 0.04 0.08" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_463" type="box" pos="2.48 1.28 2.2800000000000002" size="0.04 0.12 0.08" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_464" type="box" pos="2.64 1.6 1.8800000000000001" size="0.2 0.04 0.08" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_465" type="box" pos="2.64 2.08 2.24" size="0.2 0.12 0.12" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_466" type="box" pos="2.52 2.12 2.08" size="0.08 0.08 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_467" type="box" pos="2.48 3.68 1.36" size="0.04 0.04 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_468" type="box" pos="2.56 -0.6 1.08" size="0.04 0.16 0.08" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_469" type="box" pos="2.68 -0.64 1.4000000000000001" size="0.16 0.04 0.16" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_470" type="box" pos="2.56 0.24 1.2" size="0.04 0.04 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_471" type="box" pos="2.68 0.44 1.12" size="0.16 0.16 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_472" type="box" pos="2.68 0.32 1.68" size="0.16 0.04 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_473" type="box" pos="2.68 0.4 2.16" size="0.16 0.12 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_474" type="box" pos="2.68 0.48 1.04" size="0.16 0.12 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_475" type="box" pos="2.68 0.48 1.2" size="0.16 0.12 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_476" type="box" pos="2.68 0.44 1.28" size="0.16 0.08 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_477" type="box" pos="2.68 0.56 1.8" size="0.16 0.04 0.08" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_478" type="box" pos="2.68 1.28 1.6" size="0.16 0.36 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_479" type="box" pos="2.68 0.96 1.68" size="0.16 0.04 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_480" type="box" pos="2.68 1.36 2.2800000000000002" size="0.16 0.04 0.08" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_481" type="box" pos="2.68 1.6 1.72" size="0.16 0.04 0.08" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_482" type="box" pos="2.68 2.0 1.08" size="0.16 0.04 0.08" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_483" type="box" pos="2.56 2.0 2.08" size="0.04 0.04 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_484" type="box" pos="2.56 2.52 1.08" size="0.04 0.48 0.08" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_485" type="box" pos="2.68 2.08 1.84" size="0.16 0.04 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_486" type="box" pos="2.68 2.32 1.72" size="0.16 0.04 0.08" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_487" type="box" pos="2.68 2.6 1.2" size="0.16 0.08 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_488" type="box" pos="2.68 2.88 1.2" size="0.16 0.12 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_489" type="box" pos="2.56 3.2 1.4000000000000001" size="0.04 0.04 0.08" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_490" type="box" pos="2.6 3.36 1.36" size="0.08 0.04 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_491" type="box" pos="2.6 3.52 1.28" size="0.08 0.04 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_492" type="box" pos="2.56 3.6 1.28" size="0.04 0.04 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_493" type="box" pos="2.72 -0.64 1.68" size="0.12 0.04 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_494" type="box" pos="2.72 0.32 1.2" size="0.12 0.04 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_495" type="box" pos="2.64 0.32 1.28" size="0.04 0.04 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_496" type="box" pos="2.72 0.4 1.8" size="0.12 0.12 0.08" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_497" type="box" pos="2.72 0.44 1.4000000000000001" size="0.12 0.08 0.08" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_498" type="box" pos="2.72 0.44 1.68" size="0.12 0.08 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_499" type="box" pos="2.72 0.44 2.08" size="0.12 0.08 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_500" type="box" pos="2.72 0.56 1.28" size="0.12 0.04 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_501" type="box" pos="2.72 1.92 2.24" size="0.12 0.04 0.12" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_502" type="box" pos="2.72 2.2800000000000002 1.12" size="0.12 0.24 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_503" type="box" pos="2.72 2.08 1.2" size="0.12 0.04 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_504" type="box" pos="2.72 2.44 1.04" size="0.12 0.32 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_505" type="box" pos="2.64 2.16 1.2" size="0.04 0.04 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_506" type="box" pos="2.72 2.4 1.2" size="0.12 0.12 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_507" type="box" pos="2.64 2.6 1.28" size="0.04 0.08 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_508" type="box" pos="2.72 2.8000000000000003 1.12" size="0.12 0.2 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_509" type="box" pos="2.72 2.72 1.2" size="0.12 0.04 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_510" type="box" pos="2.64 2.84 1.28" size="0.04 0.08 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_511" type="box" pos="2.72 2.96 1.04" size="0.12 0.04 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_512" type="box" pos="2.64 3.44 1.28" size="0.04 0.04 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_513" type="box" pos="2.88 -2.08 0.12" size="0.2 0.04 0.08" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_514" type="box" pos="2.7600000000000002 -1.52 0.12" size="0.08 0.52 0.08" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_515" type="box" pos="2.7600000000000002 -0.88 0.16" size="0.08 0.04 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_516" type="box" pos="2.7600000000000002 -0.6 1.08" size="0.08 0.16 0.08" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_517" type="box" pos="2.7600000000000002 -0.72 1.68" size="0.08 0.04 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_518" type="box" pos="2.7600000000000002 -0.6 1.8800000000000001" size="0.08 0.16 0.08" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_519" type="box" pos="2.7600000000000002 -0.6 2.32" size="0.08 0.16 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_520" type="box" pos="2.7600000000000002 -0.64 2.08" size="0.08 0.04 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_521" type="box" pos="2.7600000000000002 -0.52 1.68" size="0.08 0.08 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_522" type="box" pos="2.7600000000000002 -0.48 1.44" size="0.08 0.04 0.2" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_523" type="box" pos="2.7600000000000002 -0.48 2.08" size="0.08 0.04 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_524" type="box" pos="2.7600000000000002 0.28 2.08" size="0.08 0.08 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_525" type="box" pos="2.7600000000000002 0.44 2.2800000000000002" size="0.08 0.24 0.08" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_526" type="box" pos="2.7600000000000002 0.32 1.04" size="0.08 0.04 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_527" type="box" pos="2.7600000000000002 0.6 2.08" size="0.08 0.08 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_528" type="box" pos="2.7600000000000002 0.64 1.8" size="0.08 0.04 0.16" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_529" type="box" pos="2.7600000000000002 0.64 2.16" size="0.08 0.04 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_530" type="box" pos="2.7600000000000002 0.84 1.96" size="0.08 0.08 0.4" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_531" type="box" pos="2.7600000000000002 1.0 2.2800000000000002" size="0.08 0.08 0.08" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_532" type="box" pos="2.7600000000000002 1.28 1.8800000000000001" size="0.08 0.28 0.24" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_533" type="box" pos="2.7600000000000002 1.24 2.2800000000000002" size="0.08 0.08 0.08" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_534" type="box" pos="2.7600000000000002 1.6 2.2800000000000002" size="0.08 0.2 0.08" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_535" type="box" pos="2.7600000000000002 1.72 1.8800000000000001" size="0.08 0.08 0.32" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_536" type="box" pos="2.7600000000000002 1.96 1.8800000000000001" size="0.08 0.08 0.08" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_537" type="box" pos="2.7600000000000002 2.12 2.08" size="0.08 0.24 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_538" type="box" pos="2.7600000000000002 2.08 1.04" size="0.08 0.04 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_539" type="box" pos="2.7600000000000002 2.2 1.92" size="0.08 0.16 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_540" type="box" pos="2.7600000000000002 2.24 1.84" size="0.08 0.12 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_541" type="box" pos="2.7600000000000002 2.56 1.12" size="0.08 0.04 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_542" type="box" pos="2.7600000000000002 2.84 1.04" size="0.08 0.08 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_543" type="box" pos="2.92 -2.08 1.68" size="0.16 0.04 1.48" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_544" type="box" pos="2.8000000000000003 -1.52 1.68" size="0.04 0.52 1.48" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_545" type="box" pos="2.8000000000000003 -0.96 2.08" size="0.04 0.04 1.08" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_546" type="box" pos="2.8000000000000003 1.4000000000000001 0.52" size="0.04 2.32 0.32" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_547" type="box" pos="2.8000000000000003 -0.88 2.8000000000000003" size="0.04 0.04 0.36" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_548" type="box" pos="2.8000000000000003 1.44 0.12" size="0.04 2.2800000000000002 0.08" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_549" type="box" pos="2.8000000000000003 -0.36 2.7600000000000002" size="0.04 0.4 0.32" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_550" type="box" pos="2.8000000000000003 -0.16 1.72" size="0.04 0.2 0.72" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_551" type="box" pos="2.8000000000000003 0.2 1.28" size="0.04 0.08 0.28" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_552" type="box" pos="2.8000000000000003 1.92 2.7600000000000002" size="0.04 1.8 0.32" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_553" type="box" pos="2.8000000000000003 0.32 1.4000000000000001" size="0.04 0.04 0.16" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_554" type="box" pos="2.8000000000000003 2.04 1.52" size="0.04 1.68 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_555" type="box" pos="2.8000000000000003 2.12 1.4000000000000001" size="0.04 1.6 0.08" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_556" type="box" pos="2.8000000000000003 1.28 1.16" size="0.04 0.68 0.16" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_557" type="box" pos="2.8000000000000003 2.0 1.24" size="0.04 0.04 0.08" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_558" type="box" pos="2.8000000000000003 2.88 1.28" size="0.04 0.84 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_559" type="box" pos="2.8000000000000003 2.2 1.2" size="0.04 0.08 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_560" type="box" pos="2.8000000000000003 3.08 2.04" size="0.04 0.64 0.4" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_561" type="box" pos="2.8000000000000003 3.36 1.12" size="0.04 0.36 0.12" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_562" type="box" pos="2.96 -1.4000000000000001 3.12" size="0.12 0.64 0.04" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+    <geom name="kitchen_collision_563" type="box" pos="3.04 1.0 1.56" size="0.04 3.04 1.52" contype="2" conaffinity="1" group="3" rgba="0.4 0.5 0.7 0.2" friction="0.8 0.005 0.0001" />
+  </worldbody>
+</mujoco>

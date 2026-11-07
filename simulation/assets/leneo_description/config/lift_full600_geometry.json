@@ -1,0 +1,18 @@
+{
+  "ok": true,
+  "home_carriage_center_cad_mm": 299.4512694720901,
+  "nominal_carriage_center_limits_cad_mm": [
+    63.5,
+    663.5
+  ],
+  "relative_limits_mm": [
+    -235.95126947209008,
+    364.0487305279099
+  ],
+  "total_stroke_mm": 600.0,
+  "scan_step_mm": 10,
+  "boolean_checks": 516,
+  "interferences": [],
+  "minimum_carriage_to_end_component_clearance_mm": null,
+  "scope": "600mm nominal lift translation in current folded arm pose; excludes intended guide/screw sliding contacts. Not a physical endstop calibration or full articulated arm workspace test."
+}

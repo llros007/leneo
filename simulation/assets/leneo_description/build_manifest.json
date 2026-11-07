@@ -1,0 +1,10 @@
+{
+  "ok": true,
+  "links": 32,
+  "joints": 31,
+  "movable_joints": 19,
+  "mesh_files": 64,
+  "source_sha256": "a3243776972866902666ff50adb684a5c5f3d1629c95fceeb1b06d312a2ee11a",
+  "arm_source_sha256": "651ea00a3efe02a3c984b21a1b52273bd1b320ed635b3eae92fd52e99d0a393b",
+  "units": "m, rad, kg"
+}

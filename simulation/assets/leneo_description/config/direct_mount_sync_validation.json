@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "both_urdf_arm_mounts_delta_ros_m": [
+    0.015,
+    0,
+    -0.008
+  ],
+  "arm_mount_orientations_unchanged": true,
+  "adapters_absent_from_visual_link_mapping": true,
+  "mujoco_nq": 26,
+  "mujoco_nv": 25,
+  "actuators": 15,
+  "preview": "docs/so101_direct_mount.png"
+}

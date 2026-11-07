@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='utf-8'?>
+<robot name="leneo">
+  <group name="left_arm">
+    <chain base_link="left_base_link" tip_link="left_gripper_link" />
+  </group>
+  <group name="left_gripper">
+    <joint name="left_gripper" />
+  </group>
+  <group name="right_arm">
+    <chain base_link="right_base_link" tip_link="right_gripper_link" />
+  </group>
+  <group name="right_gripper">
+    <joint name="right_gripper" />
+  </group>
+  <group name="lift">
+    <joint name="lift_joint" />
+  </group>
+  <disable_collisions link1="base_link" link2="tower_link" reason="Adjacent" />
+  <disable_collisions link1="base_link" link2="deck_link" reason="Adjacent" />
+  <disable_collisions link1="base_link" link2="lift_carriage_link" reason="Adjacent" />
+  <disable_collisions link1="lift_carriage_link" link2="shoulder_beam_link" reason="Adjacent" />
+  <disable_collisions link1="shoulder_beam_link" link2="camera_mount_link" reason="Adjacent" />
+  <disable_collisions link1="base_link" link2="left_drive_wheel_link" reason="Adjacent" />
+  <disable_collisions link1="base_link" link2="left_caster_swivel_link" reason="Adjacent" />
+  <disable_collisions link1="left_caster_swivel_link" link2="left_caster_wheel_link" reason="Adjacent" />
+  <disable_collisions link1="base_link" link2="right_drive_wheel_link" reason="Adjacent" />
+  <disable_collisions link1="base_link" link2="right_caster_swivel_link" reason="Adjacent" />
+  <disable_collisions link1="right_caster_swivel_link" link2="right_caster_wheel_link" reason="Adjacent" />
+  <disable_collisions link1="left_gripper_link" link2="left_gripper_frame_link" reason="Adjacent" />
+  <disable_collisions link1="left_gripper_link" link2="left_moving_jaw_so101_v1_link" reason="Adjacent" />
+  <disable_collisions link1="left_wrist_link" link2="left_gripper_link" reason="Adjacent" />
+  <disable_collisions link1="left_lower_arm_link" link2="left_wrist_link" reason="Adjacent" />
+  <disable_collisions link1="left_upper_arm_link" link2="left_lower_arm_link" reason="Adjacent" />
+  <disable_collisions link1="left_shoulder_link" link2="left_upper_arm_link" reason="Adjacent" />
+  <disable_collisions link1="left_base_link" link2="left_shoulder_link" reason="Adjacent" />
+  <disable_collisions link1="shoulder_beam_link" link2="left_base_link" reason="Adjacent" />
+  <disable_collisions link1="left_gripper_frame_link" link2="left_tool0" reason="Adjacent" />
+  <disable_collisions link1="right_gripper_link" link2="right_gripper_frame_link" reason="Adjacent" />
+  <disable_collisions link1="right_gripper_link" link2="right_moving_jaw_so101_v1_link" reason="Adjacent" />
+  <disable_collisions link1="right_wrist_link" link2="right_gripper_link" reason="Adjacent" />
+  <disable_collisions link1="right_lower_arm_link" link2="right_wrist_link" reason="Adjacent" />
+  <disable_collisions link1="right_upper_arm_link" link2="right_lower_arm_link" reason="Adjacent" />
+  <disable_collisions link1="right_shoulder_link" link2="right_upper_arm_link" reason="Adjacent" />
+  <disable_collisions link1="right_base_link" link2="right_shoulder_link" reason="Adjacent" />
+  <disable_collisions link1="shoulder_beam_link" link2="right_base_link" reason="Adjacent" />
+  <disable_collisions link1="right_gripper_frame_link" link2="right_tool0" reason="Adjacent" />
+  <disable_collisions link1="camera_mount_link" link2="camera_link" reason="Adjacent" />
+  <disable_collisions link1="camera_link" link2="camera_optical_frame" reason="Adjacent" />
+  <group_state name="cad_home" group="left_arm">
+    <joint name="left_wrist_roll" value="0.048675824707132644" />
+    <joint name="left_wrist_flex" value="-6.877395790134681e-05" />
+    <joint name="left_elbow_flex" value="1.5707926535897927" />
+    <joint name="left_shoulder_lift" value="-1.5707926856454855" />
+    <joint name="left_shoulder_pan" value="-9.964480349977564e-07" />
+  </group_state>
+</robot>

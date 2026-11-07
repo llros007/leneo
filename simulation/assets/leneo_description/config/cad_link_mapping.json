@@ -1,0 +1,334 @@
+{
+  "cad_to_ros": [
+    [
+      0.0,
+      -1.0,
+      0.0,
+      0.0
+    ],
+    [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      1.0,
+      0.07469873046875
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "cad_labels_note": "After rotation, CAD suffix R corresponds to robot left, CAD suffix L to right. Names follow robot forward direction.",
+  "links": {
+    "lift_carriage_link": [
+      "Part__Feature017",
+      "Part__Feature018",
+      "GX80_Part__Feature028",
+      "GX80_Part__Feature029",
+      "GX80_Part__Feature030",
+      "GX80_Part__Feature031",
+      "GX80_Part__Feature032",
+      "GX80_Part__Feature033"
+    ],
+    "base_link": [
+      "Rail2020_Long1",
+      "Rail2020_Long2",
+      "Rail2020_Long3",
+      "Rail2020_Long4",
+      "Rail2020_Rear",
+      "Rail2020_CrossL",
+      "Rail2020_CrossR",
+      "Rail2060_Front",
+      "Rail2060_CrossUnderL",
+      "Rail2060_CrossUnderR",
+      "LiftLoadBridge",
+      "ServoBracketL",
+      "STS3215_L",
+      "KP08MountShimL1",
+      "KP08HousingL1",
+      "KP08MountShimL2",
+      "KP08HousingL2",
+      "ServoBracketR",
+      "STS3215_R",
+      "KP08MountShimR1",
+      "KP08HousingR1",
+      "KP08MountShimR2",
+      "KP08HousingR2",
+      "CasterPlateL",
+      "CasterSpacerL",
+      "CasterPlateR",
+      "CasterSpacerR",
+      "Corner00",
+      "Corner01",
+      "Corner02",
+      "Corner03",
+      "Corner10",
+      "Corner11",
+      "Corner12",
+      "Corner13",
+      "Corner20",
+      "Corner21",
+      "Corner22",
+      "Corner23",
+      "Corner30",
+      "Corner31",
+      "Corner32",
+      "Corner33"
+    ],
+    "deck_link": [
+      "PPDeck3mm"
+    ],
+    "right_drive_wheel_link": [
+      "KP08BearingL1",
+      "KP08BearingL2",
+      "Shaft8x80_L",
+      "HornShaftAdapterL",
+      "CouplerL",
+      "WheelHubL",
+      "DriveTreadVisual_L",
+      "DriveRim85_L"
+    ],
+    "left_drive_wheel_link": [
+      "KP08BearingR1",
+      "KP08BearingR2",
+      "Shaft8x80_R",
+      "HornShaftAdapterR",
+      "CouplerR",
+      "WheelHubR",
+      "DriveTreadVisual_R",
+      "DriveRim85_R"
+    ],
+    "right_caster_swivel_link": [
+      "CasterSwivelL",
+      "CasterForkL"
+    ],
+    "right_caster_wheel_link": [
+      "CasterAxleL",
+      "CasterTyreL"
+    ],
+    "left_caster_swivel_link": [
+      "CasterSwivelR",
+      "CasterForkR"
+    ],
+    "left_caster_wheel_link": [
+      "CasterAxleR",
+      "CasterTyreR"
+    ],
+    "shoulder_beam_link": [
+      "CameraCrossbeam2060",
+      "CameraPostAngleL",
+      "CameraPostAngleR",
+      "BeamWhiteCoverTop1",
+      "BeamWhiteCoverTop2",
+      "BeamWhiteCoverTop3",
+      "BeamWhiteCoverBottom1",
+      "BeamWhiteCoverBottom2",
+      "BeamWhiteCoverBottom3",
+      "BeamWhiteCoverFront1",
+      "BeamWhiteCoverRear1"
+    ],
+    "camera_mount_link": [
+      "UpperCamera_Extrusion2040",
+      "UpperCamera_RearChassis",
+      "UpperCamera_FrontShell",
+      "UpperCamera_OriginalSO102UVCCamera_0",
+      "UpperCamera_OriginalSO102UVCCamera_1",
+      "UpperCamera_OriginalSO102UVCCamera_2",
+      "UpperCamera_OriginalSO102UVCCamera_3",
+      "UpperCamera_SmallFasteners",
+      "UpperCamera_ProfileFasteners",
+      "WhiteSlotCoverL",
+      "WhiteSlotCoverR"
+    ],
+    "tower_link": [
+      "GX80_Part__Feature",
+      "GX80_Part__Feature001",
+      "GX80_Part__Feature002",
+      "GX80_Part__Feature003",
+      "GX80_Part__Feature004",
+      "GX80_Part__Feature005",
+      "GX80_Part__Feature006",
+      "GX80_Part__Feature007",
+      "GX80_Part__Feature008",
+      "GX80_Part__Feature009",
+      "GX80_Part__Feature010",
+      "GX80_Part__Feature011",
+      "GX80_Part__Feature012",
+      "GX80_Part__Feature013",
+      "GX80_Part__Feature014",
+      "GX80_Part__Feature015",
+      "GX80_Part__Feature016",
+      "GX80_Part__Feature017",
+      "GX80_Part__Feature018",
+      "GX80_RailScrew_18_1",
+      "GX80_RailScrew_18_2",
+      "GX80_RailScrew_18_3",
+      "GX80_RailScrew_18_4",
+      "GX80_RailScrew_18_5",
+      "GX80_RailScrew_18_6",
+      "GX80_RailScrew_18_7",
+      "GX80_RailScrew_18_8",
+      "GX80_RailScrew_18_9",
+      "GX80_RailScrew_18_10",
+      "GX80_RailScrew_18_11",
+      "GX80_RailScrew_18_12",
+      "GX80_RailScrew_18_13",
+      "GX80_RailScrew_18_14",
+      "GX80_RailScrew_18_15",
+      "GX80_RailScrew_18_16",
+      "GX80_RailScrew_18_17",
+      "GX80_RailScrew_18_18",
+      "GX80_RailScrew_18_19",
+      "GX80_RailScrew_18_20",
+      "GX80_Part__Feature019",
+      "GX80_Part__Feature020",
+      "GX80_Part__Feature021",
+      "GX80_Part__Feature022",
+      "GX80_Part__Feature023",
+      "GX80_Part__Feature024",
+      "GX80_RailScrew_24_1",
+      "GX80_RailScrew_24_2",
+      "GX80_RailScrew_24_3",
+      "GX80_RailScrew_24_4",
+      "GX80_RailScrew_24_5",
+      "GX80_RailScrew_24_6",
+      "GX80_RailScrew_24_7",
+      "GX80_RailScrew_24_8",
+      "GX80_RailScrew_24_9",
+      "GX80_RailScrew_24_10",
+      "GX80_RailScrew_24_11",
+      "GX80_RailScrew_24_12",
+      "GX80_RailScrew_24_13",
+      "GX80_RailScrew_24_14",
+      "GX80_RailScrew_24_15",
+      "GX80_RailScrew_24_16",
+      "GX80_RailScrew_24_17",
+      "GX80_RailScrew_24_18",
+      "GX80_RailScrew_24_19",
+      "GX80_RailScrew_24_20",
+      "GX80_Part__Feature025",
+      "GX80_Part__Feature026",
+      "GX80_Part__Feature027",
+      "GX80_Part__Feature034",
+      "GX80_Part__Feature035",
+      "GX80_Part__Feature036",
+      "GX80_Part__Feature037",
+      "GX80_Part__Feature038",
+      "GX80_Part__Feature039",
+      "GX80_Part__Feature040",
+      "GX80_Part__Feature041",
+      "Part__Feature016",
+      "SlideCoverOnePiece"
+    ]
+  },
+  "so101_alignment": {
+    "base_in_cad_source": [
+      [
+        -3.6732051033465748e-06,
+        0.999999999993254,
+        0.0,
+        -1.4402315251181534e-08
+      ],
+      [
+        -0.9999999999865079,
+        -3.6732051033217957e-06,
+        3.673205103124531e-06,
+        0.031557452239856745
+      ],
+      [
+        3.673205103099751e-06,
+        1.349243573043571e-11,
+        0.9999999999932542,
+        0.0027943189130895858
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "home_joints": {
+      "gripper": 1.570796274366496,
+      "wrist_roll": 0.048675824707132644,
+      "wrist_flex": -6.877395790134681e-05,
+      "elbow_flex": 1.5707926535897927,
+      "shoulder_lift": -1.5707926856454855,
+      "shoulder_pan": -9.964480349977564e-07
+    },
+    "residuals": {
+      "gripper": {
+        "position_m": 0.00037800338519681164,
+        "rotation_matrix_error": 0.012341302418589953
+      },
+      "wrist_roll": {
+        "position_m": 0.0015921214976414998,
+        "rotation_matrix_error": 9.020035430497405e-06
+      },
+      "wrist_flex": {
+        "position_m": 0.001261582278774537,
+        "rotation_matrix_error": 0.017451802318817534
+      },
+      "elbow_flex": {
+        "position_m": 0.0025134615107364573,
+        "rotation_matrix_error": 0.012333796920678998
+      },
+      "shoulder_lift": {
+        "position_m": 0.0022558805519107238,
+        "rotation_matrix_error": 0.012336110932411559
+      },
+      "shoulder_pan": {
+        "position_m": 0.0007764177795884271,
+        "rotation_matrix_error": 0.012346500227542764
+      }
+    }
+  },
+  "collision_proxies": {
+    "base_motor_holder_so101_v1.stl": {
+      "convex_segments": 1
+    },
+    "base_so101_v2.stl": {
+      "convex_segments": 1
+    },
+    "sts3215_03a_v1.stl": {
+      "convex_segments": 1
+    },
+    "waveshare_mounting_plate_so101_v2.stl": {
+      "convex_segments": 1
+    },
+    "motor_holder_so101_base_v1.stl": {
+      "convex_segments": 1
+    },
+    "rotation_pitch_so101_v1.stl": {
+      "convex_segments": 1
+    },
+    "upper_arm_so101_v1.stl": {
+      "convex_segments": 1
+    },
+    "under_arm_so101_v1.stl": {
+      "convex_segments": 1
+    },
+    "motor_holder_so101_wrist_v1.stl": {
+      "convex_segments": 1
+    },
+    "sts3215_03a_no_horn_v1.stl": {
+      "convex_segments": 1
+    },
+    "wrist_roll_pitch_so101_v2.stl": {
+      "convex_segments": 1
+    },
+    "wrist_roll_follower_so101_v1.stl": {
+      "convex_segments": 3
+    },
+    "moving_jaw_so101_v1.stl": {
+      "convex_segments": 3
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "source": "leisaac/assets/scenes/kitchen_with_orange/objects/Orange001",
+  "object": "Orange001",
+  "dimensions": [
+    0.055395010858774185,
+    0.053061116486787796,
+    0.04438825750700304
+  ],
+  "half_height": 0.02219412875350152,
+  "mesh_center_offset": [
+    0.0,
+    1.862645149230957e-09,
+    0.0221941282135662
+  ],
+  "mass_kg": 0.09,
+  "collision_radius_m": 0.027
+}

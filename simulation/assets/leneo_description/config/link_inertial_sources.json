@@ -1,0 +1,212 @@
+{
+  "left_drive_wheel_link": {
+    "mass_kg": 0.21,
+    "method": "nominal mass + box inertia",
+    "box_dimensions_m": [
+      0.085,
+      0.0334,
+      0.085
+    ],
+    "com_m": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "left_caster_swivel_link": {
+    "mass_kg": 0.07,
+    "method": "nominal mass + box inertia",
+    "box_dimensions_m": [
+      0.034,
+      0.026,
+      0.05
+    ],
+    "com_m": [
+      0.0,
+      0.0,
+      -0.025
+    ]
+  },
+  "left_caster_wheel_link": {
+    "mass_kg": 0.05,
+    "method": "nominal mass + box inertia",
+    "box_dimensions_m": [
+      0.05,
+      0.014,
+      0.05
+    ],
+    "com_m": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "right_drive_wheel_link": {
+    "mass_kg": 0.21,
+    "method": "nominal mass + box inertia",
+    "box_dimensions_m": [
+      0.085,
+      0.0334,
+      0.085
+    ],
+    "com_m": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "right_caster_swivel_link": {
+    "mass_kg": 0.07,
+    "method": "nominal mass + box inertia",
+    "box_dimensions_m": [
+      0.034,
+      0.026,
+      0.05
+    ],
+    "com_m": [
+      0.0,
+      0.0,
+      -0.025
+    ]
+  },
+  "right_caster_wheel_link": {
+    "mass_kg": 0.05,
+    "method": "nominal mass + box inertia",
+    "box_dimensions_m": [
+      0.05,
+      0.014,
+      0.05
+    ],
+    "com_m": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "base_link": {
+    "mass_kg": 2.25,
+    "method": "nominal mass + box inertia",
+    "box_dimensions_m": [
+      0.5050000101327896,
+      0.4000000059604645,
+      0.07962500117719173
+    ],
+    "com_m": [
+      0.0064999982714653015,
+      0.0,
+      0.06133749904483557
+    ]
+  },
+  "tower_link": {
+    "mass_kg": 3.5,
+    "method": "nominal mass + box inertia",
+    "box_dimensions_m": [
+      0.1152000017464161,
+      0.10599999874830247,
+      0.7999999988824129
+    ],
+    "com_m": [
+      0.003399999812245369,
+      0.0,
+      0.501198729597032
+    ]
+  },
+  "deck_link": {
+    "mass_kg": 0.5184,
+    "method": "nominal mass + box inertia",
+    "box_dimensions_m": [
+      0.47999998927116394,
+      0.4000000059604645,
+      0.0030000004917383194
+    ],
+    "com_m": [
+      0.0,
+      0.0,
+      0.09964999938756228
+    ]
+  },
+  "lift_carriage_link": {
+    "mass_kg": 0.4,
+    "method": "nominal mass + box inertia",
+    "box_dimensions_m": [
+      0.14150180971622467,
+      0.08000000193715096,
+      0.10605053800896042
+    ],
+    "com_m": [
+      0.06525090485811233,
+      -3.505516779633844e-10,
+      0.02802653773151223
+    ]
+  },
+  "shoulder_beam_link": {
+    "mass_kg": 0.65,
+    "method": "nominal mass + box inertia",
+    "box_dimensions_m": [
+      0.061200000345706995,
+      0.4000000059604646,
+      0.04560001850128176
+    ],
+    "com_m": [
+      -1.6939640107294096e-09,
+      -2.980232213789513e-09,
+      0.012200002114401781
+    ]
+  },
+  "camera_mount_link": {
+    "mass_kg": 0.23,
+    "method": "nominal mass + box inertia",
+    "box_dimensions_m": [
+      0.07689137855227698,
+      0.05979999899864197,
+      0.2768700551986694
+    ],
+    "com_m": [
+      0.018445689553300094,
+      -1.3877787807814457e-17,
+      0.138435027599335
+    ]
+  },
+  "left_base_link": {
+    "method": "matching upstream SO101 inertial, unmodified"
+  },
+  "left_shoulder_link": {
+    "method": "matching upstream SO101 inertial, unmodified"
+  },
+  "left_upper_arm_link": {
+    "method": "matching upstream SO101 inertial, unmodified"
+  },
+  "left_lower_arm_link": {
+    "method": "matching upstream SO101 inertial, unmodified"
+  },
+  "left_wrist_link": {
+    "method": "matching upstream SO101 inertial, unmodified"
+  },
+  "left_gripper_link": {
+    "method": "matching upstream SO101 inertial, unmodified"
+  },
+  "left_moving_jaw_so101_v1_link": {
+    "method": "matching upstream SO101 inertial, unmodified"
+  },
+  "right_base_link": {
+    "method": "matching upstream SO101 inertial, unmodified"
+  },
+  "right_shoulder_link": {
+    "method": "matching upstream SO101 inertial, unmodified"
+  },
+  "right_upper_arm_link": {
+    "method": "matching upstream SO101 inertial, unmodified"
+  },
+  "right_lower_arm_link": {
+    "method": "matching upstream SO101 inertial, unmodified"
+  },
+  "right_wrist_link": {
+    "method": "matching upstream SO101 inertial, unmodified"
+  },
+  "right_gripper_link": {
+    "method": "matching upstream SO101 inertial, unmodified"
+  },
+  "right_moving_jaw_so101_v1_link": {
+    "method": "matching upstream SO101 inertial, unmodified"
+  }
+}

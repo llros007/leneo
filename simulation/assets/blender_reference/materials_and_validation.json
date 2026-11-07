@@ -1,0 +1,487 @@
+{
+  "ok": true,
+  "source": "C:\\learn\\ai\\robot\\LeNeo\\hardware\\Render_Blender\\Berlin_Living_Room\\LeNeo_Berlin_PP_BlackCamera.blend",
+  "source_cad_sha_metadata": "58ecbd4d7069f83fea5923076064c1eb60f06a09c241c9c48201e236283c0556",
+  "robot_meshes": 720,
+  "removed": [
+    "Apartment product camera",
+    "myLivingRoom.obj.cleaner.materialmerger.gles",
+    "Object_2",
+    "Object_3",
+    "Object_4",
+    "Object_5",
+    "Object_6",
+    "Sketchfab_model",
+    "Soft room fill",
+    "Window daylight"
+  ],
+  "external_libraries": 0,
+  "images": [],
+  "materials": [
+    {
+      "name": "Black camera lens barrel",
+      "nodes": [
+        {
+          "type": "ShaderNodeBsdfPrincipled",
+          "name": "Principled BSDF",
+          "Base Color": [
+            0.00800000037997961,
+            0.012000000104308128,
+            0.017999999225139618,
+            1.0
+          ],
+          "Roughness": 0.2199999988079071,
+          "Metallic": 0.15000000596046448,
+          "IOR": 1.4600000381469727,
+          "Transmission Weight": 0.0,
+          "Subsurface Weight": 0.0
+        },
+        {
+          "type": "ShaderNodeOutputMaterial",
+          "name": "Material Output"
+        }
+      ]
+    },
+    {
+      "name": "Black rubber",
+      "nodes": [
+        {
+          "type": "ShaderNodeBsdfPrincipled",
+          "name": "Principled BSDF",
+          "Base Color": [
+            0.004000000189989805,
+            0.006000000052154064,
+            0.008999999612569809,
+            1.0
+          ],
+          "Roughness": 0.6499999761581421,
+          "Metallic": 0.0,
+          "IOR": 1.4600000381469727,
+          "Transmission Weight": 0.0,
+          "Subsurface Weight": 0.0
+        },
+        {
+          "type": "ShaderNodeOutputMaterial",
+          "name": "Material Output"
+        },
+        {
+          "type": "ShaderNodeTexNoise",
+          "name": "Noise Texture"
+        },
+        {
+          "type": "ShaderNodeBump",
+          "name": "Bump"
+        }
+      ]
+    },
+    {
+      "name": "Black wheel hub and spokes",
+      "nodes": [
+        {
+          "type": "ShaderNodeBsdfPrincipled",
+          "name": "Principled BSDF",
+          "Base Color": [
+            0.004000000189989805,
+            0.006000000052154064,
+            0.009999999776482582,
+            1.0
+          ],
+          "Roughness": 0.3400000035762787,
+          "Metallic": 0.11999999731779099,
+          "IOR": 1.4600000381469727,
+          "Transmission Weight": 0.0,
+          "Subsurface Weight": 0.0
+        },
+        {
+          "type": "ShaderNodeOutputMaterial",
+          "name": "Material Output"
+        }
+      ]
+    },
+    {
+      "name": "Electronic components",
+      "nodes": [
+        {
+          "type": "ShaderNodeBsdfPrincipled",
+          "name": "Principled BSDF",
+          "Base Color": [
+            0.02500000037252903,
+            0.028999999165534973,
+            0.035999998450279236,
+            1.0
+          ],
+          "Roughness": 0.4000000059604645,
+          "Metallic": 0.15000000596046448,
+          "IOR": 1.4600000381469727,
+          "Transmission Weight": 0.0,
+          "Subsurface Weight": 0.0
+        },
+        {
+          "type": "ShaderNodeOutputMaterial",
+          "name": "Material Output"
+        }
+      ]
+    },
+    {
+      "name": "GX80 aluminum",
+      "nodes": [
+        {
+          "type": "ShaderNodeBsdfPrincipled",
+          "name": "Principled BSDF",
+          "Base Color": [
+            0.41999998688697815,
+            0.46000000834465027,
+            0.5,
+            1.0
+          ],
+          "Roughness": 0.3499999940395355,
+          "Metallic": 0.8500000238418579,
+          "IOR": 1.5,
+          "Transmission Weight": 0.0,
+          "Subsurface Weight": 0.0
+        },
+        {
+          "type": "ShaderNodeOutputMaterial",
+          "name": "Material Output"
+        }
+      ]
+    },
+    {
+      "name": "GX80 servo_black",
+      "nodes": [
+        {
+          "type": "ShaderNodeBsdfPrincipled",
+          "name": "Principled BSDF",
+          "Base Color": [
+            0.008999999612569809,
+            0.012000000104308128,
+            0.01600000075995922,
+            1.0
+          ],
+          "Roughness": 0.4399999976158142,
+          "Metallic": 0.10000000149011612,
+          "IOR": 1.5,
+          "Transmission Weight": 0.0,
+          "Subsurface Weight": 0.0
+        },
+        {
+          "type": "ShaderNodeOutputMaterial",
+          "name": "Material Output"
+        }
+      ]
+    },
+    {
+      "name": "GX80 steel",
+      "nodes": [
+        {
+          "type": "ShaderNodeBsdfPrincipled",
+          "name": "Principled BSDF",
+          "Base Color": [
+            0.3799999952316284,
+            0.41999998688697815,
+            0.46000000834465027,
+            1.0
+          ],
+          "Roughness": 0.3499999940395355,
+          "Metallic": 0.8999999761581421,
+          "IOR": 1.5,
+          "Transmission Weight": 0.0,
+          "Subsurface Weight": 0.0
+        },
+        {
+          "type": "ShaderNodeOutputMaterial",
+          "name": "Material Output"
+        }
+      ]
+    },
+    {
+      "name": "Light blue SO101 printed polymer",
+      "nodes": [
+        {
+          "type": "ShaderNodeBsdfPrincipled",
+          "name": "Principled BSDF",
+          "Base Color": [
+            0.18000000715255737,
+            0.4000000059604645,
+            0.6800000071525574,
+            1.0
+          ],
+          "Roughness": 0.4300000071525574,
+          "Metallic": 0.0,
+          "IOR": 1.4600000381469727,
+          "Transmission Weight": 0.0,
+          "Subsurface Weight": 0.0
+        },
+        {
+          "type": "ShaderNodeOutputMaterial",
+          "name": "Material Output"
+        },
+        {
+          "type": "ShaderNodeNewGeometry",
+          "name": "Geometry"
+        },
+        {
+          "type": "ShaderNodeSeparateXYZ",
+          "name": "Separate XYZ"
+        },
+        {
+          "type": "ShaderNodeMath",
+          "name": "Math"
+        },
+        {
+          "type": "ShaderNodeMath",
+          "name": "Math.001"
+        },
+        {
+          "type": "ShaderNodeBump",
+          "name": "Bump"
+        }
+      ]
+    },
+    {
+      "name": "Machined stainless steel",
+      "nodes": [
+        {
+          "type": "ShaderNodeBsdfPrincipled",
+          "name": "Principled BSDF",
+          "Base Color": [
+            0.550000011920929,
+            0.6000000238418579,
+            0.6499999761581421,
+            1.0
+          ],
+          "Roughness": 0.2199999988079071,
+          "Metallic": 1.0,
+          "IOR": 1.4600000381469727,
+          "Transmission Weight": 0.0,
+          "Subsurface Weight": 0.0
+        },
+        {
+          "type": "ShaderNodeOutputMaterial",
+          "name": "Material Output"
+        }
+      ]
+    },
+    {
+      "name": "Milky white translucent slot tape",
+      "nodes": [
+        {
+          "type": "ShaderNodeBsdfPrincipled",
+          "name": "Principled BSDF",
+          "Base Color": [
+            0.8700000047683716,
+            0.8999999761581421,
+            0.9300000071525574,
+            1.0
+          ],
+          "Roughness": 0.3400000035762787,
+          "Metallic": 0.0,
+          "IOR": 1.4600000381469727,
+          "Transmission Weight": 0.3499999940395355,
+          "Subsurface Weight": 0.0
+        },
+        {
+          "type": "ShaderNodeOutputMaterial",
+          "name": "Material Output"
+        }
+      ]
+    },
+    {
+      "name": "PCB solder mask",
+      "nodes": [
+        {
+          "type": "ShaderNodeBsdfPrincipled",
+          "name": "Principled BSDF",
+          "Base Color": [
+            0.014999999664723873,
+            0.1599999964237213,
+            0.06499999761581421,
+            1.0
+          ],
+          "Roughness": 0.3799999952316284,
+          "Metallic": 0.11999999731779099,
+          "IOR": 1.4600000381469727,
+          "Transmission Weight": 0.0,
+          "Subsurface Weight": 0.0
+        },
+        {
+          "type": "ShaderNodeOutputMaterial",
+          "name": "Material Output"
+        }
+      ]
+    },
+    {
+      "name": "Satin anodized aluminium",
+      "nodes": [
+        {
+          "type": "ShaderNodeBsdfPrincipled",
+          "name": "Principled BSDF",
+          "Base Color": [
+            0.41999998688697815,
+            0.46000000834465027,
+            0.5,
+            1.0
+          ],
+          "Roughness": 0.3199999928474426,
+          "Metallic": 0.949999988079071,
+          "IOR": 1.4600000381469727,
+          "Transmission Weight": 0.0,
+          "Subsurface Weight": 0.0
+        },
+        {
+          "type": "ShaderNodeOutputMaterial",
+          "name": "Material Output"
+        }
+      ]
+    },
+    {
+      "name": "Satin cast aluminium",
+      "nodes": [
+        {
+          "type": "ShaderNodeBsdfPrincipled",
+          "name": "Principled BSDF",
+          "Base Color": [
+            0.41999998688697815,
+            0.46000000834465027,
+            0.5,
+            1.0
+          ],
+          "Roughness": 0.3799999952316284,
+          "Metallic": 0.8500000238418579,
+          "IOR": 1.4600000381469727,
+          "Transmission Weight": 0.0,
+          "Subsurface Weight": 0.0
+        },
+        {
+          "type": "ShaderNodeOutputMaterial",
+          "name": "Material Output"
+        }
+      ]
+    },
+    {
+      "name": "Servo black polymer",
+      "nodes": [
+        {
+          "type": "ShaderNodeBsdfPrincipled",
+          "name": "Principled BSDF",
+          "Base Color": [
+            0.02500000037252903,
+            0.032999999821186066,
+            0.04600000008940697,
+            1.0
+          ],
+          "Roughness": 0.3799999952316284,
+          "Metallic": 0.0,
+          "IOR": 1.4600000381469727,
+          "Transmission Weight": 0.0,
+          "Subsurface Weight": 0.0
+        },
+        {
+          "type": "ShaderNodeOutputMaterial",
+          "name": "Material Output"
+        }
+      ]
+    },
+    {
+      "name": "Slightly translucent milky white PP sheet",
+      "nodes": [
+        {
+          "type": "ShaderNodeBsdfPrincipled",
+          "name": "原理化 BSDF",
+          "Base Color": [
+            0.8199999928474426,
+            0.8349999785423279,
+            0.8100000023841858,
+            1.0
+          ],
+          "Roughness": 0.5199999809265137,
+          "Metallic": 0.0,
+          "IOR": 1.4900000095367432,
+          "Transmission Weight": 0.1599999964237213,
+          "Subsurface Weight": 0.11999999731779099
+        },
+        {
+          "type": "ShaderNodeOutputMaterial",
+          "name": "材质输出"
+        },
+        {
+          "type": "ShaderNodeBsdfTranslucent",
+          "name": "半透 BSDF"
+        },
+        {
+          "type": "ShaderNodeMixShader",
+          "name": "混合着色器"
+        }
+      ]
+    },
+    {
+      "name": "Synced matte black camera connector",
+      "nodes": [
+        {
+          "type": "ShaderNodeBsdfPrincipled",
+          "name": "Principled BSDF",
+          "Base Color": [
+            0.008999999612569809,
+            0.010999999940395355,
+            0.014000000432133675,
+            1.0
+          ],
+          "Roughness": 0.47999998927116394,
+          "Metallic": 0.0,
+          "IOR": 1.5,
+          "Transmission Weight": 0.0,
+          "Subsurface Weight": 0.0
+        },
+        {
+          "type": "ShaderNodeOutputMaterial",
+          "name": "Material Output"
+        }
+      ]
+    },
+    {
+      "name": "Warm white printed polymer",
+      "nodes": [
+        {
+          "type": "ShaderNodeBsdfPrincipled",
+          "name": "Principled BSDF",
+          "Base Color": [
+            0.7799999713897705,
+            0.8100000023841858,
+            0.8399999737739563,
+            1.0
+          ],
+          "Roughness": 0.41999998688697815,
+          "Metallic": 0.0,
+          "IOR": 1.4600000381469727,
+          "Transmission Weight": 0.0,
+          "Subsurface Weight": 0.0
+        },
+        {
+          "type": "ShaderNodeOutputMaterial",
+          "name": "Material Output"
+        },
+        {
+          "type": "ShaderNodeNewGeometry",
+          "name": "Geometry"
+        },
+        {
+          "type": "ShaderNodeSeparateXYZ",
+          "name": "Separate XYZ"
+        },
+        {
+          "type": "ShaderNodeMath",
+          "name": "Math"
+        },
+        {
+          "type": "ShaderNodeMath",
+          "name": "Math.001"
+        },
+        {
+          "type": "ShaderNodeBump",
+          "name": "Bump"
+        }
+      ]
+    }
+  ],
+  "floor_or_room_meshes": 0
+}
