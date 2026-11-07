@@ -111,4 +111,4 @@ python simulation/benchmarks/record_mujoco_demo.py
   --report simulation/outputs/isaac_demo.json
 ```
 
-原始录像约 62 秒、30 FPS；仓库 `docs/videos/` 为最新 2 倍速、60 FPS 演示，含结束停留及大字引擎标识。对应 JSON 保存任务结果、抓取检查和阶段记录。README 图片直接提取两段视频的最后一帧。
+本地录制的原始录像约 62 秒、30 FPS。仓库仅保留演示完成图片及 `docs/validation/` 中的验证报告，报告保存任务结果、抓取检查和阶段记录。

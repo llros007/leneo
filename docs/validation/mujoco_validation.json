@@ -1,13 +1,4 @@
 {
-  "video": {
-    "path": "docs/videos/mujoco_pick_orange_2x.mp4",
-    "frames": 1861,
-    "fps": 30,
-    "duration": 62.03333333333333,
-    "width": 1280,
-    "height": 800,
-    "published_note": "This report validates the original simulation run; the linked published video is the 2x speed export."
-  },
   "task": {
     "name": "pick-orange",
     "phase": "complete",

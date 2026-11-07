@@ -6,14 +6,13 @@
 
 机器人降低升降台，在地面夹取橙子，抬起收臂，保持朝向直行靠近吧台，再升高、放下橙子并收臂。两套仿真共用动作流程和相机切换，分别使用各自引擎的渲染与物理。
 
-以下图片均为对应 **2 倍速视频的最后一帧**；点击图片或下方链接观看完整演示。放置特写中保留了第二只机械臂。
+以下为两套仿真完成放置后的画面，放置特写中保留了第二只机械臂。
 
 | MuJoCo | Isaac Sim 6.2 |
 | :---: | :---: |
-| [![MuJoCo 演示最后一帧](docs/images/mujoco_demo_final.png)](docs/videos/mujoco_pick_orange_2x.mp4) | [![Isaac Sim 6.2 演示最后一帧](docs/images/isaac_demo_final.png)](docs/videos/isaac_pick_orange_2x.mp4) |
-| [▶ MuJoCo · 2 倍速](docs/videos/mujoco_pick_orange_2x.mp4) | [▶ Isaac Sim 6.2 · 2 倍速](docs/videos/isaac_pick_orange_2x.mp4) |
+| ![MuJoCo 演示完成画面](docs/images/mujoco_demo_final.png) | ![Isaac Sim 6.2 演示完成画面](docs/images/isaac_demo_final.png) |
 
-视频为 1280 × 800、60 FPS，时长约 31 秒；原始动作流程约 59 秒，结束画面停留后完成录制。
+完整演示动作流程约 59 秒。
 
 当前演示使用运动学底盘、逆运动学机械臂及辅助夹持。橙子进入两指之间并通过几何检查后绑定夹爪，松开后恢复重力和接触求解。该演示用于验证控制流程与可视化，不代表纯摩擦抓取或实机负载验证。
 
@@ -31,8 +30,8 @@ simulation/
 ├── assets/             # 机器人、厨房、橙子及材质参考
 └── benchmarks/         # 导航、抓取、相机和录制验证脚本
 docs/
-├── images/             # 两段视频的最后一帧
-└── videos/             # 2 倍速演示及对应运行报告
+├── images/             # 两套仿真的完成画面
+└── validation/         # 演示与直行验证报告
 ```
 
 ## 快速启动
@@ -52,7 +51,7 @@ export ISAAC_SIM_ROOT=/path/to/isaac-sim-6.2.0
 ./simulation/isaac/run.sh --demo-pick-orange
 ```
 
-已包含预处理厨房和橙子，无需原始 GLB 或 leisaac 安装。首次启动自动生成机器人轻量网格，Isaac 还会转换 USD 并编译着色器。MuJoCo 使用当前环境的 Python，可设置 `LENEO_PYTHON`；Isaac 使用自身安装目录的 `python.sh`。本次 Isaac 视频验证版本为 **6.2.0-rc.14**。
+已包含预处理厨房和橙子，无需原始 GLB 或 leisaac 安装。首次启动自动生成机器人轻量网格，Isaac 还会转换 USD 并编译着色器。MuJoCo 使用当前环境的 Python，可设置 `LENEO_PYTHON`；Isaac 使用自身安装目录的 `python.sh`。本次 Isaac 验证版本为 **6.2.0-rc.14**。
 
 普通键盘驾驶、鼠标视角、录制和验证命令见 [仿真使用说明](simulation/README.md)。
 

@@ -12,3 +12,6 @@ simulation/assets/isaac_robot/
 simulation/assets/isaac_robot_fast/
 simulation/assets/robot_materials/
 *.log
+
+# Keep recordings local; publish demo screenshots only.
+*.mp4
