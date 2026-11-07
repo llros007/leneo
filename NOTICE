@@ -1,0 +1,13 @@
+LeNeo — Mobile Lifting Robot
+Copyright 2026 llros007 and LeNeo contributors
+Project: https://github.com/llros007/leneo
+
+This project includes original LeNeo code and robot simulation design resources.
+Original LeNeo contributions are made available under the Apache License, Version 2.0.
+
+Third-party components and assets retain their respective copyright notices,
+attributions, and licenses. See simulation/ASSETS.md and the notices and license
+files distributed with the relevant resources.
+
+This NOTICE provides attribution information and does not modify the LICENSE
+or grant additional rights to third-party materials.

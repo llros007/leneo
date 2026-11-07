@@ -35,3 +35,5 @@ LeNeo 是一款低成本、高强度的轮式移动升降机器人，支持单�
 ## 许可
 
 [Apache-2.0](LICENSE)。第三方资源来源与许可见 [资产说明](simulation/ASSETS.md)。
+
+欢迎参考和改进 LeNeo。若使用本项目的设计文件或代码，请保留原有版权、许可及来源信息；欢迎在项目 README 中注明来源并链接本仓库：[llros007/leneo](https://github.com/llros007/leneo)。署名信息见 [NOTICE](NOTICE)。
