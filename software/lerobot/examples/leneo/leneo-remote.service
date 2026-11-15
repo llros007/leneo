@@ -1,0 +1,32 @@
+# Install on board (user zxk):
+#   sudo cp leneo-remote.service /etc/systemd/system/
+#   sudo systemctl daemon-reload
+#   sudo systemctl enable --now leneo-remote.service
+#
+# Serial: ROBOT_PORT/LIFT_PORT=auto (Feetech 1–8 vs JH_FOC). Copy repo scripts to ~/ai/leneo or set LENEO_REPO.
+
+[Unit]
+Description=LeNeo remote teleop server (TCP 9595)
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=zxk
+Group=dialout
+SupplementaryGroups=dialout
+WorkingDirectory=/home/zxk/ai/leneo/lerobot
+Environment=LENEO_REPO=/home/zxk/ai/leneo/lerobot
+Environment=LENEO_RUNTIME=board
+Environment=ROLE=server
+Environment=ROBOT_PORT=auto
+Environment=LIFT_PORT=auto
+Environment=LIFT_ENABLED=auto
+Environment=ROBOT_ID=blue_follower_arm
+Environment=PORT_RETRY=2
+ExecStart=/home/zxk/ai/leneo/lerobot/examples/leneo/run_leneo_remote.sh server
+Restart=on-failure
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target
