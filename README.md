@@ -21,7 +21,9 @@ LeNeo 是一款低成本、高强度的轮式移动升降机器人，支持单�
 
 [下载 LeNeo 3D 装配文件（STEP）](hardware/leneo.step)
 
-**装配说明和 BOM 清单即将上传。实机控制代码在 [`software/lerobot`](software/lerobot)。**
+[下载 BOM 配件清单（Word）](hardware/LeNeo配件清单.docx)
+
+**装配说明即将上传。实机控制代码在 [`software/lerobot`](software/lerobot)。**
 
 ## 仿真演示
 
@@ -35,7 +37,7 @@ LeNeo 是一款低成本、高强度的轮式移动升降机器人，支持单�
 
 | 目录 | 内容 |
 |---|---|
-| `hardware/` | 3D 装配文件与预览图；装配说明和 BOM 清单即将上传 |
+| `hardware/` | 3D 装配文件、预览图与 BOM 配件清单；装配说明即将上传 |
 | `software/` | 实机控制代码，见 [`software/lerobot`](software/lerobot) |
 | `simulation/` | 两套仿真代码、模型与场景资源 |
 | `docs/` | 仿真图片与验证报告 |
