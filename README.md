@@ -37,6 +37,12 @@ LeNeo 是一款低成本、高强度的轮式移动升降机器人，支持单�
 | :---: | :---: |
 | ![MuJoCo 演示完成画面](docs/images/mujoco_demo_final.png) | ![Isaac Sim 6.2 演示完成画面](docs/images/isaac_demo_final.png) |
 
+## 交流讨论
+
+欢迎扫码加入 **LeNeo 微信交流群**，一起交流装配、调试和使用经验。
+
+<img src="docs/images/wechat_group.png" alt="LeNeo 微信交流群二维码" width="400">
+
 ## 项目目录
 
 | 目录 | 内容 |
