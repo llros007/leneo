@@ -17,7 +17,7 @@
 
 | 序号 | 名称 | 规格 | 数量 | 图片 | 采购链接及安装备注 |
 | --- | --- | --- | --- | --- | --- |
-| 5<a id="item-5"></a> | 不等边垂直可调角件 | 90°；2020-2孔 | 2个 | [图2](#figure-2) | [购买链接](<https://item.taobao.com/item.htm?id=1038431023444>) |
+| 5<a id="item-5"></a> | 加厚长孔角码 | 镀锌；48×48 mm | 10个装 | [图2](#figure-2) | [购买链接](<https://item.taobao.com/item.htm?id=873368215029&mi_id=00000MiTZybNhVGDdsY_b1_6lGGx0F5wI15x0zb6UssKiPU>) |
 | 6<a id="item-6"></a> | 不锈钢多功能角码 | 中号；90°；102×102 mm；厚约2 mm | 2个 | [图3](#figure-3) | [购买链接](<https://item.taobao.com/item.htm?id=755009351073&skuId=5374375682025>) |
 | 7<a id="item-7"></a> | 垂直角件连接角 | 2020A-2孔；90°；20×20 mm；宽18 mm；通孔5.5 mm；厚3 mm | 2个 | [图4](#figure-4) | [购买链接](<https://item.taobao.com/item.htm?id=859453077050>) |
 | 8<a id="item-8"></a> | 三面固定角码 | 2.0款；98.5×98.5×29 mm | 8个 | [图5](#figure-5) | [购买链接](<https://item.taobao.com/item.htm?id=1033341013990>) |
@@ -85,7 +85,7 @@
 
 [返回表格](#item-4)
 
-### 图2 不等边垂直可调角件<a id="figure-2"></a>
+### 图2 加厚长孔角码<a id="figure-2"></a>
 
 ![配件图片](bom_images/image2.png)
 
