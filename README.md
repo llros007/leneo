@@ -1,5 +1,7 @@
 # LeNeo · 移动升降机器人
 
+**简体中文** | [English](README.en.md)
+
 LeNeo 是一款低成本、高强度的轮式移动升降机器人，支持单臂和双臂配置。集成移动底盘、垂直升降与机械臂，可覆盖地面到台面的操作空间。
 
 ![LeNeo 产品动态预览](docs/images/demo.gif)
