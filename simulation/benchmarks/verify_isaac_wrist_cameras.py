@@ -3,8 +3,9 @@ from pathlib import Path
 import sys,json,ctypes,math
 ROOT=Path(__file__).resolve().parents[1]
 sys.path.insert(0,str(ROOT));sys.path.insert(0,str(ROOT/'isaac'))
+config=json.loads((ROOT/'assets/leneo_description/config/wrist_cameras.json').read_text())
 from isaacsim import SimulationApp
-app=SimulationApp({'headless':True,'active_gpu':0,'multi_gpu':False,'width':320,'height':240})
+app=SimulationApp({'headless':True,'active_gpu':0,'multi_gpu':False,'width':config['resolution'][0],'height':config['resolution'][1]})
 try:
     import numpy as np
     import omni.usd
@@ -16,7 +17,6 @@ try:
     from kinematics import Kinematics
     context=omni.usd.get_context();context.new_stage();app.update();stage=context.get_stage()
     robot,_=build(stage,'fast','navigation');nav=Navigation();kin=Kinematics(stage,robot);kin.apply(nav)
-    config=json.loads((ROOT/'assets/leneo_description/config/wrist_cameras.json').read_text())
     cameras={}
     for p in Usd.PrimRange(robot):
         if p.IsA(UsdGeom.Camera):cameras[p.GetName()]=p
@@ -54,7 +54,7 @@ try:
             app.update()
             if received:break
         assert received,'Native camera rendering timed out'
-        pixels=received[0];assert pixels.shape==(240,320,3) and pixels.std()>5
+        pixels=received[0];assert pixels.shape==(config["resolution"][1],config["resolution"][0],3) and pixels.std()>5
         Image.fromarray(pixels).save(out/('isaac_'+name+'.png'))
     report=dict(passed=True,cameras=paths,resolution=config['resolution'],fovy_deg=config['fovy_deg'],independent_wrist_motion=True,native_rtx_capture=True)
     (out/'isaac_verification.json').write_text(json.dumps(report,indent=2)+'\n');print(json.dumps(report,indent=2),flush=True)

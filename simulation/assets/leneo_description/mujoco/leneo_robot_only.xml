@@ -216,7 +216,7 @@
                         <geom name="left_wrist_camera_collision_1" type="box" size="0.021 0.021 0.003" pos="-0.001 0.06 -0.04" quat="0.962425197628 -0.271546936956 0 0" density="0" group="0" contype="1" conaffinity="3" />
                         <body name="left_wrist_camera_link" pos="-0.00296 0.05436 -0.0531" quat="-0.334748379154 0.625087274341 -0.618984276544 -0.337739378075">
                           <body name="left_wrist_camera_optical_frame" quat="0.5 -0.5 0.5 -0.5">
-                            <camera name="left_wrist_camera" mode="fixed" quat="0 1 0 0" fovy="61" resolution="320 240" />
+                            <camera name="left_wrist_camera" mode="fixed" quat="0 1 0 0" fovy="61" resolution="640 480" />
                           </body>
                         </body>
                       </body>
@@ -297,7 +297,7 @@
                         <geom name="right_wrist_camera_collision_1" type="box" size="0.021 0.021 0.003" pos="-0.001 0.06 -0.04" quat="0.962425197628 -0.271546936956 0 0" density="0" group="0" contype="1" conaffinity="3" />
                         <body name="right_wrist_camera_link" pos="-0.00296 0.05436 -0.0531" quat="-0.334748379154 0.625087274341 -0.618984276544 -0.337739378075">
                           <body name="right_wrist_camera_optical_frame" quat="0.5 -0.5 0.5 -0.5">
-                            <camera name="right_wrist_camera" mode="fixed" quat="0 1 0 0" fovy="61" resolution="320 240" />
+                            <camera name="right_wrist_camera" mode="fixed" quat="0 1 0 0" fovy="61" resolution="640 480" />
                           </body>
                         </body>
                       </body>

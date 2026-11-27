@@ -22,4 +22,4 @@ LeNeo CAD 几何来自用户提供的本地项目，原所有权及许可不在�
 
 腕部相机支架网格与安装参数来自 MuJoCo Menagerie 的 `robotstudio_so101` 模型，通过参考项目 `robotics-antigravity-plugin/yolo_grasp/so101_yolo.py` 使用的 `mujoco_playground` 依赖定位。本地缓存版本标识为 `370c43965323`。模型源自 The Robot Studio，Menagerie SO101 描述由 I2RT Robotics 整理，采用 Apache-2.0；许可证保留于 `sources/SO101_MENAGERIE_LICENSE.txt`。
 
-修改：将相机复制到左右夹爪固定分支，转换为 URDF 相机体与光学坐标系，保留支架、PCB、镜头和两块简化碰撞体；MuJoCo/Isaac 分别创建原生相机。参考模型的相机位置、朝向、61° 视场和 320×240 图像尺寸用于仿真，不代表实机标定值；相机支架总成的 12 g 质量及包络惯量为估计。
+修改：将相机复制到左右夹爪固定分支，转换为 URDF 相机体与光学坐标系，保留支架、PCB、镜头和两块简化碰撞体；MuJoCo/Isaac 分别创建原生相机。相机位置、朝向与 61° 视场沿用参考模型，仿真图像尺寸由参考的 320×240 调整为 640×480，不代表实机标定值；相机支架总成的 12 g 质量及包络惯量为估计。

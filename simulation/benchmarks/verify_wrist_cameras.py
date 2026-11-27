@@ -75,7 +75,7 @@ with mj.Renderer(m,height=config['resolution'][1],width=config['resolution'][0])
     for side in ['left','right']:
         renderer.update_scene(d,camera=side+'_wrist_camera',scene_option=option)
         pixels=renderer.render()
-        assert pixels.shape==(240,320,3) and pixels.std()>5
+        assert pixels.shape==(config["resolution"][1],config["resolution"][0],3) and pixels.std()>5
         Image.fromarray(pixels).save(out/(side+'_wrist_camera.png'))
 report=dict(passed=True,cameras=config['camera_names'],fovy_deg=config['fovy_deg'],resolution=config['resolution'],max_local_position_error_m=worst,urdf_variants_checked=2,independent_wrist_motion=True)
 (out/'verification.json').write_text(json.dumps(report,indent=2)+'\n');print(json.dumps(report,indent=2))
