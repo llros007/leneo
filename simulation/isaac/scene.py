@@ -1,6 +1,6 @@
 """Shared stage setup for navigation and optional force-based physics."""
 import json
-from pxr import UsdGeom,UsdPhysics,UsdLux,UsdShade,PhysxSchema,Gf
+from pxr import Usd,UsdGeom,UsdPhysics,UsdLux,UsdShade,PhysxSchema,Gf
 from common.control import ROOT
 from common.navigation import SPAWN,SPAWN_YAW
 
@@ -35,9 +35,31 @@ def build(stage,quality,mode,light_scale=1.6):
     x=UsdGeom.Xformable(robot);x.AddTranslateOp().Set(Gf.Vec3d(*SPAWN));x.AddOrientOp().Set(Gf.Quatf(math.cos(SPAWN_YAW/2),Gf.Vec3f(0,0,math.sin(SPAWN_YAW/2))))
     from appearance import apply
     apply(stage,robot)
+    add_wrist_cameras(stage,robot)
     camera=UsdGeom.Camera.Define(stage,'/World/Camera');camera.CreateFocalLengthAttr(18);camera.CreateClippingRangeAttr(Gf.Vec2f(.01,100))
     camera_op=camera.AddTransformOp()
     return robot,camera_op
+
+
+def add_wrist_cameras(stage,robot):
+    """Create native sensors after the URDF importer merges fixed camera links."""
+    import math
+    config=json.loads((ROOT/'assets/leneo_description/config/wrist_cameras.json').read_text())
+    links={p.GetName():p for p in Usd.PrimRange(robot)
+           if p.IsA(UsdGeom.Xform) and not p.IsInstance()}
+    q=config['camera_opengl_quat_wxyz']
+    transform=Gf.Matrix4d().SetRotate(Gf.Quatd(q[0],Gf.Vec3d(*q[1:])))
+    transform.SetTranslateOnly(Gf.Vec3d(*config['camera_position_in_gripper_m']))
+    width,height=config['resolution'];aperture=20.955
+    for side in ['left','right']:
+        parent=links[side+'_gripper_link']
+        sensor=UsdGeom.Camera.Define(stage,parent.GetPath().AppendChild(side+'_wrist_camera'))
+        sensor.AddTransformOp().Set(transform)
+        sensor.CreateVerticalApertureAttr(aperture)
+        sensor.CreateHorizontalApertureAttr(aperture*width/height)
+        sensor.CreateFocalLengthAttr(aperture/(2*math.tan(math.radians(config['fovy_deg'])/2)))
+        sensor.CreateClippingRangeAttr(Gf.Vec2f(.005,100))
+        sensor.GetPrim().SetCustomDataByKey('leneo:resolution',Gf.Vec2i(width,height))
 
 
 def follow_camera(op,position):

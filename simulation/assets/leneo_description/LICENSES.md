@@ -17,3 +17,9 @@ LeNeo CAD 几何来自用户提供的本地项目，原所有权及许可不在�
 - 修改：从 GLB 提取 UV 网格与纹理；转换为米制 Z-up OBJ；将名义地面下移 90 mm；纹理由 4096 降至 2048 像素；调整实时显示材质；从扫描采样生成保守家具碰撞盒。未修改原 GLB。
 
 机器人表面微纹理由本项目脚本程序生成；前轮胎纹和辐条外形沿用当前用户 CAD 的参考几何，不能视为轮毂接口的实物测绘。
+
+## SO101 腕部相机
+
+腕部相机支架网格与安装参数来自 MuJoCo Menagerie 的 `robotstudio_so101` 模型，通过参考项目 `robotics-antigravity-plugin/yolo_grasp/so101_yolo.py` 使用的 `mujoco_playground` 依赖定位。本地缓存版本标识为 `370c43965323`。模型源自 The Robot Studio，Menagerie SO101 描述由 I2RT Robotics 整理，采用 Apache-2.0；许可证保留于 `sources/SO101_MENAGERIE_LICENSE.txt`。
+
+修改：将相机复制到左右夹爪固定分支，转换为 URDF 相机体与光学坐标系，保留支架、PCB、镜头和两块简化碰撞体；MuJoCo/Isaac 分别创建原生相机。参考模型的相机位置、朝向、61° 视场和 320×240 图像尺寸用于仿真，不代表实机标定值；相机支架总成的 12 g 质量及包络惯量为估计。

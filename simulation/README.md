@@ -112,3 +112,18 @@ python simulation/benchmarks/record_mujoco_demo.py
 ```
 
 本地录制的原始录像约 62 秒、30 FPS。仓库仅保留演示完成图片及 `docs/validation/` 中的验证报告，报告保存任务结果、抓取检查和阶段记录。
+
+## SO101 双臂腕部相机
+
+左右臂均增加腕部相机，固定在对应的 `left_gripper_link` / `right_gripper_link`，随 wrist_roll 运动，不随活动夹指开合。URDF 与 ROS URDF 均包含 `{left,right}_wrist_camera_mount_link`、`{left,right}_wrist_camera_link` 和 `{left,right}_wrist_camera_optical_frame`。相机体采用 X 前、Y 左、Z 上，光学坐标采用 X 右、Y 下、Z 前。
+
+安装位置与支架参考 `robotics-antigravity-plugin` 使用的 MuJoCo Playground / Menagerie SO101 模型；参数见 `assets/leneo_description/config/wrist_cameras.json`。相机视场为 61°，参考图像尺寸为 320×240。MuJoCo 原生相机名为 `left_wrist_camera`、`right_wrist_camera`；Isaac 在对应夹爪下建立同名 USD Camera，可在视口选择。传感器图像流和 ROS 发布需由调用端另行配置。参考安装位姿与内参尚未实机标定。
+
+URDF 变更会自动使轻量网格及 Isaac 转换缓存失效。验证与腕部视图截图：
+
+```bash
+conda run -n le312 python simulation/benchmarks/verify_wrist_cameras.py
+"$ISAAC_SIM_ROOT/python.sh" --no-ros-env simulation/benchmarks/verify_isaac_wrist_cameras.py
+```
+
+检查 URDF 模型路径、光学坐标转换、左右手腕独立运动，以及 MuJoCo / Isaac 原生相机渲染。Isaac 检查需要先正常启动一次以完成机器人转换。结果保存在 `simulation/outputs/wrist_cameras/`。

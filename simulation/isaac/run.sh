@@ -17,7 +17,8 @@ if [[ "$quality" == fast ]]; then
     "$SIM_DIR/../prepare_runtime.sh"
     robot_dir="$SIM_DIR/../assets/isaac_robot_fast"
 fi
-if [[ ! -f "$robot_dir/robot_path.txt" ]] || { [[ "$quality" == fast ]] && ! cmp -s "$robot_dir/source_signature.txt" <("${LENEO_PYTHON:-python}" -c 'import json,sys;sys.stdout.write(json.load(open(sys.argv[1]))["signature"])' "$SIM_DIR/../assets/runtime_robot/manifest.json"); }; then
+urdf_signature="$("${LENEO_PYTHON:-python}" -c 'import hashlib,sys;print(hashlib.sha256(open(sys.argv[1],"rb").read()).hexdigest())' "$SIM_DIR/../assets/leneo_description/urdf/leneo.urdf")"
+if [[ ! -f "$robot_dir/robot_path.txt" ]] || [[ "$(cat "$robot_dir/source_urdf_signature.txt" 2>/dev/null || true)" != "$urdf_signature" ]] || { [[ "$quality" == fast ]] && ! cmp -s "$robot_dir/source_signature.txt" <("${LENEO_PYTHON:-python}" -c 'import json,sys;sys.stdout.write(json.load(open(sys.argv[1]))["signature"])' "$SIM_DIR/../assets/runtime_robot/manifest.json"); }; then
     "$ISAAC_SIM_ROOT/python.sh" --no-ros-env "$SIM_DIR/convert_robot.py" --quality "$quality"
 fi
 exec "$ISAAC_SIM_ROOT/python.sh" --no-ros-env "$SIM_DIR/run.py" "$@"

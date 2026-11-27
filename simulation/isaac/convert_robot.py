@@ -3,6 +3,7 @@ from pathlib import Path
 import sys
 import argparse
 import json
+import hashlib
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 from common.control import ROOT, DESCRIPTION
 parser=argparse.ArgumentParser();parser.add_argument('--quality',choices=['fast','full'],default='fast');args=parser.parse_args()
@@ -27,6 +28,7 @@ try:
     from smooth_normals import apply as smooth_normals
     smooth_normals(output)
     (output_dir/'robot_path.txt').write_text(str(Path(output).resolve()))
+    (output_dir/'source_urdf_signature.txt').write_text(hashlib.sha256((DESCRIPTION/'urdf/leneo.urdf').read_bytes()).hexdigest())
     if args.quality=='fast': (output_dir/'source_signature.txt').write_text(json.loads((description/'manifest.json').read_text())['signature'])
     print('LENEO_ROBOT_USD='+str(output), flush=True)
 finally:

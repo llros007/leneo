@@ -9,12 +9,14 @@ import trimesh
 from .control import DESCRIPTION, ROOT
 
 OUTPUT = ROOT / 'assets/runtime_robot'
-VERSION = 4
+VERSION = 5
 
 
 def prepare(force=False):
     files = sorted((DESCRIPTION/'meshes').rglob('*'))
-    signature = hashlib.sha256(json.dumps([(str(p.relative_to(DESCRIPTION)),p.stat().st_size,p.stat().st_mtime_ns) for p in files if p.is_file()]).encode()+str(VERSION).encode()).hexdigest()
+    # URDF-only changes must invalidate LOD and Isaac conversion signatures.
+    signature_files = files + sorted((DESCRIPTION/'urdf').glob('*.urdf'))
+    signature = hashlib.sha256(json.dumps([(str(p.relative_to(DESCRIPTION)),p.stat().st_size,p.stat().st_mtime_ns) for p in signature_files if p.is_file()]).encode()+str(VERSION).encode()).hexdigest()
     report_path = OUTPUT/'manifest.json'
     if not force and report_path.exists():
         report=json.loads(report_path.read_text())

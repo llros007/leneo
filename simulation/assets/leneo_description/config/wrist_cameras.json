@@ -1,0 +1,41 @@
+{
+  "reference": "robotics-antigravity-plugin/yolo_grasp/so101_yolo.py -> mujoco_playground -> mujoco_menagerie/robotstudio_so101",
+  "reference_cache_revision": "370c43965323",
+  "parent_links": [
+    "left_gripper_link",
+    "right_gripper_link"
+  ],
+  "mount_mesh": "meshes/so101/wrist_roll_follower_so101_camera_mount.stl",
+  "camera_position_in_gripper_m": [
+    -0.00296,
+    0.05436,
+    -0.0531
+  ],
+  "camera_opengl_quat_wxyz": [
+    0.9582796540567949,
+    -0.28579189682785777,
+    -0.001555999438277302,
+    0.004546998358513426
+  ],
+  "camera_body_rpy": [
+    -3.140893112404558,
+    0.9911221074966572,
+    -1.5606069373904197
+  ],
+  "optical_joint_rpy": [
+    -1.5707963267948966,
+    0,
+    -1.5707963267948966
+  ],
+  "fovy_deg": 61,
+  "resolution": [
+    320,
+    240
+  ],
+  "mass_kg": 0.012,
+  "inertia_note": "Conservative envelope estimate; camera intrinsics/extrinsics and mass are reference simulation parameters, not calibrated hardware.",
+  "camera_names": [
+    "left_wrist_camera",
+    "right_wrist_camera"
+  ]
+}

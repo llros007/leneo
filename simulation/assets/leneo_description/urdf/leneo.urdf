@@ -1260,6 +1260,121 @@
     <parent link="camera_link" />
     <child link="camera_optical_frame" />
   </joint>
+  <!-- SO101 wrist cameras: Menagerie reference; optical +Z forward, +X right, +Y down. -->
+  <link name="left_wrist_camera_mount_link">
+    <inertial>
+      <origin xyz="-0.001 0.046 -0.036" rpy="0 0 0" />
+      <mass value=".012" />
+      <inertia ixx="5.86e-06" ixy="0" ixz="0" iyy="3.5280000000000004e-06" iyz="0" izz="5.86e-06" />
+    </inertial>
+    <visual name="left_wrist_camera_bracket">
+      <origin xyz="0 -0.000218 0.00095" rpy="3.14159265359 0 0" />
+      <geometry>
+        <mesh filename="../meshes/so101/wrist_roll_follower_so101_camera_mount.stl" />
+      </geometry>
+      <material name="arm_blue" />
+    </visual>
+    <visual name="left_wrist_camera_pcb">
+      <origin xyz="-0.00101 0.05958 -0.04515" rpy="-0.579674107169 -0.000383174644721 0.00960412444034" />
+      <geometry>
+        <box size="0.038 0.038 0.001" />
+      </geometry>
+      <material name="servo_black" />
+    </visual>
+    <visual name="left_wrist_camera_lens">
+      <origin xyz="-0.00298 0.05669 -0.04954" rpy="-0.579674107169 -0.000383174644721 0.00960412444034" />
+      <geometry>
+        <cylinder radius=".007" length=".0095" />
+      </geometry>
+      <material name="servo_black" />
+    </visual>
+    <collision name="left_wrist_camera_collision_0">
+      <origin xyz="-0.0025 0.03 -0.03" rpy="0 0 0" />
+      <geometry>
+        <box size="0.03 0.03 0.006" />
+      </geometry>
+    </collision>
+    <collision name="left_wrist_camera_collision_1">
+      <origin xyz="-0.001 0.06 -0.04" rpy="-0.55 0 0" />
+      <geometry>
+        <box size="0.042 0.042 0.006" />
+      </geometry>
+    </collision>
+  </link>
+  <joint name="left_wrist_camera_mount_fixed" type="fixed">
+    <origin xyz="0 0 0" rpy="0 0 0" />
+    <parent link="left_gripper_link" />
+    <child link="left_wrist_camera_mount_link" />
+  </joint>
+  <link name="left_wrist_camera_link" />
+  <joint name="left_wrist_camera_fixed" type="fixed">
+    <origin xyz="-0.00296 0.05436 -0.0531" rpy="-3.1408931124 0.991122107497 -1.56060693739" />
+    <parent link="left_wrist_camera_mount_link" />
+    <child link="left_wrist_camera_link" />
+  </joint>
+  <link name="left_wrist_camera_optical_frame" />
+  <joint name="left_wrist_camera_optical_fixed" type="fixed">
+    <origin xyz="0 0 0" rpy="-1.57079632679 0 -1.57079632679" />
+    <parent link="left_wrist_camera_link" />
+    <child link="left_wrist_camera_optical_frame" />
+  </joint>
+  <link name="right_wrist_camera_mount_link">
+    <inertial>
+      <origin xyz="-0.001 0.046 -0.036" rpy="0 0 0" />
+      <mass value=".012" />
+      <inertia ixx="5.86e-06" ixy="0" ixz="0" iyy="3.5280000000000004e-06" iyz="0" izz="5.86e-06" />
+    </inertial>
+    <visual name="right_wrist_camera_bracket">
+      <origin xyz="0 -0.000218 0.00095" rpy="3.14159265359 0 0" />
+      <geometry>
+        <mesh filename="../meshes/so101/wrist_roll_follower_so101_camera_mount.stl" />
+      </geometry>
+      <material name="arm_blue" />
+    </visual>
+    <visual name="right_wrist_camera_pcb">
+      <origin xyz="-0.00101 0.05958 -0.04515" rpy="-0.579674107169 -0.000383174644721 0.00960412444034" />
+      <geometry>
+        <box size="0.038 0.038 0.001" />
+      </geometry>
+      <material name="servo_black" />
+    </visual>
+    <visual name="right_wrist_camera_lens">
+      <origin xyz="-0.00298 0.05669 -0.04954" rpy="-0.579674107169 -0.000383174644721 0.00960412444034" />
+      <geometry>
+        <cylinder radius=".007" length=".0095" />
+      </geometry>
+      <material name="servo_black" />
+    </visual>
+    <collision name="right_wrist_camera_collision_0">
+      <origin xyz="-0.0025 0.03 -0.03" rpy="0 0 0" />
+      <geometry>
+        <box size="0.03 0.03 0.006" />
+      </geometry>
+    </collision>
+    <collision name="right_wrist_camera_collision_1">
+      <origin xyz="-0.001 0.06 -0.04" rpy="-0.55 0 0" />
+      <geometry>
+        <box size="0.042 0.042 0.006" />
+      </geometry>
+    </collision>
+  </link>
+  <joint name="right_wrist_camera_mount_fixed" type="fixed">
+    <origin xyz="0 0 0" rpy="0 0 0" />
+    <parent link="right_gripper_link" />
+    <child link="right_wrist_camera_mount_link" />
+  </joint>
+  <link name="right_wrist_camera_link" />
+  <joint name="right_wrist_camera_fixed" type="fixed">
+    <origin xyz="-0.00296 0.05436 -0.0531" rpy="-3.1408931124 0.991122107497 -1.56060693739" />
+    <parent link="right_wrist_camera_mount_link" />
+    <child link="right_wrist_camera_link" />
+  </joint>
+  <link name="right_wrist_camera_optical_frame" />
+  <joint name="right_wrist_camera_optical_fixed" type="fixed">
+    <origin xyz="0 0 0" rpy="-1.57079632679 0 -1.57079632679" />
+    <parent link="right_wrist_camera_link" />
+    <child link="right_wrist_camera_optical_frame" />
+  </joint>
   <mujoco>
     <compiler balanceinertia="true" discardvisual="false" fusestatic="false" strippath="false" />
   </mujoco>
